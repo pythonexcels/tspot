@@ -44,8 +44,19 @@ def run():
 
     fp = open(sys.argv[1])
     fpout = open(sys.argv[2],'w')
-    data = fp.read()
+    lines = fp.readlines()
+    base = os.path.basename(sys.argv[1])
+    for cnt,line in enumerate(lines):
+        if line.startswith('<section'):
+            lines[cnt] = '<section id="%s-%d">'%(base,cnt)
+
+    # data = fp.read()
+    data = ''.join(lines)
     data = re.sub(r'(?s)<article.*?>','<article>',data)
+
+    # Change article to topic
+
+
 
     #delete the 'article' root tag by setting 'section' as root tag
     section = list(etree.fromstring(data))[1]
