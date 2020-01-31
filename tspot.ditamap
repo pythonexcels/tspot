@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Online Help</title>
+  <topicref href="topics/end-user/introduction/introduction.dita">
+
+    <!-- Getting Started -->
+    <topicref href="topics/end-user/onboarding/user-onboarding-experience.dita"></topicref>
+    <topicref href="topics/end-user/introduction/about-navigating-thoughtspot.dita"></topicref>
+    <topicref href="topics/end-user/accessing.dita"></topicref>
+    <topicref href="topics/end-user/introduction/getting-started.dita"></topicref>
+    <topicref href="topics/end-user/introduction/about-user.dita"></topicref>
+    <topicref href="topics/end-user/introduction/about-privileges-end-user.dita"></topicref>
+    <topicref href="topics/end-user/stickers.dita"></topicref>
+  </topicref>
+  <topicref href="topics/end-user/search/about-starting-a-new-search.dita">
+    <topicref href="topics/end-user/search/start-a-new-search.dita"></topicref>
+    <topicref href="topics/end-user/search/about-choosing-sources.dita"></topicref>
+    <topicref href="topics/end-user/search/about-the-search-bar.dita"></topicref>
+    <topicref href="topics/end-user/search/recent-searches.dita"></topicref>
+    <topicref href="topics/end-user/search/about-attributes-and-measures.dita"></topicref>
+    <topicref href="topics/end-user/search/data-refresh-time.dita"></topicref>
+    <topicref href="topics/end-user/search/work-with-answers.dita"></topicref>
+    <topicref href="topics/end-user/search/ask-an-expert.dita"></topicref>
+    <topicref href="topics/end-user/search/monitor-expert.dita"></topicref>
+    <topicref href="topics/end-user/search/retrieve-expert-answer.dita"></topicref>
+    <topicref href="topics/end-user/search/answer-expert-question.dita"></topicref>
+  </topicref>
+  <topicref href="topics/end-user/search/about-tables.dita">
+    <topicref href="topics/complex-search/about-keyword-searches.dita"></topicref>
+    <topicref href="topics/complex-search/period-searches.dita"></topicref>
+    <topicref href="topics/complex-search/search-using-growth-over-time.dita"></topicref>
+    <topicref href="topics/complex-search/in-keyword-searches.dita"></topicref>
+  </topicref>
+  <topicref>
+    <topicref>
+      <topicref href="topics/complex-search/about-filters.dita"></topicref>
+      <topicref href="topics/end-user/search/filter-from-column-headers.dita"></topicref>
+      <topicref href="topics/end-user/search/filter-from-chart-axes.dita"></topicref>
+      <topicref href="topics/complex-search/create-bulk-filter.dita"></topicref>
+      <topicref href="topics/end-user/search/delete-a-filter.dita"></topicref>
+      <topicref href="topics/complex-search/about-filters-for-null.dita"></topicref>
+    </topicref>
+  </topicref>
+  <topicref>
+    <topicref>
+      <topicref href="topics/complex-search/search-actions.dita"></topicref>
+      <topicref href="topics/complex-search/change-the-view.dita"></topicref>
+      <topicref href="topics/complex-search/show-underlying-data.dita"></topicref>
+      <topicref href="topics/complex-search/drill-down.dita"></topicref>
+      <topicref href="topics/end-user/search/apply-conditional-formatting.dita"></topicref>
+      <topicref href="topics/complex-search/download-your-search.dita"></topicref>
+      <topicref href="topics/end-user/search/replay-search.dita"></topicref>
+    </topicref>
+  </topicref>
+  <topicref href="topics/end-user/search/about-charts.dita">
+    <topicref>
+      <topicref>
+        <topicref href="topics/end-user/search/about-column-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-bar-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-line-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/pie-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/area-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-scatter-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-bubble-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-pareto-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-waterfall-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-treemap-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/line-column-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-funnel-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-geo-charts.dita"></topicref>
+        <topicref href="topics/complex-search/about-pivoting-a-table.dita"></topicref>
+        <topicref href="topics/end-user/search/about-sankey-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/about-radar-charts.dita"></topicref>
+        <topicref href="topics/end-user/search/candlestick-charts.dita"></topicref>
+      </topicref>
+    </topicref>
+    <topicref>
+      <topicref>
+        <topicref href="topics/end-user/search/change-the-chart.dita"></topicref>
+        <topicref href="topics/end-user/search/chart-axes-options.dita"></topicref>
+        <topicref href="topics/end-user/search/reorder-values-on-the-x-axis.dita"></topicref>
+        <topicref href="topics/end-user/search/set-the-y-axis-scale.dita"></topicref>
+        <topicref href="topics/end-user/search/hide-and-show-values.dita"></topicref>
+        <topicref href="topics/end-user/search/change-chart-colors.dita"></topicref>
+        <topicref href="topics/end-user/search/show-data-labels.dita"></topicref>
+
+        <topicref href="topics/end-user/search/zoom-into-a-chart.dita"></topicref>
+      </topicref>
+    </topicref>
+  </topicref>
+  <topicref href="topics/complex-search/add-formula-to-search.dita">
+    <topicref href="topics/complex-search/how-to-add-formula.dita"></topicref>
+    <topicref href="topics/complex-search/edit-formula-in-answer.dita"></topicref>
+    <topicref>
+      <topicref>
+        <topicref href="topics/complex-search/aggregation-formulas.dita"></topicref>
+        <topicref href="topics/complex-search/about-cumulative-formulas.dita"></topicref>
+        <topicref href="topics/complex-search/about-moving-formulas.dita"></topicref>
+        <topicref href="topics/complex-search/aggregation-flexible.dita"></topicref>
+        <topicref href="topics/complex-search/about-pinned-measures.dita"></topicref>
+        <topicref href="topics/complex-search/filtered-agg-forms.dita"></topicref>
+      </topicref>
+    </topicref>
+    <topicref href="topics/complex-search/conversion-formulas.dita"></topicref>
+
+    <topicref href="topics/complex-search/about-nested-formulas.dita"></topicref>
+    <topicref href="topics/complex-search/about-formula-support-for-chasm-trap-schemas.dita"></topicref>
+  </topicref>
+  <topicref href="topics/end-user/pinboards/about-pinboards.dita">
+    <topicref href="topics/end-user/pinboards/follow-pinboard.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/edit-the-layout-of-a-pinboard.dita"></topicref>
+    <topicref href="topics/complex-search/pinboard-filters.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/answer-explorer.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/about-showing-underlying-data-from-within-a-pinboard.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/copy-a-pinboard.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/copy-link-for-a-pinboard.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/reset-a-visualization.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/start-a-slideshow.dita"></topicref>
+    <topicref href="topics/end-user/pinboards/download-pinboard-pdf.dita"></topicref>
+  </topicref>
+  <topicref href="topics/end-user/r-scripts/about-r-in-thoughtspot.dita">
+    <topicref href="topics/end-user/r-scripts/create-r-scripts.dita"></topicref>
+
+    <topicref href="topics/end-user/r-scripts/run-prebuilt-r-scripts.dita"></topicref>
+    <topicref href="topics/end-user/r-scripts/save-and-share-r-answers.dita"></topicref>
+  </topicref>
+
+  <topicref>
+    <topicref>
+    </topicref>
+  </topicref>
+  <topicref href="topics/end-user/data-view/data-intro-end-user.dita">
+    <topicref href="topics/end-user/data-view/generate-flat-file.dita"></topicref>
+    <topicref href="topics/end-user/locale.dita"></topicref>
+    <topicref>
+      <topicref>
+        <topicref href="topics/end-user/data-view/sharing-for-end-users.dita"></topicref>
+
+        <topicref href="topics/end-user/pinboards/share-pinboards.dita"></topicref>
+        <topicref href="topics/end-user/pinboards/share-answers.dita"></topicref>
+        <topicref href="topics/end-user/data-view/share-user-imported-data.dita"></topicref>
+        <topicref href="topics/end-user/pinboards/request-access.dita"></topicref>
+        <topicref href="topics/end-user/pinboards/unshare.dita"></topicref>
+      </topicref>
+    </topicref>
+  </topicref>
+  <topicref href="topics/end-user/search/about-searchiq.dita">
+    <topicref href="topics/end-user/search/use-searchiq.dita"></topicref>
+    <topicref href="topics/end-user/search/teach-searchiq.dita"></topicref>
+  </topicref>
+      <topicref href="topics/end-user/slack/intro.dita">
+      <topicref href="topics/end-user/slack/use-spot.dita"></topicref>
+    </topicref>
+  <topicref href="topics/end-user/help-center/what-you-can-find-in-the-help-center.dita"></topicref>
+
+</map>
