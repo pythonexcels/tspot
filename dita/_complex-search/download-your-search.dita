@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="download-your-search_xml"><title>Download your search</title><body>
+  <section id="last_updated-tbd-summary-you-can-download-your-search-as-either-a-table-or-chart-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Download your search</title>
+    <p>
+      You have the option to download your table as a CSV (comma
+      separated values), PDF, or XLSX (Excel) file. When you download a
+      chart, it will be a PNG file.
+    </p>
+    <ul>
+      <li>
+        <p>
+          To download your search, click the three-dot
+          <i>Actions</i> icon, and do any of
+          the following:
+        </p>
+        <ul>
+          <li>
+            <p>
+              For a table, choose <i>Download as
+              CSV</i>, <i>Download as
+              PDF</i>, or <i>Download as
+              XLSX</i>.
+            </p>
+            <fig id="fig_1580796169_1"><title>Download your table options</title><image href="https://docs.thoughtspot.com/6.0/images/download_a_table.png" id="image_1580796169_1" scope="external"/></fig>
+          </li>
+          <li>
+            <p>
+              For a chart, select
+              <i>Download</i>.
+            </p>
+            <fig id="fig_1580796169_2"><title>Download your chart option</title><image href="https://docs.thoughtspot.com/6.0/images/download_a_chart.png" id="image_1580796169_2" scope="external"/></fig>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      Currently, ThoughtSpot limits the maximum number of rows that can
+      be downloaded to 10M (default is 1M). Your system limit is
+      configured by your ThoughtSpot administrator.
+    </p>
+  </section>
+</body>
+
+</topic>

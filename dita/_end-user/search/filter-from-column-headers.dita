@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="filter-from-column-headers_xml"><title>Add a filter to a table</title><body>
+  <section id="last_updated-tbd-summary-you-can-add-a-simple-filter-from-a-column-header-while-viewing-your-answer-as-a-table-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Add a filter to a table</title>
+    <p>
+      To add a filter from column headers:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a table, hover over the column
+          header you want to filter, and click the ellipses icon ![more
+          options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline}.
+        </p>
+        <fig id="fig_1580796175_1"><title>Change configuration of a column</title><image href="https://docs.thoughtspot.com/6.0/images/change_configuration_of_a_column.png" id="image_1580796175_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select <i>Filter...</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select the values to include in your answer.
+        </p>
+        <fig id="fig_1580796175_2"><title>Include column filters value box</title><image href="https://docs.thoughtspot.com/6.0/images/column_filter.png" id="image_1580796175_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you want to exclude values, click
+          <i>Exclude</i> and choose values
+          to exclude.
+        </p>
+        <fig id="fig_1580796175_3"><title>Exclude column filters value box</title><image href="https://docs.thoughtspot.com/6.0/images/exclude_nulls.png" id="image_1580796175_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>DONE</i>.
+        </p>
+        <p>
+          If there are too many values, you can use the filter search
+          bar to find the ones you want.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

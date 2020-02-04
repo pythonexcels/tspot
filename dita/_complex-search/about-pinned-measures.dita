@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-pinned-measures_xml"><title>Group aggregation functions</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Group aggregation functions</title>
+    <p>
+      What if you want to aggregate a value by a specific attribute (for
+      example, show revenue by product)? This is known as a grouped
+      aggregation, but some people call it a pinned measure or
+      level-based measure. You can do this for any aggregation using the
+      grouping functions.
+    </p>
+    <p>
+      Each of the grouping functions accepts a measure and one or more
+      optional attributes:
+    </p>
+    <programlisting>
+formula (measure, [attribute, attribute, ...])
+</programlisting>
+    <p>
+      Only the measure value is required. If you supply both a measure
+      and an attribute, the function returns the aggregate of the
+      measure grouped by the attribute(s). You should experiment with
+      only a measure and then with an attribute to see which output best
+      meets your use case.
+    </p>
+  </section>
+  <section id="list-of-group-functions">
+    <title>List of group functions</title>
+    <p>
+      Group aggregation functions have names with formats like
+      <codeph>group_&lt;aggregation&gt;</codeph>. The group
+      aggregation functions are the following:
+    </p>
+  </section>
+  <section id="flexible-aggregation">
+    <title>Flexible aggregation</title>
+    <p>
+      The <codeph>group_aggregate</codeph> function gives you more
+      control over aggregation and filtering.
+    </p>
+    <p>
+      See <link href="aggregation-flexible.html#">Flexible
+      aggregation</link> to learn more about specifying
+      <codeph>query_groups</codeph> with this formula.
+    </p>
+  </section>
+</body>
+
+</topic>

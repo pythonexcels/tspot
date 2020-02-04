@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hide-and-show-values_xml"><title>Hide and show values</title><body>
+  <section id="last_updated-tbd-summary-you-can-hide-and-show-values-on-the-chart-using-the-legend-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Hide and show values</title>
+    <p>
+      Clicking on a legend item will hide it from the chart. You can
+      click it again to show it. To hide and show values:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a chart, click
+          <i>Edit chart configuration</i> on
+          the right.
+        </p>
+        <fig id="fig_1580796175_1"><title>Edit chart configuration icon</title><image href="https://docs.thoughtspot.com/6.0/images/edit_chart_configuration_bar.png" id="image_1580796175_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Make sure you have a column in the
+          <i>Legend</i> field.
+        </p>
+        <fig id="fig_1580796175_2"><title>Legend field</title><image href="https://docs.thoughtspot.com/6.0/images/legend_field.png" id="image_1580796175_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the chart, click the legend value you would like to hide.
+          Click the hidden legend value again to show it.
+        </p>
+        <p>
+          In the following example, we clicked
+          <codeph>northwest</codeph> to hide it.
+        </p>
+        <fig id="fig_1580796175_3"><title>Hide a legend value from the chart</title><image href="https://docs.thoughtspot.com/6.0/images/legend_hide_this_value.png" id="image_1580796175_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

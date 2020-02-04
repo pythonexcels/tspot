@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="do-query-on-query_xml"><title>Create a search from a view</title><body>
+  <section id="last_updated-1112018-summary-after-creating-a-view-you-can-select-it-and-search-its-data-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Create a search from a view</title>
+    <p>
+      After creating a view and linking it to related data, you're ready
+      to create your new search. To do a search on the view, along with
+      any data sources you linked:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the search icon, and select <i>Data
+          Source</i>. Choose your linked sources.
+        </p>
+        <fig id="fig_1580796169_1"><title>Select sources</title><image href="https://docs.thoughtspot.com/6.0/images/select_sources_view.png" id="image_1580796169_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Do a search using columns from the linked sources.
+        </p>
+      </li>
+      <li>
+        <p>
+          Test the result, to make sure it’s what you expect.
+        </p>
+        <p>
+          If your search shows no data found or doesn't look right to
+          you, it is possible that one of the links between your sources
+          was made on the incorrect column. Check the relationships you
+          created and try linking using a different column, to see if
+          that gives the expected search results.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you have the expected answer, you can create a worksheet
+          to make it easier for you and other people to use. To do this,
+          click <i>Data</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline}, and
+          select <i>Create worksheet</i>.
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/worksheet_create_icon.png)
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose your view and any other tables it is linked to using
+          <i>Choose Sources</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          You may need to rename some columns appropriately for
+          searching.
+        </p>
+      </li>
+      <li>
+        <p>
+          Save the worksheet and share it with the appropriate users and
+          groups.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

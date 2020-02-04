@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-geo-charts_xml"><title>Geo charts</title><body>
+  <section id="title-geo-charts-last_updated-09232019-summary-there-are-three-geo-charts-that-let-you-visualize-geographical-data-in-thoughtspot-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Geo charts</title>
+    <p>
+      Geo charts show data on a map by location. They are geo area, geo
+      bubble, and geo heatmap charts. And these geo charts can display
+      six types of geographical data, depending on territory:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Country
+        </p>
+      </li>
+      <li>
+        <p>
+          State
+        </p>
+      </li>
+      <li>
+        <p>
+          County
+        </p>
+      </li>
+      <li>
+        <p>
+          Zip code
+        </p>
+      </li>
+      <li>
+        <p>
+          Point (latitude/longitude)
+        </p>
+      </li>
+      <li>
+        <p>
+          Other sub-nation regions (for international countries)
+        </p>
+      </li>
+    </ul>
+    <p>
+      ThoughtSpot supports maps many countries. Please see the complete
+      list in [Geo Map Reference]({{ site.baseurl
+      }}/reference/geomap-reference.html).
+    </p>
+  </section>
+  <section id="displayed-geo-data">
+    <title>Displayed Geo data</title>
+    <p>
+      Here is a table that shows which GeoType data can be displayed
+      using which geo chart type.
+    </p>
+    <informaltable>
+      <tgroup cols="3">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              GeoType
+            </entry>
+            <entry>
+              Geo chart type
+            </entry>
+            <entry>
+              Notes
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              Country
+            </entry>
+            <entry>
+              Geo area (default), geo bubble, geo heatmap
+            </entry>
+            <entry>
+              Can also be regions.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              County
+            </entry>
+            <entry>
+              Geo area (default), geo bubble, geo heatmap
+            </entry>
+            <entry>
+              Only for counties in the United States.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Point
+            </entry>
+            <entry>
+              Geo bubble (default), geo heatmap
+            </entry>
+            <entry>
+              Must use both latitude and longitude columns.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              State
+            </entry>
+            <entry>
+              Geo area (default), geo bubble, geo heatmap
+            </entry>
+            <entry>
+              Only for states in the United States.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Zipcode
+            </entry>
+            <entry>
+              Geo bubble (default), geo heatmap
+            </entry>
+            <entry>
+              Zip codes in the United States.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Other sub-nation regions
+            </entry>
+            <entry>
+              Geo area (default), geo bubble, geo heatmap
+            </entry>
+            <entry>
+              The display depends on the type of administrative region.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+    <p>
+      For data to display in geo charts, your administrator must
+      configure it as geographical data. If you you don't get an
+      expected map visualization, contact your administrator so they can
+      configure the system correctly.
+    </p>
+  </section>
+  <section id="area-charts">
+    <title>Area charts</title>
+    <p>
+      Geo area charts highlight the regions of interest, and display
+      boundaries for various regions.
+    </p>
+    <fig id="fig_1580796172_1"><title>Geo area chart example</title><image href="https://docs.thoughtspot.com/6.0/images/state_level_geo_area_chart.png" id="image_1580796172_1" scope="external"/></fig>
+    <p>
+      To paint a geo area chart, your search must include a geographical
+      column with appropriate granularity. See [Geo Map Reference]({{
+      site.baseurl }}/reference/geomap-reference.html).
+    </p>
+  </section>
+  <section id="geo-bubble-charts">
+    <title>Geo bubble charts</title>
+    <p>
+      Geo bubble charts, like bubble charts, display the value of the
+      measure through the relative size of the bubble. Zip code data is
+      a good choice for geo bubble charts.
+    </p>
+    <fig id="fig_1580796172_2"><title>Geo bubble chart example</title><image href="https://docs.thoughtspot.com/6.0/images/geo_bubble_chart_example.png" id="image_1580796172_2" scope="external"/></fig>
+    <p>
+      To paint a geo bubble chart, your search must include a
+      geographical column, or a latitude and longitude pair.
+    </p>
+  </section>
+  <section id="heatmap-charts">
+    <title>Heatmap charts</title>
+    <p>
+      Heatmap charts are similar to treemap charts: they both use a
+      similar system of color-coding to represent data values. However,
+      the heatmap does not use size to measure data, and instead
+      requires an additional attribute.
+    </p>
+    <fig id="fig_1580796172_3"><title>Heatmap chart example</title><image href="https://docs.thoughtspot.com/6.0/images/new_heatmap_look.png" id="image_1580796172_3" scope="external"/></fig>
+    <p>
+      The value of each cell depends on the measure you choose under
+      <i>Edit char configuration</i>.
+    </p>
+    <fig id="fig_1580796172_4"><title>Heatmap value dropdown</title><image href="https://docs.thoughtspot.com/6.0/images/heatmap_value.png" id="image_1580796172_4" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

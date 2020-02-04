@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="run-prebuilt-r-scripts_xml"><title>Run prebuilt R scripts on answers</title><body>
+  <section id="title-run-prebuilt-r-scripts-on-answers-summary-anyone-with-r-privileges-can-run-an-r-analysis-thoughtspot-using-provided-scripts-you-dont-need-to-be-an-expert--last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Run prebuilt R scripts on answers</title>
+    <p>
+      If you have R privileges on your ThoughtSpot instance, you can run
+      R analyses on search results, and save and share the resulting
+      visualization with others. The users you share visualizations with
+      do not need R privileges.
+    </p>
+  </section>
+  <section id="run-an-r-analysis">
+    <title>Run an R analysis</title>
+    <ol>
+      <li>
+        <p>
+          Click the <i>R</i> icon ![R
+          icon]({{ site.baseurl }}/images/r-icon-inline.png){: .inline}
+          on the toolbar for any search result (answer).
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/r-icon-marketspot.png)
+        </p>
+        <p>
+          From here, you have options to write a custom script, or load
+          a pre-built or ThoughtSpot provided script.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the Analyze dialog, click the ellipses icon ![more options
+          menu icon]({{ site.baseurl }}/images/icon-ellipses.png){:
+          .inline} next to the <i>Custom R
+          Script</i> panel, and choose
+          <i>Load</i>.
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/r-load-prebuilt.png)
+        </p>
+        <p>
+          This brings up a list of pre-built scripts, both provided by
+          ThoughtSpot and any created by programmers on your team.
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/r-load-list-of-scripts.png)
+        </p>
+      </li>
+      <li>
+        <p>
+          Select a script, then choose the columns you want to include
+          in the analysis and the output file type (PNG or CSV).
+        </p>
+        <p>
+          Note that the output file type must match the script.
+        </p>
+        <p>
+          For example, if you select one of the ThoughtSpot provided
+          time series scripts, the comment at the top of the script
+          provides guidance on what columns to select.
+        </p>
+        <programlisting>
+# NOTE: Only two columns are needed for this analysis.
+# The first column should represent some date column
+# and the second should be some numeric measure column.
+</programlisting>
+        <p>
+          Also, scroll through the script to identify whether it's coded
+          to produce graphical (PNG) or tabular (CSV) output. The time
+          series scripts are both set up to produce graphical output, as
+          indicated by a line like this at the end of the scripts.
+        </p>
+        <programlisting>
+png(#output_file#, width=1000);
+print(img);
+</programlisting>
+      </li>
+      <li>
+        <p>
+          Select <i>Run Analysis</i> to
+          execute the script.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="time-series-outlier-example">
+    <title>Time Series Outlier Example</title>
+    <p>
+      In this example, we ran an analysis for
+      <i>Time Series Outlier Detection</i>
+      on search results that show sales totals by date.
+    </p>
+    <p>
+      ![]({{ site.baseurl
+      }}/images/r-run-time-series-outliers-script.png)
+    </p>
+    <p>
+      Note that we included a date column and a measure, and selected
+      PNG as the output to match what the script requires. The original
+      search could have had more columns than this, but you can always
+      structure the analysis properly by selecting only the date column
+      and measure column you want to focus on.
+    </p>
+    <p>
+      In this case, no outliers were found, so the R visualization
+      matches the original search result line graph.
+    </p>
+  </section>
+  <section id="time-series-forecast-example">
+    <title>Time Series Forecast Example</title>
+    <p>
+      In this example, we ran a <i>Time Series
+      Forecast</i> on the same search result.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-run-time-forecast-script.png)
+    </p>
+  </section>
+  <section id="diverging-bars-example">
+    <title>Diverging Bars Example</title>
+    <p>
+      Here is an example of taking a script found online and repurposing
+      it for a use case in ThoughtSpot. Antony Chen demo'ed this in a
+      SpotOn webinar. You can find his full presentation on Custom R
+      Scripts and demo at
+      <link href="https://community.thoughtspot.com/t/m2dftj">SpotOn
+      Learning: ThoughtSpot 5.0 BI and Data Science Features</link> in
+      the Community.
+    </p>
+    <p>
+      Consider this script, found on this website of
+      <link href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html">Top
+      50 ggplot2 Visualizations - The Master List (With Full R
+      Code)</link>. A direct link to this script is
+      <link href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Diverging%20Bars">here</link>.
+    </p>
+    <programlisting>
+library(ggplot2)
+theme_set(theme_bw())  
+
+# Data Prep
+data("mtcars")  # load data
+mtcars$`car name` &lt;- rownames(mtcars)  # create new column for car names
+mtcars$mpg_z &lt;- round((mtcars$mpg - mean(mtcars$mpg))/sd(mtcars$mpg), 2)  # compute normalized mpg
+mtcars$mpg_type &lt;- ifelse(mtcars$mpg_z &lt; 0, "below", "above")  # above / below avg flag
+mtcars &lt;- mtcars[order(mtcars$mpg_z), ]  # sort
+mtcars$`car name` &lt;- factor(mtcars$`car name`, levels = mtcars$`car name`)  # convert to factor to retain sorted order in plot.
+
+# Diverging Barcharts
+ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) +
+  geom_bar(stat='identity', aes(fill=mpg_type), width=.5)  +
+  scale_fill_manual(name="Mileage",
+                    labels = c("Above Average", "Below Average"),
+                    values = c("above"="#00ba38", "below"="#f8766d")) +
+  labs(subtitle="Normalised mileage from 'mtcars'",
+       title= "Diverging Bars") +
+  coord_flip()
+</programlisting>
+    <p>
+      You can modify the script above to support the phone sales use
+      case discussed in the webinar.
+    </p>
+    <p>
+      In this script, <codeph>mtcars</codeph> is replaced with
+      references to our phone sales (<codeph>df$Sales</codeph>) and
+      <codeph>car name</codeph> is replaced with
+      <codeph>Device Name</codeph> both from the column data in the
+      search example used in the webinar demo. The script uses the
+      ThoughtSpot <i>data frame</i> object
+      (<codeph>df</codeph>), and adds two lines at the end to specify
+      output type as a <codeph>png</codeph> image.
+    </p>
+    <programlisting>
+library(ggplot2)
+theme_set(theme_bw())  
+
+# Data Prep
+df$sales_z &lt;- round((df$Sales - mean(df$Sales))/sd(df$Sales), 2)  # compute normalized mpg
+df$sales_type &lt;- ifelse(df$sales_z &lt; 0, "below", "above")  # above / below avg flag
+df &lt;- df[order(df$sales_z), ]  # sort
+df$`Device Name` &lt;- factor(df$`Device Name`, levels = df$`Device Name`)  # convert to factor to retain sorted order in plot.
+
+# Diverging Barcharts
+img &lt;- ggplot(df, aes(x=`Device Name`, y=sales_z, label=sales_z)) +
+  geom_bar(stat='identity', aes(fill=sales_type), width=.5)  +
+  scale_fill_manual(name="Sales",
+                    labels = c("Above Average", "Below Average"),
+                    values = c("above"="#00ba38", "below"="#f8766d")) +
+  labs(subtitle="Normalised Sales for Phones",
+       title= "Diverging Bars") +
+  coord_flip()
+png(#output_file#, width=1000, height=1000)
+print(img)
+
+</programlisting>
+  </section>
+</body>
+
+</topic>

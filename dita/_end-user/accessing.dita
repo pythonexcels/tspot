@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="accessing_xml"><title>ThoughtSpot browser access</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>ThoughtSpot browser access</title>
+    <p>
+      {% include content/log_in_out.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

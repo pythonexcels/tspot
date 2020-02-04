@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="getting-started_xml"><title>Getting Started</title><body>
+  <section id="title-getting-started-last_updated-1172020-summary-the-getting-started-sidebar-teaches-new-users-to-navigate-and-understand-thoughtspot-sidebar-mydoc_sidebar-toc-false-permalink-collectionpathhtml">
+    <title>Getting Started</title>
+    <p>
+      The <i>Getting Started</i> sidebar
+      teaches new users about ThoughtSpot with a brief lesson on
+      navigation and several quick videos on ThoughtSpot's main
+      features.
+    </p>
+    <p>
+      When you sign into ThoughtSpot, the
+      <i>Getting Started</i> sidebar appears
+      on the right edge of the screen. It looks like this:
+    </p>
+    <fig id="fig_1580796170_1"><title>The Getting Started sidebar</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-main.png" id="image_1580796170_1" scope="external"/></fig>
+    </section>
+  <section id="change-the-language">
+    <title>Change the language</title>
+    <p>
+      You can change the language that <i>Getting
+      Started</i> uses. ThoughtSpot supports three languages for
+      <i>Getting Started</i>: English,
+      Deutsch, and 日本語.
+    </p>
+    <p>
+      To change the language, open the <i>Getting
+      Started</i> menu and click on the language drop-down menu
+      at the top right of the <i>Getting
+      Started</i> menu:
+    </p>
+    <fig id="fig_1580796170_2"><title>Change the Getting Started language</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-changelanguage.png" id="image_1580796170_2" scope="external"/></fig>
+    <p>
+      When you change the language, the title of the
+      <i>Getting Started</i> sidebar
+      changes.
+    </p>
+    <fig id="fig_1580796170_3"><title>Getting Started Sidebar in Deutsch</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-sidebardeutsch.png" id="image_1580796170_3" scope="external"/></fig>
+    <p>
+      It also changes the language of the
+      <i>back</i> and
+      <i>next</i> buttons. It does not
+      change the text of the lessons.
+    </p>
+    </section>
+  <section id="hide-the-getting-started-menu">
+    <title>Hide the Getting Started menu</title>
+    <p>
+      After you go through the navigation overview and watch the short
+      videos, you may want to hide the <i>Getting
+      Started</i> sidebar.
+    </p>
+    <p>
+      <i>Hide Getting Started Menu</i> shows
+      you how to hide the Getting Started sidebar for an individual
+      user. If you want to hide it for your whole company, contact
+      [ThoughtSpot Support]({{ site.baseurl }}/appliance/contact.html).
+    </p>
+    <fig id="fig_1580796170_4"><title>Hide the Getting Started menu</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-hide.png" id="image_1580796170_4" scope="external"/></fig>
+    <p>
+      To hide the <i>Getting Started</i>
+      sidebar, click the <i>Help</i> icon
+      ![]({{ site.baseurl }}/images/icon-help-20px.png "The help
+      icon"){: .inline} and select <i>Hide
+      getting started</i>.
+    </p>
+    <fig id="fig_1580796170_5"><title>Hide and show Getting Started</title><image href="https://docs.thoughtspot.com/6.0/images/getting-started-hideandshow.gif" id="image_1580796170_5" scope="external"/></fig>
+    <p>
+      You can always activate <i>Getting
+      Started</i> again. To show the Getting Started sidebar,
+      click the <i>Help</i> icon ![]({{
+      site.baseurl }}/images/icon-help-20px.png "The help
+      icon"){: .inline} and select <i>Show
+      getting started</i>.
+    </p>
+  </section>
+  <section id="learning-resources">
+    <title>Learning resources</title>
+    <p>
+      Click on the <i>Getting Started</i>
+      sidebar to expand it and see the <i>Learning
+      Resources</i> available to you.
+      <i>Getting Started</i> contains
+      information for new users on ThoughtSpot's main features, such as
+      <i>Answers</i> and
+      <i>Pinboards</i>. It also includes a
+      <i>Navigation Overview</i>, which
+      walks you through the options on ThoughtSpot's top menu bar.
+    </p>
+  </section>
+</body>
+
+</topic>

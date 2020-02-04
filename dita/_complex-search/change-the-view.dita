@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="change-the-view_xml"><title>Change result display options</title><body>
+  <section id="title-change-result-display-options-last_updated-1162020-summary-you-can-change-how-your-search-results-answers-appear-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Change result display options</title>
+    <p>
+      Your search results, or Answers, have various display options. You
+      can change the visualization used to display your results, their
+      sort order, how ThoughtSpot groups the data, and what data
+      ThoughtSpot includes.
+    </p>
+  </section>
+  <section id="change-the-view">
+    <title>Change the view</title>
+    <p>
+      You can change the view of your answer so it appears as either a
+      table or a chart. To change the view of your answer:
+    </p>
+    <ol>
+      <li>
+        <p>
+          View your answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Toggle between either a table or a chart type.
+        </p>
+        <fig id="fig_1580796169_1"><title>Select table or chart</title><image href="https://docs.thoughtspot.com/6.0/images/toggle_between_views.png" id="image_1580796169_1" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      When you display your data as a chart, ThoughtSpot automatically
+      selects the type of chart that works best for your data. If you
+      want to use another type, click the change visualization icon
+      ![]({{ site.baseurl }}/images/icon-chart-type-20px.png){: .inline}
+      and select the type of chart you want. Refer to [understand
+      charts]({{ site.baseurl }}/end-user/search/about-charts.html).
+    </p>
+  </section>
+  <section id="sort-your-search">
+    <title>Sort your search</title>
+    <p>
+      Sorting your search allows you to order your answer, making it
+      easier to read. To sort your search:
+    </p>
+    <ul>
+      <li>
+        <p>
+          If you are in the data (table) view, click the column header
+          you would like to sort on.
+        </p>
+        <p>
+          By default, sorting applies in descending order. For example,
+          if the column has numerical values, it would start at the
+          highest number and decrease. Click the column header again to
+          sort in ascending order.
+        </p>
+        <p>
+          {% include tip.html content="Hold shift and click another
+          column to add a secondary sort. You can even add tertiary
+          sorting and so on by continuing to use this trick." %}
+        </p>
+      </li>
+      <li>
+        <p>
+          If you are in the chart view, click the axis label of your
+          chart that you would like to sort and select
+          <i>Sort</i>. You can choose to
+          sort in ascending or descending order.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="change-the-date-bucketing-grouping">
+    <title>Change the date bucketing (grouping)</title>
+    <p>
+      You can change the date <i>bucketing</i> on tables
+      and charts for columns with date values. Bucketing is a method for
+      grouping a column in your data. For example, if you have a column
+      of orders, you can use the date of each order
+      (<i>NO_BUCKET</i>).
+    </p>
+    <fig id="fig_1580796169_2"><title>Date bucketing chooser</title><image href="https://docs.thoughtspot.com/6.0/images/bucket_none.png" id="image_1580796169_2" scope="external"/></fig>
+    <p>
+      Alternatively, you can group these
+      <i>MONTHLY</i>:
+    </p>
+    <fig id="fig_1580796169_3"><title>Date bucketing chooser</title><image href="https://docs.thoughtspot.com/6.0/images/bucket_monthly.png" id="image_1580796169_3" scope="external"/></fig>
+    <p>
+      ThoughtSpot chooses a default date bucket for you when you search.
+      This default takes the entire search result into account. For
+      example, if your search includes last month, dates are bucketed
+      daily instead of monthly.
+    </p>
+    <ul>
+      <li>
+        <p>
+          In a table view, use the date bucket drop-down, under the
+          column header.
+        </p>
+      </li>
+      <li>
+        <p>
+          On a chart, you can change the change the axis label.
+        </p>
+      </li>
+    </ul>
+    <fig id="fig_1580796169_4"><title>Chooser location</title><image href="https://docs.thoughtspot.com/6.0/images/bucket_change.png" id="image_1580796169_4" scope="external"/></fig>
+    <p>
+      The bucket values are a subset of date and time-period keywords.
+      To change the date bucketing, follow these steps:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Go to the table or chart you want to change.
+        </p>
+      </li>
+      <li>
+        <p>
+          Locate the column or axis value with the date value you want
+          to change.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the column's bucket menu.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select a date bucket.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="exclude-and-include-row-values">
+    <title>Exclude and include row values</title>
+    <p>
+      You can include or exclude row values from your answer.
+    </p>
+    <p>
+      To exclude or include row values:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Right-click the visualization or table cell of interest.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>Exclude
+          "value"</i> or <i>Only
+          Include "value"</i> if available.
+        </p>
+        <fig id="fig_1580796169_5"><title>Exclude value option</title><image href="https://docs.thoughtspot.com/6.0/images/exclude.png" id="image_1580796169_5" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

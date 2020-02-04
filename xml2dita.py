@@ -6,8 +6,6 @@
 ############################################################
 
 from lxml import etree
-from xml.sax.saxutils import escape
-from PIL import Image
 import os
 import pdb
 import re
@@ -56,16 +54,6 @@ def run():
     data = re.sub(r'<anything></emphasis>','anything</emphasis>',data)
     root = etree.XML(data)
 
-    #delete the 'article' root tag by setting 'section' as root tag
-    # section = list(etree.fromstring(data))[1]
-    # root = section
-
-    #delete notes for markdown section
-    # for elem in root.xpath("//section/section"):
-    #     if elem.get('{http://www.w3.org/XML/1998/namespace}id') == 'notes-for-markdown-to-xml-methodology':
-    #         elem.getparent().remove(elem)
-
-    # root = list(etree.fromstring(data))[1]
 
     def refresh_root(xml_root):
         rawxml = etree.tostring(xml_root,xml_declaration=False,pretty_print=False,method='xml',encoding='UTF-8')
@@ -120,11 +108,6 @@ def run():
             elem.tag = 'codeph'
             continue
 
-        # if elem.tag == 'link':
-        #     elem.tag = 'xref'
-# <xref keyref="genus" format="dita">
-#     <link xlink:href="how-to-add-formula.html#">Add a formula</link> to
-
         if elem.tag == 'itemizedlist' and 'type' in elem.attrib and elem.attrib['type'] == 'Unordered':
             elem.tag = 'ul'
             elem.attrib.clear()
@@ -158,36 +141,11 @@ def run():
             elem.tag = 'xref'
             continue
 
-        #clear attributes for section tag
-        # if elem.tag == 'section':
-        #     elem.attrib.clear()
-
-        #change para -> body
-        # if elem.tag == 'para':
-        #     elem.tag = 'body'
-
-        #change literal -> code
-        # if elem.tag == 'literal':
-        #     elem.tag = 'code'
-
-        #change programlisting -> example-block
-        # if elem.tag == 'programlisting':
-        #     lines = elem.text
-        #     elem.attrib.clear()
-        #     elem.text = None
-        #     elem.tag = 'example-block'
-        #     data = exampleBlock(lines)
-        #     for line in data:
-        #         ex = etree.SubElement(elem, 'example-line')
-        #         ex.text = escape(line)
-
     fig_count = 1
     while True:
         clean = True
         for elem in root.xpath("//p"):
             ptext = elem.text
-            # if 'Change axis filter' in ptext:
-            #     pdb.set_trace()
             s = re.search(r'(?s)\s*!\[(.*?)\]\({{\s+site.baseurl\s+}}(/images/.*?) "(.*?)"\)\s*',ptext)
             if s:
                 elem.tag = 'fig'

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-waterfall-charts_xml"><title>Waterfall charts</title><body>
+  <section id="last_updated-tbd-summary-the-waterfall-chart-is-used-to-show-how-an-initial-value-is-affected-by-a-series-of-intermediate-positive-or-negative-values-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Waterfall charts</title>
+    <p>
+      Waterfall charts are good for visualizing positive and negative
+      growth, and therefore work well with the growth over time keyword.
+      The columns are color-coded to distinguish between positive and
+      negative values.
+    </p>
+    <fig id="fig_1580796173_1"><title>Waterfall chart example</title><image href="https://docs.thoughtspot.com/6.0/images/waterfall_chart_example.png" id="image_1580796173_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as a waterfall chart.
+    </p>
+  </section>
+</body>
+
+</topic>

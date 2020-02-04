@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intro_xml"><title>Slack and Spot</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Slack and Spot</title>
+    <p>
+      Slack is an enterprise software platform that allows teams to
+      communicate effectively through a messaging application. Slack
+      also allows users to communicate with applications like
+      ThoughtSpot through chat.
+    </p>
+    <p>
+      Spot is a ThoughtSpot integration with Slack.
+    </p>
+  </section>
+  <section id="does-your-slack-have-spot">
+    <title>Does your Slack have Spot?</title>
+    <p>
+      Spot has to be integrated with your Slack team before you can use
+      it. Your team admin or ThoughtSpot admin can do this. To test if
+      your Slack team has a Spot integration, mention
+      <strong>@spot</strong> and see if he barks back:
+    </p>
+    <fig id="fig_1580796171_1"><title>Check for slack</title><image href="https://docs.thoughtspot.com/6.0/images/slack-0.png" id="image_1580796171_1" scope="external"/></fig>
+    <p>
+      In this particular channel, <strong>@spot</strong> is there for
+      you but like his brothers <strong>@spot-east-credit</strong> is
+      not in the channel.
+    </p>
+    <p>
+      If <strong>@spot</strong> doesn’t come when you “call” you are
+      spotless. Ask your administrator to see if you can get one.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related Information</title>
+    <ul>
+      <li>
+        <p>
+          Go to <link href="use-spot.html">How to use Spot</link>
+          to get started using Spot.
+        </p>
+      </li>
+      <li>
+        <p>
+          For information on setting up Spot, see [Slack Integration]({{
+          site.baseurl }}/admin/setup/slack-integration.html) in the
+          Administration Guide.
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

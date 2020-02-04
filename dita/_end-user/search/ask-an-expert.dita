@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ask-an-expert_xml"><title>"Ask an expert"</title><body>
+  <section id="title-ask-an-expert-last_updated-09232019-summary-do-you-need-help-finding-something-in-your-data-ask-an-expert-to-create-the-search-for-you-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Ask an expert"</title>
+    <p>
+      At times you may struggle to answer a specific question, build a
+      chart you have in mind, or find something in your data. You can
+      use <i>Ask an expert</i> to request
+      help from someone in your organization. Your request will go to
+      the person in your company who best know the data source you're
+      using and how to search it in ThoughtSpot. When your request is
+      answered, you will be able to see the result in the
+      <i>Answers</i> listing in ThoughtSpot.
+    </p>
+    <p>
+      {% include note.html content="If you don't see
+      <i>Ask an expert</i> it's possible
+      that your company has chosen to disable this capability. If you
+      want to try it out, ask your administrator to consider enabling it
+      ." %}
+    </p>
+    <p>
+      <i>Ask an expert</i> can help in these
+      ways:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          You can get an answer to your tough question, even when you're
+          stuck.
+        </p>
+      </li>
+      <li>
+        <p>
+          The expert gets to see what people have trouble with, so he or
+          she can make it easier.
+        </p>
+      </li>
+      <li>
+        <p>
+          You can use the answer from the expert to understand the data
+          better.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="how-do-i-use-ask-an-expert">
+    <title>How do I use Ask an expert?</title>
+    <ol>
+      <li>
+        <p>
+          When you're doing a search, you can see a link under your
+          search that says <i>Ask an
+          expert</i>. Click that if you're stuck and need help.
+        </p>
+      </li>
+      <li>
+        <p>
+          The search you were working on is captured and shown back to
+          you, with a text box for your message. Send a message
+          describing what you were looking for, along with any
+          information that makes it easy for the expert to understand
+          what problem you were having.
+        </p>
+      </li>
+    </ol>
+    <fig id="fig_1580796175_1"><title>Ask an expert form</title><image href="https://docs.thoughtspot.com/6.0/images/ask_an_expert_form.png" id="image_1580796175_1" scope="external"/></fig>
+    <p>
+      An example would be:
+    </p>
+    <p>
+      "I'm having trouble getting this search to show as a stacked
+      column, with each department shown as a separate color."
+    </p>
+    <ol>
+      <li override="3">
+        <p>
+          Then click <i>Send</i>, so your
+          request will go to the expert.
+        </p>
+      </li>
+      <li>
+        <p>
+          The expert will share their answer with you. You can then
+          [Review answers from Ask an expert]({{ site.baseurl
+          }}/end-user/search/retrieve-expert-answer.html).
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="what-kinds-of-things-can-i-ask">
+    <title>What kinds of things can I ask?</title>
+    <p>
+      You can use <i>Ask an expert</i> to
+      ask any kind of question you like. Even if your question is about
+      some data that isn't in ThoughtSpot at all, the expert may be able
+      to help, so it's always worth asking.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [Review answers from Ask an expert]({{ site.baseurl
+          }}/end-user/search/retrieve-expert-answer.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Answer Ask an expert questions]({{ site.baseurl
+          }}/end-user/search/answer-expert-question.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

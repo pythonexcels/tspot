@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="zoom-into-a-chart_xml"><title>Zoom into a chart</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Zoom into a chart</title>
+    <p>
+      You can zoom into your chart by selecting an area with your mouse.
+      To zoom into a chart:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a chart, click
+          <i>Edit chart style</i> on the
+          right.
+        </p>
+        <fig id="fig_1580796173_1"><title>Edit chart configuration icon</title><image href="https://docs.thoughtspot.com/6.0/images/edit_chart_configuration_line_stacked.png" id="image_1580796173_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Select an area</i>.
+        </p>
+        <fig id="fig_1580796173_2"><title>Select an area to zoom</title><image href="https://docs.thoughtspot.com/6.0/images/select_area_to_zoom.png" id="image_1580796173_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select an area on your chart to zoom into by clicking and
+          dragging your mouse.
+        </p>
+        <fig id="fig_1580796173_3"><title>Click and drag to select an area</title><image href="https://docs.thoughtspot.com/6.0/images/zoom_into_an_area.png" id="image_1580796173_3" scope="external"/></fig>
+        <p>
+          Your chart will be reconfigured to only show the selected
+          area.
+        </p>
+        <fig id="fig_1580796173_4"><title>Zoomed in chart area</title><image href="https://docs.thoughtspot.com/6.0/images/zoomed_in_area.png" id="image_1580796173_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you would like to return to the original chart view, click
+          <i>Reset zoom</i>.
+        </p>
+        <fig id="fig_1580796173_5"><title>Reset zoom option</title><image href="https://docs.thoughtspot.com/6.0/images/zoom%20out.png" id="image_1580796173_5" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

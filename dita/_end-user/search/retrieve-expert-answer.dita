@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="retrieve-expert-answer_xml"><title>"View an answer from an expert"</title><body>
+  <section id="title-view-an-answer-from-an-expert-last_updated-09232019-summary-how-to-find-an-answer-from-an-expert-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"View an answer from an expert"</title>
+    <p>
+      When you use <i>Ask an expert</i> to
+      get help, you can view the answer after the expert responds.
+    </p>
+    <p>
+      To view the answer:
+    </p>
+    <p>
+      Click the link in the email you receive automatically when the
+      expert answers your question, or if you're not set up with an
+      email in ThoughtSpot:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Answers</i> in the top
+          menu.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the name of the answer you want to review. If you can't
+          find it, try using the
+          <i>Yours</i> filter to narrow down
+          the list.
+        </p>
+      </li>
+      <li>
+        <p>
+          View your answer.
+        </p>
+      </li>
+    </ol>
+    <p>
+      The answer will include any changes the expert made, to get to the
+      answer you were looking for. You should review the new answer, to
+      learn from the things the expert did to answer your question.
+    </p>
+    <p>
+      Note that the answer is a full fledged ThoughtSpot answer. This
+      means that you can pin it to a pinboard, edit it, or share it with
+      others, just like the result of any ThoughtSpot search.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [Ask an expert]({{ site.baseurl
+          }}/end-user/search/ask-an-expert.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Answer Ask an expert questions]({{ site.baseurl
+          }}/end-user/search/answer-expert-question.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

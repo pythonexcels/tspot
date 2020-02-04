@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="create-bulk-filter_xml"><title>Create a bulk filter</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Create a bulk filter</title>
+    <p>
+      You can create a bulk filter on a saved search. You create the
+      filter by pasting a list of values, separated by commas,
+      semicolons, new lines, or tabs, into the bulk filter box. A filter
+      allows you to easily search a large list of values repeatedly.
+    </p>
+    <p>
+      Your filter can have up to 10k values in it. When you add a
+      filter, the system does not check that the value exists in the
+      data. This allows you to anticipate values that <i>may
+      be</i> added in your filter.
+    </p>
+    <p>
+      Before you can create a bulk filter, you must have
+      <i>Can edit</i> permission on the
+      table or worksheet. In this example, you will cut and paste values
+      to create a bulk filter. You could also get a list of text values
+      from another application such as an email or cells from an Excel
+      or Google Sheets spreadsheet.
+    </p>
+    <ol>
+      <li>
+        <p>
+          In table view, select multiple cells by clicking and dragging.
+        </p>
+      </li>
+      <li>
+        <p>
+          Right-click and choose <i>Copy to
+          clipboard</i>.
+        </p>
+        <fig id="fig_1580796169_1"><title>Copy to the Clipboard</title><image href="https://docs.thoughtspot.com/6.0/images/bulk_filter_copy_to_clipboard.png" id="image_1580796169_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Hover over the column header you want to filter, and click the
+          <i>three-dot icon (ellipses)</i>
+          icon.
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose whether you want your bulk filter to
+          <i>Include</i> or
+          <i>Exclude</i> values.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Add values in bulk</i>:
+        </p>
+        <fig id="fig_1580796169_2"><title>Add values in bulk</title><image href="https://docs.thoughtspot.com/6.0/images/bulk_filter_add_values_in_bulk.png" id="image_1580796169_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Paste the values into the bulk filter box.
+        </p>
+        <fig id="fig_1580796169_3"><title>Paste values into the bulk filter box</title><image href="https://docs.thoughtspot.com/6.0/images/bulk_filter_paste_values.png" id="image_1580796169_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

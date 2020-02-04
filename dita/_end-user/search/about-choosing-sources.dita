@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-choosing-sources_xml"><title>Choose a data source</title><body>
+  <section id="title-choose-a-data-source-last_updated-tbd-summary-before-you-start-a-new-search-make-sure-you-have-chosen-the-right-data-sources-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Choose a data source</title>
+    <p>
+      To begin a new search, you must first select your data sources by
+      clicking on the <i>Choose Sources</i>
+      button. You will see a list of data sources that have been shared
+      with you. The data sources are usually created by your
+      administrator, though you can also [upload your own data]({{
+      site.baseurl }}/end-user/data-view/generate-flat-file.html).
+    </p>
+    <fig id="fig_1580796175_1"><title>Choose sources</title><image href="https://docs.thoughtspot.com/6.0/images/choose_sources.png" id="image_1580796175_1" scope="external"/></fig>
+    <p>
+      Searches happen in the context of the selected data sources.
+      ThoughtSpot will also make suggestions from other data sources for
+      you, if what you're typing can't be found in the selected data
+      source.
+    </p>
+  </section>
+</body>
+
+</topic>

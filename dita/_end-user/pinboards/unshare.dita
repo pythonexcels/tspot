@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="unshare_xml"><title>Revoke access (unshare)</title><body>
+  <section id="title-revoke-access-unshare-last_updated-12192019-summary-you-can-revoke-access-to-an-object-that-you-no-longer-want-to-share-with-someone-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Revoke access (unshare)</title>
+    <p>
+      {% include content/revoke-access.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="show-underlying-data_xml"><title>Show underlying data</title><body>
+  <section id="last_updated-tbd-summary-viewing-the-underlying-data-of-your-answer-gives-you-an-un-aggregated-view-of-the-underlying-data-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Show underlying data</title>
+    <p>
+      You can see the most granular details of a given result set, i.e.
+      it shows the un-aggregated view. This feature lets you understand
+      what an answer consists of. For example, if you search for
+      <codeph>customer region revenue</codeph>, the answer shows the
+      aggregate revenue value for each customer region. Then, you can
+      right-click any row and then click <i>Show
+      underlying data</i>, to see each value which constitutes
+      <codeph>revenue</codeph> for any given region.
+    </p>
+    <p>
+      Only the first 1,000 rows appear when viewing the underlying data.
+      You can even download the results shown when you choose
+      <i>Show underlying data</i> from a
+      chart. The download file limit is a million rows.
+    </p>
+    <p>
+      {% include note.html content="Viewing underlying data does
+      not work for answers that are derived from chasm trap searches.
+      Nor does this feature work for pivot tables." %}
+    </p>
+    <p>
+      To show underlying data:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Right-click the visualization or table cell of interest
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>Show underlying
+          data</i>.
+        </p>
+        <fig id="fig_1580796169_1"><title>Show underlying data option</title><image href="https://docs.thoughtspot.com/6.0/images/show_underlying_data.png" id="image_1580796169_1" scope="external"/></fig>
+        <p>
+          A new window opens that displays a summary and the underlying
+          data.
+        </p>
+      </li>
+      <li>
+        <p>
+          Optionally, choose to <i>+ ADD
+          COLUMNS</i> to add additional data.
+        </p>
+        <fig id="fig_1580796169_2"><title>Add columns to underlying data</title><image href="https://docs.thoughtspot.com/6.0/images/add_columns_underlying_data.png" id="image_1580796169_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>CONFIRM CHANGES</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>DOWNLOAD</i> to download
+          a CSV file of the data.
+        </p>
+        <fig id="fig_1580796169_3"><title>Download underlying data</title><image href="https://docs.thoughtspot.com/6.0/images/showing_underlying_data.png" id="image_1580796169_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

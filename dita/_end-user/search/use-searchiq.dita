@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use-searchiq_xml"><title>"Use SearchIQ"</title><body>
+  <section id="title-use-searchiq-last_updated-09232019-summary-use-searchiq-to-do-a-natural-language-search-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Use SearchIQ"</title>
+    <p>
+      <i>SearchIQ is in Beta.</i>
+    </p>
+    <p>
+      {% include note.html content="SearchIQ is turned off by
+      default, you can have ThoughtSpot Support enable it for you.
+      SearchIQ is only available in English." %}
+    </p>
+    <p>
+      To search using SearchIQ, follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the ThoughtSpot search bar on the homepage or select
+          <i>Search</i> from the top menu.
+        </p>
+        <fig id="fig_1580796172_1"><title>Menu bar</title><image href="https://docs.thoughtspot.com/6.0/images/top_navigation_bar.png" id="image_1580796172_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click the SearchIQ toggle button to go into SearchIQ mode.
+        </p>
+        <fig id="fig_1580796172_2"><title>SearchIQ toggle button</title><image href="https://docs.thoughtspot.com/6.0/images/choose_searchiq_on.png" id="image_1580796172_2" scope="external"/></fig>
+        <p>
+          If you later decide to go back to the classic search mode, you
+          can click the SearchIQ toggle button to turn it off again.
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose the data you want to search using the selector in the
+          left panel.
+        </p>
+        <fig id="fig_1580796172_3"><title>SearchIQ data selector</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_select_data_source.png" id="image_1580796172_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Type your search in the search bar using plain language.
+        </p>
+        <p>
+          If you see a microphone icon in the search bar, that means
+          your operating system and browser are enabled for
+          speech-to-text. In this case, you can click the microphone and
+          speak your search instead of typing.
+        </p>
+      </li>
+      <li>
+        <p>
+          Press the <i>Enter</i> key when
+          your search is complete.
+        </p>
+      </li>
+      <li>
+        <p>
+          When your answer appears, you may also see one or more of
+          these messages:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Interpretation: You can see how different words you typed
+              were understood.
+            </p>
+            <fig id="fig_1580796172_4"><title>SearchIQ interpretation</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_interpreted.png" id="image_1580796172_4" scope="external"/></fig>
+          </li>
+          <li>
+            <p>
+              Ignored words: These words were not needed in order to
+              create the answer, so they are ignored.
+            </p>
+            <fig id="fig_1580796172_5"><title>SearchIQ ignored words message</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_ignored_words.png" id="image_1580796172_5" scope="external"/></fig>
+          </li>
+          <li>
+            <p>
+              Ambiguous words: These are words that could have more than
+              one meaning in the context of the search.
+            </p>
+            <fig id="fig_1580796172_6"><title>SearchIQ ambiguous words message</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_ambiguous.png" id="image_1580796172_6" scope="external"/></fig>
+            <p>
+              You can clarify by choosing what you meant from the
+              possible meanings shown.
+            </p>
+            <fig id="fig_1580796172_7"><title>SearchIQ clarify selected words</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_disambiguate.png" id="image_1580796172_7" scope="external"/></fig>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          If you want to see details of how your search was computed,
+          click the <i>Details</i> link to
+          the right of the search terms.
+        </p>
+        <fig id="fig_1580796172_8"><title>SearchIQ details</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_details.png" id="image_1580796172_8" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If the answer isn't what you were expecting, you can refine
+          your answer by [teaching SearchIQ your language]({{
+          site.baseurl }}/end-user/search/teach-searchiq.html).
+        </p>
+      </li>
+      <li>
+        <p>
+          If you need help, use [Ask an expert]({{ site.baseurl
+          }}/end-user/search/ask-an-expert.html).
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [About SearchIQ]({{ site.baseurl
+          }}/end-user/search/about-searchiq.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Teach SearchIQ your language]({{ site.baseurl
+          }}/end-user/search/teach-searchiq.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Ask an expert]({{ site.baseurl
+          }}/end-user/search/ask-an-expert.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

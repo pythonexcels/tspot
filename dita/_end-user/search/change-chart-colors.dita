@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="change-chart-colors_xml"><title>Change chart colors</title><body>
+  <section id="last_updated-tbd-summary-you-can-change-the-colors-used-in-a-chart-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Change chart colors</title>
+    <p>
+      To change the colors used in a chart, use the color picker on the
+      chart styles panel. You can set colors for:
+    </p>
+    <ul>
+      <li>
+        <p>
+          bars, lines, areas, bubbles, maps, and other visuals on charts
+        </p>
+      </li>
+      <li>
+        <p>
+          legends on charts
+        </p>
+      </li>
+      <li>
+        <p>
+          tables for conditional formatting
+        </p>
+      </li>
+      <li>
+        <p>
+          tags and editing the colors
+        </p>
+      </li>
+    </ul>
+    <p>
+      To change the chart colors, you need at least one column in the
+      chart's legend. If the chart does not have a legend (not all do)
+      and it is a single-measure chart, you can
+      <link href="{{site.baseurl}}/end-user/search/apply-conditional-formatting.html">apply
+      a conditional format</link> to change the color. This type of
+      conditional formatting does not work with Line charts.
+    </p>
+    <p>
+      Colors are maintained across searches within a session. For
+      example, when doing a search on revenue by state, each state will
+      keep its color assigned to it even if you change the search or
+      chart type.
+    </p>
+  </section>
+  <section id="set-colors-on-a-chart">
+    <title>Set colors on a chart</title>
+    <ol>
+      <li>
+        <p>
+          While viewing your search or answer as a chart, click
+          <i>Edit chart styles</i>
+          (![paintbrush icon]({{ site.baseurl
+          }}/images/icon-paintbrush.png){: .inline}) to open the Styles
+          panel.
+        </p>
+        <fig id="fig_1580796174_1"><title>Edit chart configuration icon</title><image href="https://docs.thoughtspot.com/6.0/images/edit_chart_colors_styles.png" id="image_1580796174_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the chart, click the color icon of the label or legend
+          value you would like to change the color of.
+        </p>
+        <fig id="fig_1580796174_2"><title>Legend values list</title><image href="https://docs.thoughtspot.com/6.0/images/legend.png" id="image_1580796174_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Use the color picker to choose a new color to represent that
+          value.
+        </p>
+        <p>
+          You can also enter a HEX value directly.
+        </p>
+        <fig id="fig_1580796174_3"><title>Legend color picker</title><image href="https://docs.thoughtspot.com/6.0/images/color_picker.png" id="image_1580796174_3" scope="external"/></fig>
+        <p>
+          Your changes are saved immediately.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the <i>X</i> at top right to
+          dismiss the styles panel.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="set-pie-chart-slice-colors">
+    <title>Set pie chart slice colors</title>
+    <p>
+      To customize the colors of each slice in a pie chart.
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your search or answer as a pie chart, click
+          <i>Edit chart styles</i>
+          (![paintbrush icon]({{ site.baseurl
+          }}/images/icon-paintbrush.png){: .inline}) to open the Styles
+          panel.
+        </p>
+      </li>
+      <li>
+        <p>
+          Assign a color of your choice to each pie slice.
+        </p>
+      </li>
+    </ol>
+    <p>
+      ![]({{ site.baseurl }}/images/pie-chart-custom-colors.png)
+    </p>
+    <ol>
+      <li override="3">
+        <p>
+          Click ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and choose
+          <i>Update</i> to save the changes.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click Close.
+        </p>
+      </li>
+    </ol>
+    <p>
+      Optionally, you can click <i>Reset</i>
+      to use the default colors.
+    </p>
+  </section>
+</body>
+
+</topic>

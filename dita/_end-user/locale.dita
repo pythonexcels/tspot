@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="locale_xml"><title>"Set your display language (locale)"</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Set your display language (locale)"</title>
+    <p>
+      {% include content/set_locale.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

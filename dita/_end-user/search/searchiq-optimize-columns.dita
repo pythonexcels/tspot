@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="searchiq-optimize-columns_xml"><title>"Enable Columns for SearchIQ"</title><body>
+  <section id="title-enable-columns-for-searchiq-last_updated-09232019-summary-let-us-discuss-how-to-enable-searchiq-for-the-columns-of-the-data-source-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Enable Columns for SearchIQ"</title>
+    <p>
+      <i>SearchIQ is in Beta.</i>
+    </p>
+    <p>
+      {% include note.html content="SearchIQ is turned off by
+      default, you can have ThoughtSpot Support enable it for you.
+      SearchIQ is only available in English." %}
+    </p>
+    <p>
+      Before enabling columns, keep in mind these points, and other
+      in-product guidelines:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Enable no more than fifteen (15) columns for SearchIQ.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enable at most one (1) date column.
+        </p>
+      </li>
+      <li>
+        <p>
+          Column names should not contain more than 3 words.
+        </p>
+      </li>
+      <li>
+        <p>
+          Name the columns well, by optimizing for business users. For
+          example, use <i>Opportunity Cost</i> and avoid
+          <codeph>opp_cst</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Avoid indexing descriptive columns, ones that contain more
+          than seven (7) words, or contain values with stop words, such
+          as <i>is</i>, <i>are</i>,
+          <i>the</i>, <i>what</i>, and so
+          on). See the [Stop Words]({{ site.baseurl
+          }}/reference/stop-words.html) reference for the full list of
+          stop words.
+        </p>
+      </li>
+      <li>
+        <p>
+          For columns that represent formulas with categorical values,
+          set the <i>Indexing Type</i> to
+          <codeph>PREFIX_AND_SUBSTRING</codeph>.
+        </p>
+      </li>
+    </ul>
+    <p>
+      To enable columns in a worksheet for SearchIQ, follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Data</i> on top
+          navigation bar.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Tables</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Worksheets</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select and open the worksheet you want to enable for SearchIQ.
+        </p>
+      </li>
+      <li>
+<literallayout>Scroll to the far right, until you see the <i>SearchIQ Enabled</i> attribute.
+Set it to <i>Yes</i> for each column enabled for SearchIQ.</literallayout>
+        <fig id="fig_1580796176_1"><title>Enable SearchIQ on columns</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-enable-searchiq.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Change the <i>Entity Category</i>
+          for the columns you marked <i>SearchIQ
+          Enabled</i>, from <i>default</i> to one
+          that accurately describes the column.
+        </p>
+        <p>
+          See [Set Entity Categories]({{ site.baseurl
+          }}/admin/data-modeling/set-entity-category.html). The category
+          options are <i>default</i>, <i>person</i>,
+          <i>replace</i>, <i>time</i>, <i>money</i>,
+          <i>product</i>, <i>zip_code</i>, <i>lat_long</i>,
+          <i>company_org</i>, and <i>num_types</i>.
+        </p>
+        <fig id="fig_1580796176_2"><title>Specify entity categories for columns</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-entity-categories-searchiq.png" id="image_1580796176_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Add <i>Synonyms</i> for all
+          columns you marked <i>SearchIQ
+          Enabled</i>, simply by typing them in the appropriate
+          cell. See [Add common synonyms]({{ site.baseurl
+          }}/admin/data-modeling/change-visibility-synonym.html) for
+          more information.
+        </p>
+        <fig id="fig_1580796176_3"><title>Specify synonyms</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-synonyms-searchiq.png" id="image_1580796176_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Change the <i>Index Type</i> to
+          <codeph>DONT_INDEX</codeph> for columns when they must be
+          excluded from indexing. We recommend excluding a column when
+          it is descriptive in nature, =contains a large amount of text,
+          has [stop words]({{ site.baseurl
+          }}/reference/stop-words.html), or for a variety of similar
+          reason. See [Turn off indexing]({{ site.baseurl
+          }}/admin/data-modeling/change-index.html).
+        </p>
+        <fig id="fig_1580796176_4"><title>Don't index</title><image href="https://docs.thoughtspot.com/6.0/images/data-modeling-columns-indextype-dont-index.png" id="image_1580796176_4" scope="external"/></fig>
+        <p>
+          This prevents SearchIQ from scanning through large amounts of
+          text to understand what user asked. Note that searches on text
+          fields that use the <codeph>contains</codeph> keyword still
+          work.
+        </p>
+        <fig id="fig_1580796176_5"><title>Change Index Type to DONT_INDEX</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-do-not-index-searchiq.png" id="image_1580796176_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Change the <i>Index Type</i> for
+          columns that represent formulas with categorical values to
+          <codeph>PREFIX_AND_SUBSTRING</codeph>. See [Turn off
+          indexing]({{ site.baseurl
+          }}/admin/data-modeling/change-index.html).
+        </p>
+        <fig id="fig_1580796176_6"><title>Index type for formulas with categorical values</title><image href="https://docs.thoughtspot.com/6.0/images/data-modeling-columns-indextype-prefix-substring.png" id="image_1580796176_6" scope="external"/></fig>
+        <fig id="fig_1580796176_7"><title>Change Index Type to PREFIX_AND_SUBSTRING</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-prefix-and-substring-searchiq.png" id="image_1580796176_7" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Rename the columns to have names that are shorter (maximum
+          three words), and easier for business users to understand.
+        </p>
+        <fig id="fig_1580796176_8"><title>Rename a column</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-column-rename.png" id="image_1580796176_8" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Save Changes</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

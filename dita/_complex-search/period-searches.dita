@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="period-searches_xml"><title>Time series analysis</title><body>
+  <section id="last_updated-tbd-summary-you-can-compare-across-time-periods-without-using-a-formula-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Time series analysis</title>
+    <p>
+      A <i>time series</i> is a set of data points ordered
+      by time. For example, within the same week a sale on Tuesday comes
+      before a sale on Wednesday in such a data set. You can use
+      ThoughtSpot's <i>time series analysis</i> feature to
+      search for answers about series data.
+    </p>
+    <fig id="fig_1580796169_1"><title>Period Analysis</title><image href="https://docs.thoughtspot.com/6.0/images/period-drop.png" id="image_1580796169_1" scope="external"/></fig>
+    <p>
+      You might use this feature to compare a time period across other
+      time periods. For examples sales for each month across several
+      years. You may also want to calculate an aspect such as growth
+      over the same time period across other periods. You can also do
+      relative analysis such as sales for the last 3 months of each year
+      across years.
+    </p>
+    <p>
+      You can use one or more of the following period keywords to create
+      this type of analysis:
+    </p>
+  </section>
+  <section id="period-keywords">
+    <title>Period keywords</title>
+    <p>
+      {% include content/keywords-period.md %}
+    </p>
+    <p>
+      All of these keywords sort the data using datetime semantics, that
+      is chronologically in a time sequence. By default, the
+      <i>Search</i> bar suggests these
+      keywords less frequently than others.
+    </p>
+    <p>
+      You can use these new keywords in combination with the existing
+      data keywords which are:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <codeph>Detailed</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Hourly</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Daily</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Weekly</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Monthly</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Quarterly</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>Yearly</codeph>
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="examples-of-time-series-analysis">
+    <title>Examples of time series analysis</title>
+    <p>
+      Typically, when you search for answers about series data, the
+      visualizations that answer your questions are line charts. These
+      charts frequently but not always include a stack to indicate a
+      period.
+    </p>
+    <fig id="fig_1580796169_2"><title>Period Analysis Example</title><image href="https://docs.thoughtspot.com/6.0/images/time-example1.png" id="image_1580796169_2" scope="external"/></fig>
+    <p>
+      When you search for an aspect of data of time series, a typical
+      response is a line chart showing the aspect as it rises and falls
+      over time.
+    </p>
+    <fig id="fig_1580796169_3"><title>Period Analysis Example</title><image href="https://docs.thoughtspot.com/6.0/images/time-example2.png" id="image_1580796169_3" scope="external"/></fig>
+    <p>
+      You can also add a relative date filter for example,
+    </p>
+    <programlisting>
+total revenue quarterly yearly by year month(commit date) &gt;= 01/01/1995
+month(commit date) before 01/01/1998
+</programlisting>
+    <p>
+      This type of query also yields a stacked line chart:
+    </p>
+    <fig id="fig_1580796169_4"><title>Period Analysis Example</title><image href="https://docs.thoughtspot.com/6.0/images/time-example3.png" id="image_1580796169_4" scope="external"/></fig>
+    <p>
+      The child date time attribute is on the X-axis and the parent in
+      the legend. For example, if you search
+      <codeph>revenue month yearly</codeph> the child,
+      <codeph>monthly</codeph>, appears on the x-axis and the parent,
+      <codeph>yearly</codeph>, in the legend.
+    </p>
+  </section>
+  <section id="granularity-for-date-filters">
+    <title>Granularity for date filters</title>
+    <p>
+      You can refine a simple date filters by adding hierarchical date
+      filter to your query. The ability to specify two bucket
+      granularities such as "hour of day" or "week of
+      year" are two examples. The syntax of this type of query is
+    </p>
+    <programlisting>
+small_bucket of big_bucket [INTEGER_CONDITION]
+</programlisting>
+    <p>
+      The <codeph>INTEGER_CONDITION</codeph> is optional but it must
+      be an integer. For example, this query is valid:
+    </p>
+    <programlisting>
+revenue by day of week &lt;= 2
+</programlisting>
+    <p>
+      This query is invalid:
+    </p>
+    <programlisting>
+revenue by day of week = Tuesday
+</programlisting>
+    <p>
+      You can specify one or more granular filters.
+    </p>
+    <p>
+      These tips and gotchas apply to time granularity:
+    </p>
+    <ul>
+      <li>
+        <p>
+          The system-defined fiscal rules are respected. This means, for
+          example, if the fiscal year begins in February,
+          <codeph>month of year = 2</codeph> matches dates in March.
+        </p>
+      </li>
+      <li>
+        <p>
+          Fiscal shorthands such as <codeph>Q1</codeph>,
+          <codeph>Q2</codeph> and so on are not supported, so
+          <codeph>day of week = d1</codeph> is not valid.
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>INTEGER_CONDITION</codeph> with <codeph>=</codeph>
+          or <codeph>!=</codeph> accept a list of filter values, so,
+          <codeph>day of week = 1 2 3</codeph> is valid.
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>INTEGER_CONDITION</codeph> with <codeph>=</codeph>
+          or <codeph>!=</codeph> require legal values, so
+          <codeph>day of week &gt;</codeph> accepts any integer on the
+          right hand side while <codeph>day of week =</codeph>
+          requires a value in the legal <codeph>1-7</codeph> range.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simple date filters allow you to use edit the filter through
+          the answer to refine your search, adding a a hierarchical date
+          filter in the search bar disables this ability.
+        </p>
+      </li>
+    </ul>
+    <section id="create-a-maxdate-field-and-use-it-to-filter">
+      <title>Create a max(date) field and use it to filter</title>
+      <p>
+        If you have a date field in your data set and want to return the
+        most recent set of data based on a specific date, do the
+        following:
+      </p>
+      <ol>
+        <li>
+          <p>
+            Create a formula called <codeph>Max Date</codeph>.
+          </p>
+          <p>
+            For example:
+          </p>
+          <programlisting>
+date = group_max ( date_to_filter_by )
+</programlisting>
+        </li>
+        <li>
+          <p>
+            In the search bar, filter your dates by this formula.
+          </p>
+          <p>
+            For example:
+          </p>
+          <programlisting>
+max date = true
+</programlisting>
+          <p>
+            This returns only those fields that pass the filter.
+          </p>
+        </li>
+      </ol>
+    </section>
+  </section>
+</body>
+
+</topic>

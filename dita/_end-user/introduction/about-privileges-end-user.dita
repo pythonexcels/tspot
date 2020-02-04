@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-privileges-end-user_xml"><title>Understanding privileges</title><body>
+  <section id="title-understanding-privileges-last_updated-07312019-summary-the-things-you-can-do-in-thoughtspot-are-determined-by-the-privileges-you-have-privileges-are-granted-through-group-membership--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Understanding privileges</title>
+    <p>
+      If you are trying to do something in ThoughtSpot, and cannot
+      access the screens to accomplish it, you may not have the correct
+      privileges. In this case, you should contact your administrator
+      and explain what you want to accomplish. Your administrator may be
+      able to grant you additional privileges.
+    </p>
+    <p>
+      {% include note.html content="Permissions to see and edit
+      answers and pinboards are not affected by privileges. They are
+      given when these items are shared with you."%}
+    </p>
+    <p>
+      Here are the privileges that the administrator sets, and the
+      capabilities they enable:
+    </p>
+    <p>
+      {% include content/privileges.md %}
+    </p>
+    <p>
+      The following table shows the intersection of user privilege and
+      ability: {% include content/security-matrix.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

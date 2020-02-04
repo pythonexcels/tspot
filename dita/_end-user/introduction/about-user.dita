@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-user_xml"><title>About your user profile</title><body>
+  <section id="title-about-your-user-profile-last_updated-12192019-summary-the-user-icon-lets-you-view-your-profile-adjust-language-options-specify-notification-preferences-revisit-onboarding-or-sign-out-of-thoughtspot-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>About your user profile</title>
+    <p>
+      To view the user actions, click your user icon on the top right
+      corner of the page.
+    </p>
+    <fig id="fig_1580796170_1"><title>Click User icon</title><image href="https://docs.thoughtspot.com/6.0/images/user-info.png" id="image_1580796170_1" scope="external"/></fig>
+    <p>
+      Click <i>Profile</i> to navigate to
+      your profile, where you can change your icon, password, email,
+      locale, and other preferences.
+    </p>
+    <fig id="fig_1580796170_2"><title>Click Profile</title><image href="https://docs.thoughtspot.com/6.0/images/user-profile.png" id="image_1580796170_2" scope="external"/></fig>
+    <p>
+      Notice that you can now see the <i>My
+      Profile</i> interface.
+    </p>
+    <p>
+      {: id="profile-picture" }
+    </p>
+  </section>
+  <section id="change-your-profile-picture">
+    <title>Change your profile picture</title>
+    <p>
+      You can change your profile picture clicking the user profile in
+      the top right of the interface, clicking
+      <i>Upload Picture</i>, and selecting a
+      new image from the file browser.
+    </p>
+    <p>
+      You can use any a <codeph>*.png</codeph> or
+      <codeph>*.jpg</codeph> file. Image files cannot exceed 4MB.
+    </p>
+    <fig id="fig_1580796170_3"><title>Upload user profile image</title><image href="https://docs.thoughtspot.com/6.0/images/user-upload-picture.png" id="image_1580796170_3" scope="external"/></fig>
+    <p>
+      You can also make this change within the
+      <i>User Profile</i>, under
+      <i>Information</i>.
+    </p>
+    <fig id="fig_1580796170_4"><title>Upload user profile image</title><image href="https://docs.thoughtspot.com/6.0/images/user-upload-picture-alternative.png" id="image_1580796170_4" scope="external"/></fig>
+    <p>
+      {: id="email" }
+    </p>
+  </section>
+  <section id="update-your-email">
+    <title>Update your email</title>
+    <p>
+      To change your email, navigate to <i>My
+      Profile</i>. Under
+      <i>Information</i>, enter an alternate
+      email, and click Add.
+    </p>
+    <fig id="fig_1580796170_5"><title>Update email</title><image href="https://docs.thoughtspot.com/6.0/images/user-profile-email.png" id="image_1580796170_5" scope="external"/></fig>
+    <p>
+      {: id="language" }
+    </p>
+  </section>
+  <section id="change-language-and-data-format-settings">
+    <title>Change language and data format settings</title>
+    <p>
+      To change your language, navigate to <i>My
+      Profile</i>. Under
+      <i>Preferences</i>, see the
+      <i>Language</i> option to set the
+      language.
+    </p>
+    <fig id="fig_1580796170_6"><title>Specify language</title><image href="https://docs.thoughtspot.com/6.0/images/profile-locale.png" id="image_1580796170_6" scope="external"/></fig>
+    <p>
+      {% include content/set_locale.md %}
+    </p>
+    <p>
+      {: id="notifications" }
+    </p>
+  </section>
+  <section id="update-sharing-notification-settings">
+    <title>Update sharing notification settings</title>
+    <p>
+      Under <i>Preferences</i>, see the
+      <i>Notifications</i> option.
+    </p>
+    <p>
+      Select <i>Email me sharing
+      notifications</i> to receive emails whenever another user
+      shares pinboards with you.
+    </p>
+    <fig id="fig_1580796170_7"><title>Email sharing notifications</title><image href="https://docs.thoughtspot.com/6.0/images/profile-email-notifications.png" id="image_1580796170_7" scope="external"/></fig>
+    <p>
+      {: id="onboarding" }
+    </p>
+  </section>
+  <section id="revisit-user-onboarding">
+    <title>Revisit user onboarding</title>
+    <p>
+      When you are relatively new to using ThoughtSpot, we help you to
+      become productive faster.
+    </p>
+    <p>
+      Whenever you need a refresh, navigate to
+      <i>My Profile</i>. Under
+      <i>Preferences</i>, see the
+      <i>New user onboarding</i> option.
+      Click <i>Revisit</i>, and ThoughtSpot
+      guides you through onboarding again.
+    </p>
+    <fig id="fig_1580796170_8"><title>Revisit onboarding</title><image href="https://docs.thoughtspot.com/6.0/images/onboarding-revisit.png" id="image_1580796170_8" scope="external"/></fig>
+    <p>
+      {: id="password" }
+    </p>
+  </section>
+  <section id="change-password">
+    <title>Change Password</title>
+    <p>
+      When you need to change your password, navigate to
+      <i>My Profile</i>, and under
+      <i>Preferences</i> enter the following
+      information:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Current Password
+        </p>
+      </li>
+      <li>
+        <p>
+          New Password
+        </p>
+      </li>
+      <li>
+        <p>
+          Confirm Password
+        </p>
+      </li>
+    </ul>
+    <p>
+      {% include note.html content="Your password must contain
+      three of the following: uppercase letters A-Z, lowercase letters
+      a-z, special characters !#$ etc, numbers 0-9. Your password must
+      be at least eight characters long." %}
+    </p>
+    <p>
+      Click <i>Update</i>.
+    </p>
+    <fig id="fig_1580796170_9"><title>Update password</title><image href="https://docs.thoughtspot.com/6.0/images/update-password.png" id="image_1580796170_9" scope="external"/></fig>
+    <p>
+      {: id="sign-out" }
+    </p>
+  </section>
+  <section id="signing-out">
+    <title>Signing out</title>
+    <p>
+      To sign out of your ThoughtSpot account, click the user profile in
+      the top right of the interface, and choose
+      <i>Sign out</i>.
+    </p>
+    <fig id="fig_1580796170_10"><title>Sign out</title><image href="https://docs.thoughtspot.com/6.0/images/user-sign-out.png" id="image_1580796170_10" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

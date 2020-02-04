@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="searchiq-optimize-train_xml"><title>"Train SearchIQ"</title><body>
+  <section id="title-train-searchiq-last_updated-08222019-summary-training-searchiq-ensures-a-good-natural-language-search-experience-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Train SearchIQ"</title>
+    <p>
+      <i>SearchIQ is in Beta.</i>
+    </p>
+    <p>
+      {% include note.html content="SearchIQ is turned off by
+      default, you can have ThoughtSpot Support enable it for you.
+      SearchIQ is only available in English." %}
+    </p>
+    <p>
+      There are two complementary paths for optimizing SearchIQ to
+      understand natural language search,
+      <xref keyref="data-modeling">Data Modeling</xref> and
+      <xref keyref="language">Language Modeling</xref>. Also, consider
+      the the <xref keyref="training-examples">Training Examples</xref>
+    </p>
+    <p>
+      [Add experts to the data source]({{ site.baseurl
+      }}/admin/data-modeling/add-expert.html) to enable the [Ask an
+      Expert]({{ site.baseurl }}/end-user/search/ask-an-expert.html)
+      workflow. This supplies users with another path to getting an
+      answer when they get stuck.
+    </p>
+    <p>
+      We bundle SearchIQ with a set of pre-defined templates that help
+      it understand natural language, and return the best possible
+      answers. You can also add your own templates for each data source,
+      and teach it new language interpretations:
+    </p>
+    <section id="teach-searchiq-using-a-saved-searchiq-answer">
+      <title>Teach SearchIQ using a saved SearchIQ answer</title>
+      <p>
+        See [Teach SearchIQ your language]({{ site.baseurl
+        }}/end-user/search/teach-searchiq.html).
+      </p>
+      <ol spacing="compact">
+        <li>
+          <p>
+            Select a saved answer.
+          </p>
+        </li>
+        <li>
+          <p>
+            Click one of the drop-down phrases that shows how SearchIQ
+            interprets the search terms, and click
+            <i>Teach</i>.
+          </p>
+        </li>
+      </ol>
+    </section>
+    <section id="use-new-searches-to-teach-searchiq">
+      <title>Use new searches to teach SearchIQ</title>
+      <p>
+        We recommend that you train SearchIQ by performing at least 50
+        natural language searches. This teaches SearchIQ how to map
+        common questions to relevant entities. Use points described in
+        [Teach SearchIQ]({{ site.baseurl
+        }}/end-user/search/teach-searchiq.html) for any unexpected
+        answers.
+      </p>
+      <ul>
+        <li>
+          <p>
+            For best results, use simple and short queries.
+          </p>
+        </li>
+        <li>
+          <p>
+            Ask questions that contain only exact column names or their
+            synonyms.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use exact values for filtering.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use keywords. See [Keywords]({{ site.baseurl
+            }}/reference/keywords.html).
+          </p>
+        </li>
+        <li>
+          <p>
+            Use stopwords. See [Stop Words]({{ site.baseurl
+            }}/reference/stop-words.html).
+          </p>
+        </li>
+      </ul>
+      <p>
+        When SearchIQ returns a satisfactory table or chart, remember to
+        click the <i>Looks Good</i> button
+        to provide the necessary feedback.
+      </p>
+      <p>
+        <i>Example 1: where are the best
+        sales</i>
+      </p>
+      <p>
+        In this example, the query returned a very good answer, by
+        interpreting <i>where</i> as <i>Store
+        City</i> and <i>best</i> as <i>sort
+        by Sales</i>. The chart <i>Looks
+        Good</i>, and this is valuable feedback for training
+        SearchIQ.
+      </p>
+      <fig id="fig_1580796173_1"><title>Click Looks Good on a bar chart</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-searchiq-training-example1.png" id="image_1580796173_1" scope="external"/></fig>
+      <p>
+        <i>Example 2: which state has the lowest
+        volume</i>
+      </p>
+      <p>
+        In this example, the query returned a very good answer, by
+        inerpreting <i>lowest</i> as <i>sort by
+        Quantity</i> and <i>volume</i> as
+        <i>Quantity</i>. This chart also
+        <i>Looks Good</i>, and provides
+        valuable feedback for training SearchIQ.
+      </p>
+      <fig id="fig_1580796173_2"><title>Click Looks Good on a map</title><image href="https://docs.thoughtspot.com/6.0/images/worksheet-searchiq-training-example2.png" id="image_1580796173_2" scope="external"/></fig>
+    </section>
+  </section>
+</body>
+
+</topic>

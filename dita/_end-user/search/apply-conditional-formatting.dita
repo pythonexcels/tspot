@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="apply-conditional-formatting_xml"><title>Apply conditional formatting</title><body>
+  <section id="last_updated-tbd-summary-use-conditional-formatting-to-make-portiosn-of-your-results-stand-out-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Apply conditional formatting</title>
+    <p>
+      You can apply conditional formatting to tables or charts to
+      highlight values in the data. This makes values above, below, or
+      within a particular threshold stand out.
+    </p>
+  </section>
+  <section id="understand-conditional-formatting">
+    <title>Understand conditional formatting</title>
+    <p>
+      Many companies create pinboards with key metrics they want to
+      track in daily or weekly staff meetings. Using conditional
+      formatting, they can see at a glance how they are performing
+      relative to these metrics.
+    </p>
+    <p>
+      You can add visual cues for KPIs (Key Performance Indicators) or
+      threshold metrics to charts and tables, to easily show where you
+      are falling short or exceeding targets. These visual cues are
+      called conditional formatting, which applies color formatting to
+      your search result. For tables, you can add conditional formatting
+      to set the background color of cells in a table based on the
+      values they contain. For charts, you can add conditional
+      formatting to show the threshold(s) you defined, and the data that
+      falls within them will be shown using the same color.
+    </p>
+  </section>
+  <section id="apply-conditional-formatting-to-a-table">
+    <title>Apply conditional formatting to a table</title>
+    <p>
+      You can use conditional formatting to show table cells with a
+      background color determined by the value they contain.
+    </p>
+    <p>
+      To apply conditional formatting to a table:
+    </p>
+    <ol>
+      <li>
+        <p>
+          In the column header of your table for the column you want to
+          apply formatting to, click the three-dot
+          <i>Change Configuration</i> icon.
+        </p>
+        <fig id="fig_1580796173_1"><title>Three dot menu</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_table_1.png" id="image_1580796173_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select <i>Conditional
+          Formatting</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>+ ADD FORMATTING</i> in
+          the <i>Conditional Formatting</i>
+          window.
+        </p>
+        <fig id="fig_1580796173_2"><title>Conditional formatting menu</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_table_2.png" id="image_1580796173_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Define the sets of values and the color to use for each set.
+        </p>
+        <fig id="fig_1580796173_3"><title>Define the sets of values and color</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_table_3.png" id="image_1580796173_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i> after defining
+          all of your conditional formatting sets.
+        </p>
+        <fig id="fig_1580796173_4"><title>Table with conditional formatting</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_table_4.png" id="image_1580796173_4" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      Note: If you change to a chart type, you must apply conditional
+      formatting again. Conditional formatting is tied to the specific
+      visualization.
+    </p>
+  </section>
+  <section id="apply-conditional-formatting-to-a-chart">
+    <title>Apply conditional formatting to a chart</title>
+    <p>
+      You can use conditional formatting to show charts with a target
+      value or range drawn as a line in the chart, and the legend colors
+      determined by where values fall relative to the target.
+    </p>
+    <p>
+      To apply conditional formatting to a chart:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the axis label of your chart. Select
+          <i>Conditional Formatting</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>+ ADD FORMATTING</i> in
+          the Conditional Formatting window.
+        </p>
+        <fig id="fig_1580796173_5"><title>Conditional formatting menu</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_menu%20copy.png" id="image_1580796173_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Define the ranges of values and the color to use for each
+          range you want to track. To add another range, click the
+          <i>+</i> icon and repeat.
+        </p>
+        <fig id="fig_1580796173_6"><title>Define the sets of values and color</title><image href="https://docs.thoughtspot.com/6.0/images/set_conditional_formatting.png" id="image_1580796173_6" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i> after defining
+          all of your conditional formatting ranges.
+        </p>
+        <fig id="fig_1580796173_7"><title>Chart with conditional formatting</title><image href="https://docs.thoughtspot.com/6.0/images/conditional_formatting_chart.png" id="image_1580796173_7" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      Note: If you change the chart type, you must apply conditional
+      formatting again. It is tied to the specific visualization.
+    </p>
+  </section>
+</body>
+
+</topic>

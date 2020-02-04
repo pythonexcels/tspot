@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-filters-for-null_xml"><title>"Filter on null, blank, or empty values"</title><body>
+  <section id="last_updated-tbd-summary-filtering-on-null-and-empty-values-is-a-special-case--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Filter on null, blank, or empty values"</title>
+    <p>
+      Filtering on null, blank, or empty values can be tricky if your
+      data contains both of these. You can use this method to see what's
+      really going on with these types of values, and to get the
+      filtering behavior you want.
+    </p>
+  </section>
+  <section id="how-null-and-blank-values-are-displayed">
+    <title>How NULL and blank values are displayed</title>
+    <p>
+      When you view a table or chart, you may see values that appear as
+      <i>{blank}</i>. These can actually be
+      one of two types of values:
+    </p>
+    <ul>
+      <li>
+        <p>
+          NULL values, which are essentially missing values.
+        </p>
+      </li>
+      <li>
+        <p>
+          blank or empty values, like an empty string of text or a
+          string containing only whitespace (spaces, tabs).
+        </p>
+      </li>
+    </ul>
+    <p>
+      Both of these types of values are represented as
+      <i>{blank}</i>, but if you filter on
+      <i>{blank}</i>, the filter will apply
+      to only the NULL values. That is, only the NULL values will be
+      included in your result. It can be hard to tell what's going on if
+      you have a data source that contains both NULL and blank/empty
+      values.
+    </p>
+  </section>
+  <section id="to-show-null-and-blank-values-differently">
+    <title>To show NULL and blank values differently</title>
+    <p>
+      If you need to differentiate between NULL and blank values, you
+      can <link href="how-to-add-formula.html#">Add a
+      formula</link> to make them appear differently in charts and
+      tables. In this example, we'll use
+      <codeph>&lt;text_column&gt;</codeph> to refer to the text column
+      which contains both NULL and blank values:
+    </p>
+    <programlisting>
+if ( strlen ( &lt;text_column&gt; ) = 0 ) then if ( isnull ( &lt;text_column&gt; ) ) then 'null' else 'empty' else &lt;text_column&gt;
+</programlisting>
+    <p>
+      This formula will show "null" where the value contained
+      in the column is actually NULL. When the value is blank or empty,
+      it will show up as "empty".
+    </p>
+  </section>
+  <section id="to-allow-filtering-on-both-null-and-blank-values">
+    <title>To allow filtering on both NULL and blank values</title>
+    <p>
+      If you want to keep the same display format for NULL and blank
+      values, but be able to filter on both using "{blank}",
+      your <link href="how-to-add-formula.html#">formula</link>
+      will be slightly different. You can use a formula like:
+    </p>
+    <programlisting>
+if ( strlen ( &lt;text_column&gt; ) = 0 ) then null else &lt;text_column&gt;
+</programlisting>
+    <p>
+      Use the filter you created instead of the original text column in
+      your search to get the desired result.
+    </p>
+  </section>
+  <section id="filtering-on-your-formula">
+    <title>Filtering on your formula</title>
+    <p>
+      After creating formula for what you want to do, you can filter on
+      the formula column you created in the search bar by typing the
+      value <i>{blank}</i>, which will act
+      as a filter. Or you can filter by left-clicking on a
+      <i>{blank}</i> value in your search
+      result table, then right-clicking and selecting
+      <i>Show only "{Blank}"</i>.
+    </p>
+    <fig id="fig_1580796170_1"><title>Show only NULL and blank values</title><image href="https://docs.thoughtspot.com/6.0/images/formula_null_empty_merge.png" id="image_1580796170_1" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

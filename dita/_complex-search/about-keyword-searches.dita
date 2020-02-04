@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-keyword-searches_xml"><title>Overview of keyword searches</title><body>
+  <section id="last_updated-tbd-summary-use-keywords-when-asking-a-question-to-narrow-and-further-define-your-search-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Overview of keyword searches</title>
+    <p>
+      In addition to column names, values, and filters, the search bar
+      also accepts keywords. You can access a list of keywords and other
+      reference materials in the [reference]({{ site.baseurl
+      }}/reference/keywords.html#) section or in the help. Open the help
+      by selecting <i>Help</i> from the top
+      navigation bar.
+    </p>
+    <fig id="fig_1580796168_1"><title>Help center keywords list</title><image href="https://docs.thoughtspot.com/6.0/images/help_center_keywords.png" id="image_1580796168_1" scope="external"/></fig>
+    <p>
+      Within the help center, you’ll find videos and documentation that
+      pertain to the current version of ThoughtSpot. Here is where you
+      can also find a list of keywords. You can expand each section to
+      see which keywords are available and examples on how to use them.
+    </p>
+  </section>
+  <section id="example-simplify-search-with-the-top-keyword">
+    <title>Example: Simplify search with the top keyword</title>
+    <p>
+      The <codeph>top</codeph> keyword can be a powerful addition to
+      your search when you remember to use it. By using one keyword, you
+      can greatly simplify your searches. The top keyword is one such
+      keyword. Its syntax looks like top n for each x.
+    </p>
+    <fig id="fig_1580796168_2"><title>Top keyword syntax</title><image href="https://docs.thoughtspot.com/6.0/images/top_fruit.png" id="image_1580796168_2" scope="external"/></fig>
+    <p>
+      Some common search examples it can simplify are finding the:
+    </p>
+    <ul>
+      <li>
+        <p>
+          top two performing sales rep
+        </p>
+      </li>
+      <li>
+        <p>
+          top revenue average revenue by state
+        </p>
+      </li>
+      <li>
+        <p>
+          top two students ranked by source for each class
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="types-of-keywords">
+    <title>Types of keywords</title>
+    <p>
+      Keywords serve a variety of predefined purposes, and are divided
+      into different groups. The groups are as follows:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <i>Basic keywords</i>
+        </p>
+        <p>
+          You can use keywords such as <codeph>top</codeph> and
+          <codeph>bottom</codeph> to, for example, only see results
+          for the best or worst performing sales rep.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Date keywords</i>
+        </p>
+        <p>
+          Date keywords give you the freedom to narrow your search by
+          days, weeks, months, quarters, or years. There are also a
+          number of date related keywords such as
+          <codeph>after</codeph>, <codeph>before</codeph>, and
+          <codeph>year-over-year</codeph>. Use the new date keywords
+          to describe dates in the future. This is useful for exploring
+          things that are scheduled for a future date, such as shipments
+          due to go out in the next week.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Time keywords</i>
+        </p>
+        <p>
+          Time keywords are the most useful when trying to figure out
+          how many visitors you've received within the last
+          <codeph>n minutes or hours</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Text keywords</i>
+        </p>
+        <p>
+          You can use text keywords to find similar words or phrases
+          that contains a certain word. For example,
+          <codeph>product name contains green</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Number keywords</i>
+        </p>
+        <p>
+          These keywords allows you to define your search by sum,
+          average, count, max, min, and other accumulations.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Comparative keywords</i>
+        </p>
+        <p>
+          Filter keywords work in the same way as filters on table
+          columns or chart axes.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Location keywords</i>
+        </p>
+        <p>
+          The keywords <codeph>near</codeph> and
+          <codeph>farther than</codeph> allow you to search with
+          spatial filters on your geo type columns with
+          latitude/longitude data. This lets you focus your search based
+          on distance and locations. You can specify a specific radius
+          using miles, kilometers, or meters.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [Keyword reference]({{ site.baseurl
+          }}/reference/keywords.html#)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Search using growth over time]({{ site.baseurl
+          }}/complex-search/search-using-growth-over-time.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Geographical proximity keywords "near" and
+          "farther than"]({{ site.baseurl
+          }}/admin/features/proximity-search.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="area-charts_xml"><title>Area Charts</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Area Charts</title>
+    <p>
+      The area chart is based on the line chart, but has filled in
+      regions.
+    </p>
+  </section>
+  <section id="understand-area-charts">
+    <title>Understand area charts</title>
+    <p>
+      Area charts display quantitative data graphically. The area
+      between the x-axis and the line are colored in to help you compare
+      different portions of the chart.
+    </p>
+    <fig id="fig_1580796174_1"><title>Area chart example</title><image href="https://docs.thoughtspot.com/6.0/images/area_chart_example.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as an area chart.
+    </p>
+  </section>
+  <section id="stacked-area-charts-stacked-area-charts">
+    <title>Stacked area charts {#stacked-area-charts}</title>
+    <p>
+      The stacked area chart is an area chart with an attribute in the
+      legend, which divides the area into layers.
+    </p>
+    <p>
+      Stacked area charts show the relative contribution to the
+      accumulated total of a measure over time.
+    </p>
+    <p>
+      Stacked area charts plot the y-axis as a percentage by default.
+      You can choose to toggle <i>Show Y-Axis as
+      %</i> on or off in the
+      <i>Configuration Options</i> to create
+      your own mountain-style charts.
+    </p>
+    <fig id="fig_1580796174_2"><title>Stacked area chart example: "Show Y-Axis as %" toggled off</title><image href="https://docs.thoughtspot.com/6.0/images/stacked_area_chart_off_example.png" id="image_1580796174_2" scope="external"/></fig>
+    <fig id="fig_1580796174_3"><title>Stacked area chart example: "Show Y-Axis as %" toggled on</title><image href="https://docs.thoughtspot.com/6.0/images/stacked_area_chart_on_example.png" id="image_1580796174_3" scope="external"/></fig>
+    <p>
+      Your search needs at least two attributes and one measure to be
+      represented as a stacked area chart.
+    </p>
+  </section>
+</body>
+
+</topic>

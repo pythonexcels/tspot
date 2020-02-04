@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="drill-down_xml"><title>Drill down into your data</title><body>
+  <section id="title-drill-down-into-your-data-last_updated-1222020-summary-drill-down-into-the-answers-thoughtspot-delivers-to-gain-deeper-insights-into-the-many-layers-of-your-data-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Drill down into your data</title>
+    <p>
+      When you drill down, you can see more information about the data
+      within your search. You can drill down into a datapoint to get a
+      finer grained view of that datapoint and the data behind it. Move
+      easily from a general view of your information to a more specific
+      representation of the data behind a datapoint at a click. For
+      example, in a <i>revenue by
+      department</i> search, you may notice that your
+      <i>clothing</i> department has the
+      highest revenue. You can drill down on
+      <i>clothing</i> by
+      <i>product name</i> to find out which
+      products contribute to those high sales. There is no limit to how
+      deep you can drill down.
+    </p>
+    <p>
+      You can drill down in both tables and chart visualizations, on
+      both [standalone Answers]({{ site.baseurl }}#answer-drilldown) and
+      on [Answers within Pinboards]({{ site.baseurl
+      }}#pinboard-drilldown). When you drill down on Answers within
+      Pinboards, you can either drill down directly, or drill down
+      [using the Answer Explorer view]({{ site.baseurl
+      }}#explorer-drilldown). [Answer Explorer]({{ site.baseurl
+      }}/end-user/pinboards/answer-explorer.html) provides a flexible,
+      AI-guided exploration of an Answer within a Pinboard.
+    </p>
+    </section>
+  <section id="drill-down-on-an-answer">
+    <title>Drill down on an Answer</title>
+    <ol>
+      <li>
+        <p>
+          Right-click the chart object (such as a column on a bar chart,
+          or a section of a pie chart) or data point of interest in your
+          answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>Drill down</i>. This
+          limits the data you are exploring to that particular data
+          point or chart object. ![Drill down from a data point]({{
+          site.baseurl }}/images/drilldown-table.png "Drill down
+          from a data point in a table")
+        </p>
+        <fig id="fig_1580796169_1"><title>Drill down from a data point in a chart</title><image href="https://docs.thoughtspot.com/6.0/images/drilldown-chart.png" id="image_1580796169_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          A list of dimensions appears. You can only drill down on
+          dimensions, not on measures. Click any of the options to gain
+          deeper insight into your data.
+        </p>
+        <fig id="fig_1580796169_2"><title>Drill down dimensions</title><image href="https://docs.thoughtspot.com/6.0/images/drilldown-productfullname.png" id="image_1580796169_2" scope="external"/></fig>
+        <p>
+          For example, if you choose to drill down on
+          <i>dairy</i> by <i>product full
+          name</i>, the following chart appears, showing dairy
+          sales by product:
+        </p>
+        <fig id="fig_1580796169_3"><title>Dairy sales by diet type</title><image href="https://docs.thoughtspot.com/6.0/images/drilldown-example.png" id="image_1580796169_3" scope="external"/></fig>
+        <p>
+          Use your internet browser's back button to go back one step at
+          a time. {% include note.html content="Your browser's back
+          button only goes back one step on unsaved Answers. If you are
+          working with a saved Answer, clicking your browser's back
+          button prompts you to save your unsaved changes, and does not
+          take you back to the previous step in your Drill down."
+          %}
+        </p>
+        <p>
+          You can continue to drill down in the data until you run out
+          of relevant dimensions.
+        </p>
+      </li>
+    </ol>
+    </section>
+  <section id="drill-down-within-a-pinboard">
+    <title>Drill down within a pinboard</title>
+    <p>
+      When you drill down on an Answer within a pinboard, it works
+      similarly to drilling down on the Answer itself. You cannot go
+      back one step at a time, but you can reset the Answer when you
+      finish drilling down. To return to the original answer, click the
+      blue reset icon ![]({{ site.baseurl
+      }}/images/icon-drill-down-20px.png){: .inline} at the bottom right
+      corner of the Answer.
+    </p>
+    <fig id="fig_1580796169_4"><title>Reset your Answer</title><image href="https://docs.thoughtspot.com/6.0/images/drilldown-pinboard.png" id="image_1580796169_4" scope="external"/></fig>
+    </section>
+  <section id="drill-down-with-answer-explorer">
+    <title>Drill down with Answer Explorer</title>
+    <p>
+      You can also drill down using the [Answer Explorer]({{
+      site.baseurl }}/end-user/pinboards/answer-explorer.html) feature.
+      Answer Explorer provides AI-guided exploration of an answer within
+      a pinboard. When you drill down normally, you cannot go back one
+      step at a time to see an earlier version of your visualization.
+      You have to delete filters from the search bar, or start your
+      search again. If you drill down with Answer Explorer, you can use
+      the <i>go back one step</i> feature.
+    </p>
+    <p>
+      As you drill down on an answer using Answer Explorer, use the back
+      arrow ![]({{ site.baseurl }}/images/icon-arrow-left-20px.png){:
+      .inline} to go back one step at a time. Click the reset icon
+      ![]({{ site.baseurl }}/images/icon-reset-20px.png){: .inline} to
+      go back to the original answer.
+    </p>
+    <p>
+      If you want to go back one step at a time while drilling down,
+      [add your answer to a pinboard]({{ site.baseurl
+      }}/end-user/pinboards/about-pinboards.html#add-an-answer-to-a-pinboard)
+      so you can use Answer Explorer.
+    </p>
+  </section>
+  <section id="save-and-share-your-new-answer">
+    <title>Save and share your new answer</title>
+    <p>
+      When you find a valuable insight using Drill down, you may want to
+      save that Answer instead of trying to recreate it in the
+      <i>Search</i> bar later.
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Click the ellipsis icon ![]({{ site.baseurl
+          }}/images/icon-more-20px.png){: .inline}.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>copy and edit</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Save</i> your new Answer and
+          continue working with it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Alternatively, select
+          <i>Download</i> to download an
+          image of your current visualization.
+        </p>
+      </li>
+    </ol>
+    <p>
+      You can also [share the Answer]({{ site.baseurl
+      }}/end-user/pinboards/share-answers.html) by clicking the sharing
+      icon ![]({{ site.baseurl }}/images/icon-share copy-20px.png){:
+      .inline}. Otherwise, the Answer returns to its original state when
+      you exit the page.
+    </p>
+  </section>
+  <section id="share-your-data">
+    <title>Share your data</title>
+    <p>
+      If you own a pinboard or answer, you can drill down to the data
+      beneath. Users you share a pinboard or answer with can also drill
+      down provided they <i>also</i> have access to the
+      data on which the board was based. If you do not have access to a
+      pinboard or answer's underlying data source, you cannot drill
+      down. See [overview of sharing]({{ site.baseurl
+      }}/end-user/data-view/sharing-for-end-users.html) to share your
+      answers, pinboards, or data.
+    </p>
+  </section>
+</body>
+
+</topic>

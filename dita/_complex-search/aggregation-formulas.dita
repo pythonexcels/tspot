@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aggregation-formulas_xml"><title>Overview of aggregate formulas</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Overview of aggregate formulas</title>
+    <p>
+      When working with formulas, it is useful to understand the
+      difference between regular (or row-wise) formulas and aggregation
+      formulas.
+    </p>
+  </section>
+  <section id="standard-and-aggregation-formulas">
+    <title>Standard and aggregation formulas</title>
+    <p>
+      Formulas can be broken down into two types standard and
+      aggregation formulas. Standard formulas act on individual rows and
+      returns one result per row. Standard formulas use functions like:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <codeph>add</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>subtract</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>multiply</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>divide</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>contains</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>if...then...else</codeph>
+        </p>
+      </li>
+    </ul>
+    <p>
+      Aggregation formulas combine rows together and returns a single
+      result for a group of rows. Aggregation formulas use functions,
+      some examples of functions you find in aggregation formulas are:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <codeph>average</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>cumulative_sum</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>moving_average</codeph>
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>stddev</codeph> (standard deviation)
+        </p>
+      </li>
+    </ul>
+    <p>
+      You can tell which formulas are aggregation formulas by looking at
+      the function list in the <i>Formula
+      Assistant</i>. Aggregation functions have their own
+      section.
+    </p>
+    <fig id="fig_1580796167_1"><title>Aggregation formulas in the Formula Assistant</title><image href="https://docs.thoughtspot.com/6.0/images/formula_asst_aggregate.png" id="image_1580796167_1" scope="external"/></fig>
+  </section>
+  <section id="advanced-aggregation-functions">
+    <title>Advanced aggregation functions</title>
+    <p>
+      Some more advanced aggregation functions are widely used in
+      business intelligence, since they provide better insight into
+      data. Some of the more advanced aggregation functions are:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <link href="about-pinned-measures.html#">Group
+          aggregation functions</link> apply a specific aggregate to a
+          value, and group the results by an attribute in the data.
+        </p>
+      </li>
+      <li>
+        <p>
+          <link href="about-cumulative-formulas.html#">Cumulative
+          functions</link> measure from the start of your data to the
+          current point. They're often applied on time-based data.
+        </p>
+      </li>
+      <li>
+        <p>
+          <link href="about-moving-formulas.html#">Moving
+          formulas</link> measure within a window (usually time-based)
+          that you define.
+        </p>
+      </li>
+    </ul>
+    <p>
+      Data from any rows that are not included in the search result will
+      not be incorporated, and you cannot create a filter on aggregated
+      data.
+    </p>
+  </section>
+  <section id="flexible-aggregation">
+    <title>Flexible aggregation</title>
+    <p>
+      The <codeph>group_aggregate</codeph> function makes it possible
+      to aggregate measures at granularities that are different from the
+      dimensions or column groupings used in the search.
+    </p>
+    <p>
+      See <link href="aggregation-flexible.html#">Flexible
+      aggregation</link> to learn more about working with this formula.
+    </p>
+  </section>
+  <section id="using-division-with-aggregation-in-a-search">
+    <title>Using division with aggregation in a search</title>
+    <p>
+      Whenever your search result combines rows, your formula will get
+      aggregated automatically. For example, if your search contains
+      words like "region", "monthly", or
+      "department", the results will be grouped (aggregated)
+      by that category. The administrator can change the default
+      aggregation that gets applied through a configuration, and you can
+      also change it using the dropdown list in the column header of the
+      search result.
+    </p>
+    <p>
+      For example, this search would typically return a sum of total
+      sales by department:
+    </p>
+    <programlisting>
+sum sales department
+</programlisting>
+    <p>
+      This search would return an average of sales by month:
+    </p>
+    <programlisting>
+average sales monthly
+</programlisting>
+    <p>
+      When you're using division in your formula, and the search is
+      aggregated like this, you may have to change the order of
+      operations to get the result you expect. This is best understood
+      by using a real world example.
+    </p>
+    <p>
+      Suppose you want to calculate the gross margin by department for a
+      grocery store. The formula for gross margin is:
+    </p>
+    <programlisting>
+profit / sales
+</programlisting>
+    <p>
+      But if you use that as your formula, you won't get the expected
+      calculation. Why? It's because the formula will be evaluated in
+      this order: For each row, divide profit by sales and then total up
+      all the results. As you can see, the results do not look like
+      gross margin values, which should be between 0 and 1.
+    </p>
+    <fig id="fig_1580796167_2"><title>Aggregated search with a division formula</title><image href="https://docs.thoughtspot.com/6.0/images/formula_gross_margin_no_sum.png" id="image_1580796167_2" scope="external"/></fig>
+    <p>
+      Instead, you'd need to use a formula that uses the order of
+      operations you want:
+    </p>
+    <programlisting>
+sum (profit) / sum (sales)
+</programlisting>
+    <p>
+      Now the result is as expected, because the formula totals the
+      profits for all rows, and then divides that by the total of sales
+      for all rows, returning an average gross margin:
+    </p>
+    <fig id="fig_1580796167_3"><title>Aggregated search with a corrected division formula</title><image href="https://docs.thoughtspot.com/6.0/images/formula_gross_margin_sum.png" id="image_1580796167_3" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

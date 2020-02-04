@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-showing-underlying-data-from-within-a-pinboard_xml"><title>Search actions within a pinboard</title><body>
+  <section id="title-search-actions-within-a-pinboard-last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Search actions within a pinboard</title>
+    <p>
+      You can perform many of the same search actions on individual
+      visualizations within a pinboard as you can within a search. You
+      can interact directly with a visualization of a pinboard to
+      perform ad hoc searches or edit it. These search actions include
+      the following:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Editing a search - You can edit the original search and
+          reconfigure the answer. Click the three-dot
+          <i>Actions</i> button to the
+          upper-right of your visualization and select
+          <i>Edit</i>.
+        </p>
+        <fig id="fig_1580796176_1"><title>Edit a pinboard visualization</title><image href="https://docs.thoughtspot.com/6.0/images/edit_a_pinboard_visualization.png" id="image_1580796176_1" scope="external"/></fig>
+        <p>
+          You will now be in edit mode, where you can [view and change
+          sources]({{ site.baseurl
+          }}/end-user/search/about-choosing-sources.html#), [search
+          different columns]({{ site.baseurl
+          }}/end-user/search/about-the-search-bar.html#), [change the
+          view]({{ site.baseurl
+          }}/complex-search/change-the-view.html#), [save the answer as
+          a worksheet]({{ site.baseurl
+          }}/complex-search/about-query-on-query.html), [add a
+          formula]({{ site.baseurl
+          }}/complex-search/add-formula-to-search.html#), and [change
+          the chart]({{ site.baseurl
+          }}/end-user/search/change-the-chart.html#).
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

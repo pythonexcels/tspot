@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="in-keyword-searches_xml"><title>Using the in keyword for nested searches</title><body>
+  <section id="last_updated-tbd-summary-you-can-use-the-in-keyword-to-do-a-search-on-the-result-of-another-search-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Using the in keyword for nested searches</title>
+    <p>
+      Beginning with version 5.2 of ThoughtSpot, you no longer need a
+      View when you want to do a search on top of another search. You
+      can use the "in" keyword instead.
+    </p>
+    <fig id="fig_1580796168_1"><title>In search example</title><image href="https://docs.thoughtspot.com/6.0/images/in_search_bar_example.png" id="image_1580796168_1" scope="external"/></fig>
+    <p>
+      Suppose you wanted to narrow down a result set based on criteria
+      defined using a search. For example:
+    </p>
+    <p>
+      Find the top 5 stores by sales in the bakery department
+    </p>
+    <p>
+      Then you want to see all sales across all departments for those
+      five stores.
+    </p>
+    <p>
+      In past versions, you'd have two options:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Do your first search to find top 5 stores by bakery sales and
+          save it as a View. Then join the view to your worksheet and
+          search both together to get your answer.
+        </p>
+        <p>
+          This approach gives a dynamic result that's computed on the
+          fly each time, but it require the Can Manage Data privilege
+          and requires multiple steps.
+        </p>
+      </li>
+      <li>
+        <p>
+          Save the names of the five stores with the most bakery sales
+          and use them as a filter in a new search.
+        </p>
+        <p>
+          This approach is easy to accomplish for ad hoc searches, but
+          doesn't compute dynamically.
+        </p>
+      </li>
+    </ol>
+    <p>
+      Now you can do this analysis in a single search using the
+      "in" keyword. This provides the benefit of computing the
+      answer dynamically without the extra steps required when using a
+      view.
+    </p>
+  </section>
+  <section id="the-in-keyword">
+    <title>The "in" keyword</title>
+    <p>
+      {% include content/keywords-in.md %}
+    </p>
+  </section>
+  <section id="create-an-in-search">
+    <title>Create an in search</title>
+    <ol>
+      <li>
+        <p>
+          Start a new search.
+        </p>
+      </li>
+      <li>
+        <p>
+          Do the search you plan to use for the in clause. That is, the
+          first level search.
+        </p>
+        <p>
+          Check that the result is what you're looking for.
+        </p>
+        <fig id="fig_1580796168_2"><title>In search example</title><image href="https://docs.thoughtspot.com/6.0/images/in_search_first_step.png" id="image_1580796168_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Copy that search, and paste it into your new search as the in
+          clause.
+        </p>
+        <fig id="fig_1580796168_3"><title>In search example</title><image href="https://docs.thoughtspot.com/6.0/images/in_search_example.png" id="image_1580796168_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

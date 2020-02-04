@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="download-pinboard-pdf_xml"><title>Download a pinboard as PDF</title><body>
+  <section id="title-download-a-pinboard-as-pdf-last_updated-10072019-summary-in-thoughtspot-you-can-download-the-entire-pinboard-in-pdf-format-so-you-can-share-it-with-people-inside-and-outside-your-organization-you-have-options-for-adding-branding-composing-the-report-of-the-entire-pinboard-or-only-some-of-its-visualizations-truncating-tables-and-many-others-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Download a pinboard as PDF</title>
+    <p>
+      You can download a Pinboard in PDF format, without downloading
+      each visualization separately. Follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i> on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select a Pinboard from the list of Pinboards by clicking on
+          its title.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the open Pinboard, click the <i>More
+          Options</i> menu ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} (ellipses
+          icon), and select <i>Download as
+          PDF</i>.
+        </p>
+        <fig id="fig_1580796176_2"><title>Download a Pinboard as PDF</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-download-pdf.png" id="image_1580796176_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the <i>Download</i> window
+          modal, you have two main <i>Format</i> output
+          options:
+        </p>
+      </li>
+    </ol>
+    <ul>
+      <li>
+        <p>
+          Select
+          <i><xref keyref="pdf-pinboard">Pinboard</xref></i>
+          to generate a PDF that combines several visual answers on the
+          same page, just like they appear on the Pinboard.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select
+          <i><xref keyref="pdf-visualizations">Visualizations</xref></i>
+          to print each visualization on its own page of the PDF file.
+        </p>
+      </li>
+    </ul>
+    <fig id="fig_1580796176_3"><title>Choose PDF format: Pinboard or Visualizations</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-formats.png" id="image_1580796176_3" scope="external"/></fig>
+    </section>
+  <section id="download-pdg-as-pinboard">
+    <title>Download PDG as Pinboard</title>
+    <p>
+      The Pinboard mode produces a PDF file that looks very similar to
+      the Pinboard inside ThoughtSpot. The highlights and insights
+      appear at the top, and the rest of the Pinboard is on a
+      rectangular grid, with natural page breaks.
+    </p>
+    <p>
+      Follow these steps to specify additional options:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Under <i>Layout</i>, select either
+          the <i>Landscape</i> or
+          <i>Portrait</i> page orientation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the <i>More Settings</i>
+          option.
+        </p>
+        <p>
+          Under <i>Branding</i>, specify if
+          you want to add a <i>Footer logo</i>,
+          <i>Include page number</i>, or add
+          <i>Footer text</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Download</i>.
+        </p>
+      </li>
+    </ol>
+    <fig id="fig_1580796176_4"><title>Export a Pinboard as PDF, either combined, or one visualization to a page</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-export.png" id="image_1580796176_4" scope="external"/></fig>
+    </section>
+  <section id="download-pdf-as-visualizations">
+    <title>Download PDF as Visualizations</title>
+    <p>
+      When you select <i>Visualizations</i>,
+      you now have a choice to print all, or some, of the visualizations
+      in the Pinboard. The highlights and insights appear at the top,
+      and the rest of the visualizations get their own page.
+    </p>
+    <p>
+      Follow these steps to specify additional options:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Under <i>Layout</i>, select either
+          the <i>Landscape</i> or
+          <i>Portrait</i> page orientation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the <i>More Settings</i>
+          option.
+        </p>
+        <p>
+          Under <i>Content</i>, specify if
+          you want the table visuals to end after filling the whole page
+          by selecting the <i>Truncate Tables</i> option.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add <i>Branding</i> details
+          through the <i>Footer logo</i>,
+          <i>Include page number</i>, or <i>Footer
+          text</i> options.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the list of
+          <i>Visualizations</i>, select the
+          visualizations you want in the PDF. Deselect the visualization
+          you don't want.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Download</i>.
+        </p>
+      </li>
+    </ol>
+    <fig id="fig_1580796176_5"><title>Export a Pinboard to PDF as Visualizations</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-viz-export.png" id="image_1580796176_5" scope="external"/></fig>
+    </section>
+  <section id="examine-the-pdf">
+    <title>Examine the PDF</title>
+    <p>
+      After the download completes, examine your PDF.
+    </p>
+    <p>
+      Notice that the PDF produced in
+      <i>Pinboard</i> mode combines the
+      visuals on the page in the same manner as the original Pinboard.
+      Contrast this with the PDF produced in
+      <i>Visualizations</i> mode: this PDF
+      combines the small adjacent indicator and KPI visuals at the top,
+      and all other visuals and tables appear on their own page.
+    </p>
+    <fig id="fig_1580796176_6"><title>Comparing Pinboard PDFs</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-pdfs.png" id="image_1580796176_6" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

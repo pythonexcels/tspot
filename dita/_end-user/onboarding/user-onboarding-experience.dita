@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="user-onboarding-experience_xml"><title>User Onboarding Experience</title><body>
+  <section id="title-user-onboarding-experience-last_updated-10072019-toc-true-summary-thoughtspots-onboarding-is-quick-and-intuitive-you-can-learn-to-use-the-application-very-quickly-and-efficiently-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>User Onboarding Experience</title>
+    <p>
+      When you begin using ThoughtSpot, the onboarding process starts
+      automatically and guides you through a few basic scenarios.
+    </p>
+    <p>
+      Usually, you receive an email welcoming you to the onboarding
+      process at ThoughtSpot.
+    </p>
+    <p>
+      To repeat user onboarding, see [Revisit onboarding]({{
+      site.baseurl }}/end-user/introduction/about-user.html#onboarding).
+    </p>
+    </section>
+  <section id="how-onboarding-works-for-the-user">
+    <title>How onboarding works for the user</title>
+    <p>
+      Your onboarding experience begins when you login for the first
+      time.
+    </p>
+    <ol>
+      <li>
+<literallayout><i>Step 1: Get Started</i>
+The initial welcome screen provides an overview of the onboarding process, and offers a quick video.
+Watch the video, and click <i>Continue</i>.
+Alternatively, you can click <i>Exit to homepage</i> at the top right corner of the screen, and end the onboarding process. This option appears at this and every subsequent step. ![]({{ site.baseurl }}/images/onboard-user-experience-1.png "Onboarding Welcome screen")</literallayout>
+      </li>
+      <li>
+<literallayout><i>Step 2: Recommended data source</i>
+This screen introduces the primary data source for onboarding. The administrator selects this source before you begin. Click <i>Continue</i>.
+![]({{ site.baseurl }}/images/onboard-user-experience-2.png "Recommended data source")</literallayout>
+      </li>
+      <li>
+<literallayout><i>Step 3: Select a pinboard</i>
+Consider which of the initial pinboards to explore first, and click on it. ![]({{ site.baseurl }}/images/onboard-user-experience-3.png "Select a pinboard")</literallayout>
+      </li>
+      <li>
+<literallayout><i>Step 4: View your insights</i>
+Examine the pinboard you selected, and learn what insights it provides.</literallayout>
+        <p>
+          Click <i>Follow</i> to receive
+          periodic emails about this pinboard.
+        </p>
+        <fig id="fig_1580796170_1"><title>Examine the first pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/onboard-user-experience-4.png" id="image_1580796170_1" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="repeating-the-onboarding-process">
+    <title>Repeating the onboarding process</title>
+    <p>
+      <i><i>[Optional]</i></i>
+      Any user can repeat their onboarding experience at any time.
+      Simply select <i>Profile</i> from the
+      user icon on the top right corner of the page, and under
+      <i>Preferences &gt; New user
+      onboarding</i>, click <i>Revisit
+      Onboarding</i>. See [Revisit onboarding]({{ site.baseurl
+      }}/end-user/introduction/about-user.html#onboarding).
+    </p>
+    <p>
+      If you are a new user and you did not experience onboarding,
+      please contact your administrator and request that they configure
+      it for you and other new users.
+    </p>
+    <p>
+      You can always get additional help. As you start to use
+      ThoughtSpot, we recommend that you review [Getting Started]({{
+      site.baseurl }}/end-user/introduction/getting-started.html).
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-pinboards_xml"><title>Basic pinboard usage</title><body>
+  <section id="title-basic-pinboard-usage-last_updated-6302019-summary-create-a-new-pinboard-to-group-and-manage-related-search-results-pinboards-are-the-thoughtspot-term-for-a-dashboard-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Basic pinboard usage</title>
+    <p>
+      Pinboards act like live dashboards. They are collections of your
+      related charts, tables, and headline.
+    </p>
+  </section>
+  <section id="what-are-pinboards">
+    <title>What are pinboards</title>
+    <p>
+      You can pin charts and tables to any pinboard which you created,
+      and those that have been shared with you with the
+      <i>Edit</i> privilege. When you create
+      a pinboard, you can share it with other people with either the
+      <i>View</i> or
+      <i>Edit</i> privilege. Pinboards are
+      interactive, allowing you to perform actions like filtering,
+      excluding values, and drill down on the visualizations.
+    </p>
+  </section>
+  <section id="create-a-pinboard">
+    <title>Create a pinboard</title>
+    <p>
+      To create a pinboard:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796177_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796177_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>+ New Pinboard</i> on the
+          pinboards list page.
+        </p>
+        <fig id="fig_1580796177_2"><title>New Pinboard button</title><image href="https://docs.thoughtspot.com/6.0/images/add_new_pinboard.png" id="image_1580796177_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the <i>New Pinboard</i> dialog
+          box, give your pinboard a name and description. Then click
+          <i>Create</i>.
+        </p>
+        <fig id="fig_1580796177_3"><title>New Pinboard menu</title><image href="https://docs.thoughtspot.com/6.0/images/new_pinboard.png" id="image_1580796177_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="add-an-answer-to-a-pinboard">
+    <title>Add an answer to a pinboard</title>
+    <p>
+      Instead of saving an answer you can add it to a pinboard. To add
+      an answer to a pinboard:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer of interest, click the
+          <i>Pin</i> icon at the top right
+          of the answer.
+        </p>
+        <fig id="fig_1580796177_4"><title>Pin an answer to a pinboard icon</title><image href="https://docs.thoughtspot.com/6.0/images/add_to_pinboard.png" id="image_1580796177_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the <i>Add to pinboard</i>
+          dialog box, click the <i>+</i>
+          icons next to the pinboards you would like to add your answer
+          to.
+        </p>
+        <fig id="fig_1580796177_5"><title>Add filters menu</title><image href="https://docs.thoughtspot.com/6.0/images/copy_to_pinboard.png" id="image_1580796177_5" scope="external"/></fig>
+        <p>
+          You can also select <i>Create new
+          pinboard</i> at the top of the list to create a new
+          pinboard, then add your answer to it.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="download-a-pinboard">
+    <title>Download a pinboard</title>
+    <p>
+      You can download a pinboard as a PDF file, without having to
+      download each visualization separately. Downloading a pinboard
+      works just as it would when downloading an answer: simply click
+      the ellipses icon ![more options menu icon]({{ site.baseurl
+      }}/images/icon-ellipses.png){: .inline} and select
+      <i>Download as PDF</i>.
+    </p>
+    <programlisting>
+ ![]({{ site.baseurl }}/images/pinboard-download-pdf.png "Download your pinboard")
+</programlisting>
+    <p>
+      For more details, see [Download a Pinboard as PDF]({{ site.baseurl
+      }}/end-user/pinboards/download-pinboard-pdf.html).
+    </p>
+  </section>
+  <section id="details-about-a-pinboard">
+    <title>Details about a pinboard</title>
+    <p>
+      You can see who authored a pinboard, when it was created, and when
+      it was last modified by choosing <i>Actions
+      &gt; Pinboard Info</i>.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/pinboard-info.png)
+    </p>
+  </section>
+  <section id="other-pinboard-actions">
+    <title>Other pinboard actions</title>
+    <p>
+      Other pinboard actions include actions you normally perform on
+      your search as well as actions that you can only perform on a
+      pinboard. Most of these actions are found under the
+      <i>Actions</i> button.
+    </p>
+    <fig id="fig_1580796177_6"><title>Pinboard actions button</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard_actions.png" id="image_1580796177_6" scope="external"/></fig>
+    <p>
+      Other actions are available on a pinboard display itself. Some
+      actions always appear, while others appear only when you hover
+      over specific locations of the pinboard. This diagram displays
+      active action areas on a pinboard.
+    </p>
+    <fig id="fig_1580796177_7"><title>Pinboard controls</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-controls.png" id="image_1580796177_7" scope="external"/></fig>
+    <p>
+      If you make a change to a pinboard, the system recognizes this and
+      displays an alert message with a <i>Save
+      changes</i> button at the top of the page. Click this
+      button to make your changes permanent.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <p>
+      [Download a pinboard as PDF]({{ site.baseurl
+      }}/pinboards/download-pinboard-url.html) [Present a pinboard]({{
+      site.baseurl }}/pinboards/start-a-slideshow.html)
+    </p>
+  </section>
+</body>
+
+</topic>

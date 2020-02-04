@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-column-charts_xml"><title>Column charts</title><body>
+  <section id="title-column-charts-last_updated-tbd-summary-a-column-chart-is-the-most-versatile-chart-type-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Column charts</title>
+    <p>
+      The column chart is one of ThoughtSpot's simplest, yet most
+      versatile chart type. More often than not, the column chart will
+      be chosen as your default chart type.
+    </p>
+    <p>
+      Column charts are vertical bar charts that display your data using
+      rectangular bars. The length of the bar is proportional to the
+      data value.
+    </p>
+    <fig id="fig_1580796172_1"><title>Column chart example</title><image href="https://docs.thoughtspot.com/6.0/images/column_chart_example.png" id="image_1580796172_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as a column chart.
+    </p>
+  </section>
+  <section id="stacked-column-charts-stacked-columns">
+    <title>Stacked column charts {#stacked-columns}</title>
+    <p>
+      The stacked column chart is similar to the column chart, but with
+      one major difference. It includes a legend, which divides each
+      column into additional sections, by color.
+    </p>
+    <p>
+      Stacked column charts are typically used when you want to compare
+      aggregated data and the data that it includes together. You can
+      toggle the options in styles to show Detailed Labels (summaries
+      for each section of each bar) and Total Labels (show the sum of
+      the stacks at the top of each stack).
+    </p>
+    <p>
+      It is important to note that stacked column charts plot the y-axis
+      as a percentage by default. You can choose to toggle
+      <i>Show Y-Axis as %</i> on or off in
+      the Configuration Options. This feature is also available for
+      stacked area charts.
+    </p>
+    <fig id="fig_1580796172_2"><title>Stacked column chart example: "Show Y-Axis as a %" toggled off</title><image href="https://docs.thoughtspot.com/6.0/images/stacked_column_chart_off_example.png" id="image_1580796172_2" scope="external"/></fig>
+    <fig id="fig_1580796172_3"><title>Stacked column chart example: "Show Y-Axis as a %" toggled on</title><image href="https://docs.thoughtspot.com/6.0/images/stacked_column_chart_on_example.png" id="image_1580796172_3" scope="external"/></fig>
+    <p>
+      Your search needs at least two attributes and one measure to be
+      represented as a stacked column chart.
+    </p>
+  </section>
+</body>
+
+</topic>

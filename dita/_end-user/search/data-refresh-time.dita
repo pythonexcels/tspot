@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-refresh-time_xml"><title>Last data refresh time</title><body>
+  <section id="summary-you-can-see-the-last-time-at-which-data-was-refreshed-without-having-to-visit-the-data-page--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Last data refresh time<i>Data</i> page. " sidebar:
+    mydoc_sidebar permalink: /:collection/:path.html</title>
+    <p>
+      Hover over the data when choosing a data source to see the last
+      time it was updated. You will also see when it was created and by
+      whom.
+    </p>
+    <fig id="fig_1580796172_1"><title>Last updated in source selection</title><image href="https://docs.thoughtspot.com/6.0/images/data_refresh_time_source.png" id="image_1580796172_1" scope="external"/></fig>
+    <p>
+      You can also hover over a column in the
+      <i>Data</i> column to see when it was
+      last refreshed. This popup will also show sample values from that
+      column.
+    </p>
+    <fig id="fig_1580796172_2"><title>Last updated in Data column</title><image href="https://docs.thoughtspot.com/6.0/images/data_refresh_time_choose.png" id="image_1580796172_2" scope="external"/></fig>
+    <p>
+      And lastly, you can hover over a column or column name in an
+      answer to see last updated information.
+    </p>
+    <fig id="fig_1580796172_3"><title>Last updated in answer column</title><image href="https://docs.thoughtspot.com/6.0/images/data_refresh_time.png" id="image_1580796172_3" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

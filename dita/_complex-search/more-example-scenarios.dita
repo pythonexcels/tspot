@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="more-example-scenarios_xml"><title>View example scenarios</title><body>
+  <section id="last_updated-1122018-summary-its-not-always-easy-to-know-when-you-need-to-use-a-view-but-these-are-some-common-scenarios-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>View example scenarios</title>
+    <p>
+      Here are three common examples of when you would want to use a
+      view.
+    </p>
+  </section>
+  <section id="example-1">
+    <title>Example 1</title>
+    <p>
+      Search a filtered subset
+    </p>
+    <p>
+      Let's say you have a table with all the sales transactions for
+      each customer. You want to find high value customers (those who
+      have spent a certain amount of money in the last year). Then you
+      want to do some further analysis on these high value customers,
+      like the count by region. Here you essentially need to sum up the
+      sales per customer, filter by that sum to get the top customers,
+      and then do a count, making it two levels of aggregation. A single
+      search can do only one level of aggregation.
+    </p>
+    <p>
+      However, a search can calculate the initial sum and filter within
+      it to get the highest value customers. Then you can save that
+      result as a view. Joining the view to some other tables, like the
+      customer dimension, allows you to do the count and other similar
+      analyses using the view along with the other tables.
+    </p>
+  </section>
+  <section id="example-2">
+    <title>Example 2</title>
+    <p>
+      Cohort analysis
+    </p>
+    <p>
+      This example is similar to the previous example, except that it
+      involves a more complex filter, called a cohort. You might create
+      a search to find customers who bought product A, but did not buy
+      product B.
+    </p>
+    <p>
+      First, you would have to perform searches for total sales by
+      customer for both A and B, and create views for both. Then join
+      these two views back in an outer join looking for conditions where
+      the A and B join values are null.
+    </p>
+    <p>
+      This example could also be solved in a single search by using
+      [conditional formulas]({{ site.baseurl
+      }}/advanced-search/formulas/conditional-sum.html#) to determine
+      the desired group (or cohort) of customers as defined by their
+      buying behavior, and then doing the analysis on this group. But
+      the performance will be better if you do this using a view, and
+      then [materialize the view]({{ site.baseurl
+      }}/admin/loading/materialized-views.html#).
+    </p>
+  </section>
+  <section id="example-3">
+    <title>Example 3</title>
+    <p>
+      Combining aggregated sources
+    </p>
+    <p>
+      If you do a lot of your analysis in the aggregate, like at the
+      quarterly level, you may be challenged when trying to combine this
+      aggregated data from different sources. For example, you may want
+      to combine three different quarterly views from SalesForce -
+      Pipeline, Bookings, and Sales Activity to create a comprehensive
+      analysis of each region's performance. Joining the quarterly views
+      together in a worksheet enables you to do this type of analysis
+      easily.
+    </p>
+  </section>
+  <section id="example-4">
+    <title>Example 4</title>
+    <p>
+      Lightweight data transformation
+    </p>
+    <p>
+      You may have a table with separate columns for people's first name
+      and last name. You could use a concat formula to create a single
+      column with first name, a space, and last name. But using this
+      formula could make performance slow, since that column would
+      always be calculated on the fly when searching. In this case,
+      creating a view using the concatenate formula and materializing it
+      will improve performance when searching this data.
+    </p>
+  </section>
+</body>
+
+</topic>

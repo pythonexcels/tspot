@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-moving-formulas_xml"><title>Moving functions</title><body>
+  <section id="last_updated-tbd-summary-moving-formulas-are-aggregate-formulas-that-allow-you-to-calculate-the-average-max-min-or-sum-of-your-data-over-a-predetermined-interval-or-window-with-an-adjustable-range-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Moving functions</title>
+    <p>
+      Moving formulas can be used to smooth out any irregularities in
+      your data to easily recognize trends. The larger the interval you
+      set, the more the peaks and valleys are smoothed out. While the
+      smaller the interval, the closer the moving averages are to the
+      actual data points.
+    </p>
+    <p>
+      Each of the moving formula accepts a measure, two integers to
+      define the window, and one or more optional attributes.
+    </p>
+    <programlisting>
+formula (measure,integer,integer,[attribute,attribute,...])
+</programlisting>
+    <p>
+      Only the measure and integer values are required. If you supply
+      both required and optional values, the formula returns the
+      aggregate of the measure over the given window. You should
+      experiment with only a measure and integers leaving out the
+      attribute and then adding it back in. This will help you decide
+      which output best meets your use case.
+    </p>
+    <p>
+      The moving formulas are the following:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <codeph>moving_average</codeph>, for example
+          <codeph>moving_average (revenue, 2, 1, customer region)</codeph>
+        </p>
+        <p>
+          Takes a measure, two integers to define the window to
+          aggregate over, and one or more attributes. Returns the
+          average of the measure over the given window. The attributes
+          are the ordering columns used to compute the moving average.
+          The window is
+          (<codeph>current - Num1...Current + Num2</codeph>) with both
+          end points being included in the window. For example,
+          <codeph>1,1</codeph> will have a window size of 3. To see
+          periods in the past, use a negative number for the second
+          endpoint, as in the example
+          <codeph>moving_average(sales, 1, -1, date)</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>moving_max</codeph>, for example
+          <codeph>moving_max (complaints, 1, 2, store name)</codeph>
+        </p>
+        <p>
+          Takes a measure, two integers to define the window to
+          aggregate over, and one or more attributes. Returns the
+          maximum of the measure over the given window. The attributes
+          are the ordering columns used to compute the moving maximum.
+          The window is (current - Num1...Current + Num2) with both end
+          points being included in the window. For example,
+          <codeph>1,1</codeph> will have a window size of 3. To see
+          periods in the past, use a negative number for the second
+          endpoint, as in the example
+          <codeph>moving_max(sales, 1, -1, date)</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>moving_min</codeph>, for example
+          <codeph>moving_min (defects, 3, 1, product)</codeph>
+        </p>
+        <p>
+          Takes a measure, two integers to define the window to
+          aggregate over, and one or more attributes. Returns the
+          minimum of the measure over the given window. The attributes
+          are the ordering columns used to compute the moving minimum.
+          The window is (current - Num1...Current + Num2) with both end
+          points being included in the window. For example,
+          <codeph>1,1</codeph> will have a window size of 3. To see
+          periods in the past, use a negative number for the second
+          endpoint, as in the example
+          <codeph>moving_min(sales, 1, -1, date)</codeph>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <codeph>moving_sum</codeph>, for example
+          <codeph>moving_sum (revenue, 1, 1, order date)</codeph>
+        </p>
+        <p>
+          Takes a measure, two integers to define the window to
+          aggregate over, and one or more attributes. Returns the sum of
+          the measure over the given window. The attributes are the
+          ordering columns used to compute the moving sum. The window is
+          (current - Num1...Current + Num2) with both end points being
+          included in the window. For example, <codeph>1,1</codeph>
+          will have a window size of 3. To see periods in the past, use
+          a negative number for the second endpoint, as in the example
+          <codeph>moving_sum(sales, 1, -1, date)</codeph>.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="calculate-a-moving-average">
+    <title>Calculate a moving average</title>
+    <p>
+      This example demonstrates using the
+      <codeph>moving_average</codeph> formula. To use the moving
+      function in a search:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Start a new search.
+        </p>
+        <fig id="fig_1580796168_1"><title>Aggregation Answer example</title><image href="https://docs.thoughtspot.com/6.0/images/aggregation_answer.png" id="image_1580796168_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the upper-right side of the table, click the ellipses icon
+          ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and select
+          <i>Add formula</i>.
+        </p>
+        <fig id="fig_1580796168_2"><title>Create a new formula in an answer</title><image href="https://docs.thoughtspot.com/6.0/images/create_formula_in_answer.png" id="image_1580796168_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Enter the moving_average formula, providing a measure, a
+          window, and one or more attributes.
+        </p>
+        <p>
+          The example will return the average of revenue, within the
+          commit date window size of 3. The window includes the
+          previous, current, and next rows. The attributes are the
+          ordering columns used to compute the moving average. The
+          window is (current - Num1...Current + Num2) with both end
+          points being included in the window. For example,
+          "1,1" will have a window size of 3. To see periods
+          in the past, use a negative number for the second endpoint, as
+          in the example "moving_average(sales, 1, -1, date)".
+        </p>
+        <fig id="fig_1580796168_3"><title>Moving Average Formula</title><image href="https://docs.thoughtspot.com/6.0/images/moving_average_formula.png" id="image_1580796168_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Name the formula by entering a title in the top field, and
+          then click <i>Save</i>.
+        </p>
+        <p>
+          The formula will appear in the search bar and in the table as
+          its own column.
+        </p>
+        <fig id="fig_1580796168_4"><title>Moving Average Table</title><image href="https://docs.thoughtspot.com/6.0/images/moving_average_table.png" id="image_1580796168_4" scope="external"/></fig>
+        <p>
+          A box displaying the moving average within the entire table
+          will appear at the bottom.
+        </p>
+      </li>
+      <li>
+        <p>
+          To use a different aggregation type, click the current
+          aggregation type in the bottom of the box and select another
+          type.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

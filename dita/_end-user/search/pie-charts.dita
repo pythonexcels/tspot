@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pie-charts_xml"><title>Pie charts</title><body>
+  <section id="last_updated-07-01-2019-summary-a-pie-or-a-circle-chart-is-a-statistical-graphic-that-divides-data-into-slices-to-illustrate-numerical-proportion-in-a-pie-chart-the-arc-length-of-a-slice-is-proportional-to-the-quantity-it-represents-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Pie charts</title>
+    <p>
+      The pie chart is a classic chart type that displays your search in
+      a circle. The default pie chart in ThoughtSpot displays data in
+      the shape of a doughnut, or a thick ring.
+    </p>
+  </section>
+  <section id="how-pie-charts-divide-data">
+    <title>How pie charts divide data</title>
+    <p>
+      Pie charts divide your data into sectors that each represent a
+      proportion of a whole circle. You can display the exact values of
+      each slice, in addition to the percentage values by toggling on
+      <i>Additional chart options</i> found
+      under Change chart configuration.
+    </p>
+    <fig id="fig_1580796174_1"><title>Pie chart example</title><image href="https://docs.thoughtspot.com/6.0/images/pie_chart_example.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as a pie chart. Also, there must be fewer than 50
+      values in the attribute column.
+    </p>
+  </section>
+  <section id="pie-in-pie-charts">
+    <title>Pie in pie charts</title>
+    <p>
+      The pie in pie chart can be created from a regular pie chart in
+      order to compare more than one component of an attribute. Pie in
+      pie charts show two concentric pie charts comparing different
+      measures.
+    </p>
+    <p>
+      To see a pie in pie chart, assign two different measures to the
+      y-axis under <i>Configure Chart</i>.
+    </p>
+    <fig id="fig_1580796174_2"><title>Pie in pie chart example</title><image href="https://docs.thoughtspot.com/6.0/images/pie_in_pie_chart_example.png" id="image_1580796174_2" scope="external"/></fig>
+  </section>
+  <section id="color-customization-of-pie-in-pie-charts">
+    <title>Color customization of pie in pie charts</title>
+    <p>
+      You can customize the colors of each pie in a pie chart using the
+      Style widget.
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Choose a pinboard that has a pie chart.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the <i>Edit chart style</i>
+          (paintbrush icon) to open the Style widget.
+        </p>
+      </li>
+      <li>
+        <p>
+          From the Style widget, assign a color of your choice to each
+          pie as listed in the widget.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>…</i> and choose
+          <i>Update</i> to save the changes.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Close</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Optionally, you can click
+          <i>Reset</i> to use the default
+          color.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

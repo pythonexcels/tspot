@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="request-access_xml"><title>Request Access</title><body>
+  <section id="title-request-access-last_updated-1232020-summary-if-you-cannot-view-a-pinboard-on-thoughtspot-you-can-request-access-to-it-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Request Access</title>
+    <p>
+    </p>
+  </section>
+  <section id="request-view-access">
+    <title>Request view access</title>
+    <p>
+      If you try to share a Pinboard by copying and pasting a link to
+      it, the person you share it with may have to request access. You
+      can avoid this by sharing [using the sharing icon.]({{
+      site.baseurl }}/end-user/Pinboards/share-Pinboards.html)
+    </p>
+    <p>
+      If a user receives a link to a Pinboard for which they have
+      neither view nor edit access, the <i>Request
+      Access</i> page appears.
+    </p>
+    <fig id="fig_1580796177_1"><title>Request access</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-requestaccess.png" id="image_1580796177_1" scope="external"/></fig>
+    <p>
+      The user adds an optional message explaining why they need to view
+      or edit the Pinboard, and clicks <i>Request
+      access</i> to send an email to the Pinboard owner. The
+      email also goes to your administrator, and to [ThoughtSpot
+      Support]({{ site.baseurl }}/appliance/contact.html).
+    </p>
+    <p>
+      A message appears, telling the user who owns the Pinboard:
+    </p>
+    <fig id="fig_1580796177_2"><title>Access requested</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-requested.png" id="image_1580796177_2" scope="external"/></fig>
+    <p>
+      ThoughtSpot sends an email notification, requesting view or edit
+      access, to the Pinboard owner. The email includes the user's
+      optional message. The owner then shares the Pinboard with the
+      user.
+    </p>
+  </section>
+  <section id="request-edit-access">
+    <title>Request edit access</title>
+    <p>
+      You may have view only access to a Pinboard. If you don't have
+      edit privileges, you cannot save any changes you make to the
+      Pinboard. You cannot pin an Answer to that Pinboard, change the
+      Pinboard layout, or delete a visualization.
+    </p>
+    <fig id="fig_1580796177_3"><title>The locked icon</title><image href="https://docs.thoughtspot.com/6.0/images/icon-lock-24px.png" id="image_1580796177_3" scope="external"/></fig>
+    <p>
+      If you click on that icon, it tells you to request access to the
+      Pinboard to edit it.
+    </p>
+    <fig id="fig_1580796177_4"><title>Request edit access</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-viewonly.png" id="image_1580796177_4" scope="external"/></fig>
+    <p>
+      To request edit access to a Pinboard, email the owner of the
+      Pinboard.
+    </p>
+  </section>
+  <section id="request-data-access">
+    <title>Request data access</title>
+    <p>
+      If you don't have access to a Pinboard's underlying data source,
+      you cannot use features that involve columns based on data you do
+      not have access to. For example, you cannot filter on the
+      Pinboard, Drill down on the Answers in the Pinboard, or run SpotIQ
+      on those Answers. If you attempt to use these features, a
+      notification appears, telling you to request access to the
+      underlying data source.
+    </p>
+    <fig id="fig_1580796177_5"><title>Access required</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-downloadaccessrequired.png" id="image_1580796177_5" scope="external"/></fig>
+    <fig id="fig_1580796177_6"><title>The locked icon</title><image href="https://docs.thoughtspot.com/6.0/images/icon-lock-24px.png" id="image_1580796177_6" scope="external"/></fig>
+    <p>
+      If you click on that icon, it tells you to request access to the
+      data source to interact with the Pinboard. It specifies which data
+      source you need access to. In the image below, you need access to
+      the <i>Retail Sales</i> data source.
+    </p>
+    <fig id="fig_1580796177_7"><title>Request data access</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-nodataaccess.png" id="image_1580796177_7" scope="external"/></fig>
+    <p>
+      To request access to a data source, email your administrator.
+    </p>
+  </section>
+</body>
+
+</topic>

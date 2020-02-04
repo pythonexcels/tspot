@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-bubble-charts_xml"><title>Bubble charts</title><body>
+  <section id="title-bubble-charts-last_updated-tbd-summary-the-bubble-chart-displays-three-dimensions-of-data-with-each-containing-a-set-of-values-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Bubble charts</title>
+    <p>
+      The bubble chart is a variation of the scatter chart, with the
+      data points replaced with bubbles. These bubbles add a third data
+      dimension to your answer.
+    </p>
+    <fig id="fig_1580796172_1"><title>Bubble chart example</title><image href="https://docs.thoughtspot.com/6.0/images/bubble_chart_example.png" id="image_1580796172_1" scope="external"/></fig>
+    <p>
+      The size of each bubble depends on the measure you choose under
+      <i>Edit chart configuration</i>.
+    </p>
+    <fig id="fig_1580796172_2"><title>Bubble size dropdown</title><image href="https://docs.thoughtspot.com/6.0/images/bubble_chart_size.png" id="image_1580796172_2" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and two measures to be
+      represented as a bubble chart.
+    </p>
+  </section>
+</body>
+
+</topic>

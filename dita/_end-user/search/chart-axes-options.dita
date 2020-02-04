@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chart-axes-options_xml"><title>Change axis options</title><body>
+  <section id="title-change-axis-options-last_updated-11062019-summary-in-thoughtspot-you-can-start-changing-all-axes-options-by-clicking-on-the-axis-directly-in-the-chart-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Change axis options</title>
+    <p>
+      To change axis, you can click the axis itself.
+    </p>
+    <p>
+      Here, we demonstrate the various options for axis configuration
+      using a visualization "Sales by Department"
+    </p>
+    <fig id="fig_1580796176_1"><title>Change Axis for Total Sales</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis.png" id="image_1580796176_1" scope="external"/></fig>
+    <p>
+      This opens the detail axis customization menu in the chart.
+    </p>
+    <fig id="fig_1580796176_2"><title>Options for changing the axis</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-detail.png" id="image_1580796176_2" scope="external"/></fig>
+    <p>
+      You can make the following changes to the axis:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <xref keyref="aggregate">Aggregate</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="filter">Filter</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="conditional-formatting">Conditional
+          formatting</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="sort">Sort</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="grouping">Grouping</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="position">Position</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          <xref keyref="rename">Rename</xref>
+        </p>
+      </li>
+      <li>
+        <p>
+          Edit
+        </p>
+      </li>
+      <li>
+        <p>
+          Remove
+        </p>
+      </li>
+    </ul>
+    </section>
+  <section id="change-the-axis-aggregate">
+    <title>Change the axis aggregate</title>
+    <p>
+      To change the axis aggregate, click the
+      <i>Aggregate</i> option in the axis
+      menu, and select an alternative from the list of options.
+    </p>
+    <p>
+      Depending on the type of data type and other settings, the
+      aggregation options include <i>Total</i>,
+      <i>Avg</i>, <i>Min</i>,
+      <i>Max</i>, <i>Total Count</i>,
+      <i>Unique Count</i>, <i>Std
+      Deviation</i>, and <i>Variance</i>.
+    </p>
+    <fig id="fig_1580796176_3"><title>Change axis aggregate</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-aggregate.png" id="image_1580796176_3" scope="external"/></fig>
+    </section>
+  <section id="add-change-and-remove-filters">
+    <title>Add, Change, and Remove Filters</title>
+    <p>
+      To manage the filters applied to the axis (in this example,
+      <i>Total Sales</i>), follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the <i>Filters</i> option in
+          the axis menu.
+        </p>
+        <fig id="fig_1580796176_4"><title>Change axis filter</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter.png" id="image_1580796176_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the window modal, click <i>+ add a
+          condition</i>.
+        </p>
+        <fig id="fig_1580796176_5"><title>Add a condition axis</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-1.png" id="image_1580796176_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select the comparison option.
+        </p>
+        <p>
+          Here, the options include <i>is greater
+          than</i>, <i>is greater than or equal
+          to</i>, <i>is less than</i>, <i>is
+          less than or equal to</i>, <i>is
+          between</i>, <i>is in</i>, and
+          <i>is not in</i>.
+        </p>
+        <p>
+          In this example, select <i>is greater than or equal
+          to</i>.
+        </p>
+        <fig id="fig_1580796176_6"><title>Set filter comparison operation</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-2.png" id="image_1580796176_6" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Set the relevant numerical limits.
+        </p>
+        <p>
+          Here, enter the maximum of <codeph>1000000</codeph>.
+        </p>
+        <fig id="fig_1580796176_7"><title>Set filter numerical limit</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-3.png" id="image_1580796176_7" scope="external"/></fig>
+        <p>
+          Note that if you select the <i>is between</i>
+          comparison operator, you must set two limits: minimum and
+          maximum. Similarly, <i>is in</i> and
+          <i>is not in</i> operators require a list of
+          values separated by ";".
+        </p>
+      </li>
+      <li>
+        <p>
+          To add another filter condition, click
+          <i>+add another</i>.
+        </p>
+        <fig id="fig_1580796176_8"><title>Add another filter condition</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-4.png" id="image_1580796176_8" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          To remove a filter condition, click the delete icon
+          (<i>x</i>) next to its definition.
+        </p>
+        <fig id="fig_1580796176_9"><title>Remove filter condition</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-5.png" id="image_1580796176_9" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i>.
+        </p>
+        <fig id="fig_1580796176_10"><title>Complete filter on axis</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-6.png" id="image_1580796176_10" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      Here, you can see differences between the original chart and the
+      one with the filter applied: Three (3) of the departments had
+      sales under $1,000,000, and they don't appear on the newer chart.
+    </p>
+    <fig id="fig_1580796176_11"><title>Chart with filter applied. Only shows 10 out of 13 departments.</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-applied.png" id="image_1580796176_11" scope="external"/></fig>
+    <p>
+      To remove a filter from the chart, click the
+      <i>x</i> icon on the filter tile.
+    </p>
+    <fig id="fig_1580796176_12"><title>Remove filter from a chart</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-filter-remove.png" id="image_1580796176_12" scope="external"/></fig>
+    </section>
+  <section id="apply-conditional-formatting">
+    <title>Apply conditional formatting</title>
+    <p>
+      To apply conditional formatting to the axis (in this example,
+      <i>Total Sales</i>), follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the <i>Conditional
+          formatting</i> option in the axis menu.
+        </p>
+        <fig id="fig_1580796176_13"><title>Add conditional formatting</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting.png" id="image_1580796176_13" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          The <i>Conditional formatting</i>
+          window modal appears.
+        </p>
+        <fig id="fig_1580796176_14"><title>Conditional formatting interface</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-1.png" id="image_1580796176_14" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the window modal, click <i>+ add
+          formatting</i>.
+        </p>
+        <fig id="fig_1580796176_15"><title>Add a format</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-2.png" id="image_1580796176_15" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select the conditional range.
+        </p>
+        <p>
+          The text area on the left specifies the lower limit of the
+          condition, so the condition applies to all values that are
+          greater or equal to it. And the text area on the right
+          specifies the upper limit of the condition, so the condition
+          applies to all lower values.
+        </p>
+        <ul>
+          <li>
+            <p>
+              To show show values with a lower limit, enter a value in
+              the left text box.
+            </p>
+          </li>
+          <li>
+            <p>
+              To show values with an upper limit, enter a value in the
+              right text box.
+            </p>
+          </li>
+          <li>
+            <p>
+              To show values in a specified range, enter the appropriate
+              values in both text boxes.
+            </p>
+          </li>
+        </ul>
+        <p>
+          Here, we apply conditional formatting to values between
+          <codeph>5,500,000</codeph> and <codeph>8,000,000</codeph>.
+        </p>
+        <fig id="fig_1580796176_16"><title>Add conditional format range</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-3.png" id="image_1580796176_16" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          To specify a different color of the conditional format, select
+          the new color from the color selector.
+        </p>
+        <p>
+          This option draws upper and lower limit lines on the chart,
+          and colors the chart elements that meet the conditional
+          requirements.
+        </p>
+        <fig id="fig_1580796176_17"><title>Change conditional format color</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-4.png" id="image_1580796176_17" scope="external"/></fig>
+        <p>
+          Alternatively, you can place a range band on the chart. Select
+          the <i>Fill chart</i> option.
+        </p>
+        <fig id="fig_1580796176_18"><title>Add conditional format band</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-8.png" id="image_1580796176_18" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          To add another condition, click <i>+add
+          formatting</i>.
+        </p>
+        <fig id="fig_1580796176_19"><title>Add another condition</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-5.png" id="image_1580796176_19" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          To remove a defined conditional format, click the delete icon
+          (<i>x</i>) next to its definition.
+        </p>
+        <fig id="fig_1580796176_20"><title>Remove conditional format</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-6.png" id="image_1580796176_20" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i>.
+        </p>
+        <fig id="fig_1580796176_21"><title>Complete conditional format</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-7.png" id="image_1580796176_21" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      Here, you can see a chart that highlights elements with
+      conditional formatting on some elements. You can also see how the
+      same chart appears with a background chart band.
+    </p>
+    <fig id="fig_1580796176_22"><title>Conditional formatting applied, two options</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-conditional-formatting-applied-comparison.png" id="image_1580796176_22" scope="external"/></fig>
+    </section>
+  <section id="change-the-sort">
+    <title>Change the Sort</title>
+    <p>
+      To change the sorting of a measurement on an axis, click the
+      <i>Sort</i> option in the axis menu,
+      and select an alternative from the list of options:
+      <i>Ascending</i> or <i>Descending</i>.
+    </p>
+    <fig id="fig_1580796176_23"><title>Change axis sort</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-sort.png" id="image_1580796176_23" scope="external"/></fig>
+    <p>
+      Here, you can compare the original chart that was not sorted on
+      the <i>Total Sales</i> axis with the chart that uses
+      descending sort.
+    </p>
+    <fig id="fig_1580796176_24"><title>Compare unsorted chart and chart sorted in Descending order</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-sort-applied.png" id="image_1580796176_24" scope="external"/></fig>
+    </section>
+  <section id="change-the-postion-of-the-axis">
+    <title>Change the Postion of the axis</title>
+    <p>
+      It is generally easier to interpret a chart if axes that use the
+      same units of measurement or scale appear on the same side of the
+      chart. In our example, we can best visualize <i>Item
+      Cost</i> and <i>Item Price</i> on the same
+      side of chart.
+    </p>
+    <p>
+      To change the position of an axis, select the
+      <i>Position</i> option in the axis
+      menu, and then select an alternative from the list of options:
+      <i>Left</i> or <i>Right</i>.
+    </p>
+    <p>
+      Here, we move the <i>Item Price</i> axis from the
+      right side of the chart to the left side.
+    </p>
+    <fig id="fig_1580796176_25"><title>Change axis position</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-position.png" id="image_1580796176_25" scope="external"/></fig>
+    <p>
+      You can compare the original chart with the one where the
+      <i>Total Sales</i> axis is on the right, while
+      <i>Item Cost</i> and <i>Item Price</i>
+      both appear on the left.
+    </p>
+    <fig id="fig_1580796176_26"><title>Compare charts with different position assignments</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-position-applied.png" id="image_1580796176_26" scope="external"/></fig>
+    </section>
+  <section id="change-the-grouping">
+    <title>Change the Grouping</title>
+    <p>
+      When two axis use the same unit of measure and a similar scale, we
+      can group them together.
+    </p>
+    <p>
+      To change the grouping on an axis, click the
+      <i>Group</i> option in the axis menu,
+      and select an alternative from the list of options, which are the
+      measurements on the other axes.
+    </p>
+    <p>
+      Here, we change the <i>Item Price</i> axis by
+      grouping it with <i>Item Cost</i>.
+    </p>
+    <fig id="fig_1580796176_27"><title>Group two axes</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-group.png" id="image_1580796176_27" scope="external"/></fig>
+    <p>
+      Compare the original chart with one that groups <i>Item
+      Price</i> and <i>Item Cost</i> as
+      <i>Item Price &amp; Item Cost</i>. The chart looks
+      cleaner, and clearly communicates the distinct information on each
+      of the two measurements.
+    </p>
+    <fig id="fig_1580796176_28"><title>Compare ungrouped chart and chart that groups similar measures</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-group-applied.png" id="image_1580796176_28" scope="external"/></fig>
+    <p>
+      Notice that the <i>Customize</i> menu
+      shows a linkage between the two grouped axes.
+    </p>
+    <fig id="fig_1580796176_29"><title>Grouped axes</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-group-menu.png" id="image_1580796176_29" scope="external"/></fig>
+    </section>
+  <section id="rename-an-axis">
+    <title>Rename an axis</title>
+    <p>
+      You can always rename an axis for clarity, brevity, format, and so
+      on.
+    </p>
+    <p>
+      In our example, it makes sense to rename the axis created from
+      grouping as <i>Item Price &amp; Item Cost</i> to
+      something shorter, like <i>Item Price and Cost</i>.
+    </p>
+    <p>
+      To rename an axis, select the
+      <i>Rename</i> option in the axis menu,
+      type the new name, and either click out or hit
+      <i>Enter/Return</i> on your keyboard.
+    </p>
+    <fig id="fig_1580796176_30"><title>Rename axis</title><image href="https://docs.thoughtspot.com/6.0/images/edit-axis-rename.png" id="image_1580796176_30" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

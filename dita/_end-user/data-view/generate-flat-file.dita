@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="generate-flat-file_xml"><title>Create and load a CSV file</title><body>
+  <section id="title-create-and-load-a-csv-file-last_updated-tbd-summary-the-simplest-way-to-load-data-is-to-upload-a-csv-or-excel-file-from-the-thoughtspot-web-interface--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Create and load a CSV file</title>
+    <p>
+      {% include content/web-load-intro.md %}
+    </p>
+  </section>
+  <section id="create-a-csv-file">
+    <title>Create a CSV file</title>
+    <p>
+      {% include content/csv-create.md %}
+    </p>
+    <p>
+      Large organizations typically have a data administrator or
+      department the builds ETL processes. If the data you want is in
+      another system, speak with your ThoughtSpot administrator about
+      getting CSV files extracted from this system.
+    </p>
+  </section>
+  <section id="formatting-the-csv">
+    <title>Formatting the CSV</title>
+    <p>
+      {% include content/csv-format.md %}
+    </p>
+  </section>
+  <section id="load-the-csv-file">
+    <title>Load the CSV File</title>
+    <p>
+      {% include content/csv-load.md %}
+    </p>
+  </section>
+  <section id="troubleshoot-uploads">
+    <title>Troubleshoot uploads</title>
+    <p>
+      Boolean data must use
+      <codeph>TRUE</codeph>/<codeph>FALSE</codeph> values. Other
+      values such as <codeph>Y</codeph>/<codeph>N</codeph> are not
+      supported.
+    </p>
+  </section>
+</body>
+
+</topic>

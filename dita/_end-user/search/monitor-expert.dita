@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="monitor-expert_xml"><title>"Manage expert requests"</title><body>
+  <section id="last_updated-08012019-summary-you-can-monitor-and-manage-ask-and-expert-requests-both-as-a-requester-and-as-an-expert-sidebar-mydoc_sidebar-toc-true-permalink-collectionpathhtml">
+    <title>"Manage expert requests"</title>
+    <p>
+      Within ThoughtSpot, you can keep track of your
+      <i>Ask an Expert</i> requests.
+    </p>
+  </section>
+  <section id="navigate-to-the-expert-requests-interface">
+    <title>Navigate to the Expert Requests interface</title>
+    <p>
+      Follow these steps to the request monitoring interface:
+    </p>
+    <ol>
+      <li>
+        <p>
+          In the top right corner of the ThoughtSpot interface, click
+          the ![help menu icon]({{ site.baseurl
+          }}/images/icon-help-20px.png){: .inline} (help) icon menu.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the drop-down, select <i>Expert
+          Requests</i>.
+        </p>
+        <fig id="fig_1580796172_1"><title>Click Expert requests</title><image href="https://docs.thoughtspot.com/6.0/images/ask-expert-requests.png" id="image_1580796172_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          The <i>Expert</i> interface
+          appears, with information for you both as a
+          <i>Requester</i>, and as an
+          <i>Expert</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="when-you-are-a-requester">
+    <title>When you are a Requester</title>
+    <p>
+      This is what you see when you are a requester:
+    </p>
+    <fig id="fig_1580796172_2"><title>Expert interface</title><image href="https://docs.thoughtspot.com/6.0/images/ask-expert-manage-requester.png" id="image_1580796172_2" scope="external"/></fig>
+    <p>
+      Note these features of the interface:
+    </p>
+    <informaltable>
+      <tgroup cols="2">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              Legend
+            </entry>
+            <entry>
+              Feature
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1.
+            </entry>
+            <entry>
+              <strong>I am Requester:</strong> for all requests where
+              you are a requester
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2.
+            </entry>
+            <entry>
+              <strong>I am Expert:</strong> for all requests where you
+              are an expert
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3.
+            </entry>
+            <entry>
+              <strong>All:</strong> all requests, both <i>Resolved</i>
+              and <i>Unresolved</i>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4.
+            </entry>
+            <entry>
+              <strong>Resolved:</strong> all resolved requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              5.
+            </entry>
+            <entry>
+              <strong>Unresolved:</strong> for all unresolved requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              6.
+            </entry>
+            <entry>
+              <strong>Search:</strong> find requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              7.
+            </entry>
+            <entry>
+              <strong>My Requests</strong>: list of your requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              8.
+            </entry>
+            <entry>
+              <strong>Modified:</strong> how long ago you or an expert
+              modified the request
+            </entry>
+          </row>
+          <row>
+            <entry>
+              9.
+            </entry>
+            <entry>
+              <strong>Status:</strong> <i>Resolved</i> or
+              <i>Unresolved</i>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              10.
+            </entry>
+            <entry>
+              <strong>Experts:</strong> users who are experts for your
+              requests
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+  <section id="when-you-are-an-expert">
+    <title>When you are an Expert</title>
+    <p>
+      This is what you see when you are an expert:
+    </p>
+    <fig id="fig_1580796172_3"><title>Expert interface</title><image href="https://docs.thoughtspot.com/6.0/images/ask-expert-manage-expert.png" id="image_1580796172_3" scope="external"/></fig>
+    <p>
+      Note these features of the interface:
+    </p>
+    <informaltable>
+      <tgroup cols="2">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              Legend
+            </entry>
+            <entry>
+              Feature
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1.
+            </entry>
+            <entry>
+              <strong>I am Requester:</strong> for all requests where
+              you are a requester
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2.
+            </entry>
+            <entry>
+              <strong>I am Expert:</strong> for all requests where you
+              are an expert
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3.
+            </entry>
+            <entry>
+              <strong>All:</strong> all requests, both
+              <i>Resolved</i> and <i>Unresolved</i>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4.
+            </entry>
+            <entry>
+              <strong>Resolved:</strong> all resolved requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              5.
+            </entry>
+            <entry>
+              <strong>Unresolved:</strong> for all unresolved requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              6.
+            </entry>
+            <entry>
+              <strong>Search:</strong> find requests
+            </entry>
+          </row>
+          <row>
+            <entry>
+              7.
+            </entry>
+            <entry>
+              <strong>Requests for me</strong>: list requests where you
+              are the Expert
+            </entry>
+          </row>
+          <row>
+            <entry>
+              8.
+            </entry>
+            <entry>
+              <strong>Modified:</strong> how long ago you or an expert
+              modified the request
+            </entry>
+          </row>
+          <row>
+            <entry>
+              9.
+            </entry>
+            <entry>
+              <strong>Status:</strong> <i>Resolved</i> or
+              <i>Unresolved</i>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              10.
+            </entry>
+            <entry>
+              <strong>Requester:</strong> the user who initiated the
+              request
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [Ask an Expert]({{ site.baseurl
+          }}/end-user/search/ask-an-expert.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

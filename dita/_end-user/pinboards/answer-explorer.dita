@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="answer-explorer_xml"><title/><body>
+  <section id="title-answer-explorer-summary-answer-explorer-provides-you-with-ai-guided-exploration-of-answers-within-pinboards-so-you-can-more-easily-find-valuable-and-actionable-information-inside-your-data-last_updated-1242020-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>title: Answer Explorer summary: Answer Explorer provides you
+    with AI-guided exploration of Answers within Pinboards, so you can
+    more easily find valuable and actionable information inside your
+    data. last_updated: 1/24/2020 sidebar: mydoc_sidebar permalink:
+    /:collection/:path.html</title>
+    <p>
+      Answer Explorer, ThoughtSpot's AI-guided exploration of Answers
+      within Pinboards, provides you with valuable suggestions on how to
+      explore and understand your data, based on two main criteria. The
+      Answer Explorer AI considers both popularity and personalization.
+      The feature suggests ways to answer questions that are relevant to
+      many other users, and it takes into account your own ThoughtSpot
+      history. Answer Explorer helps you better understand your data and
+      get to actionable insights faster with just a click.
+    </p>
+    <p>
+      You can access Answer Explorer from any Answer in a Pinboard.
+      Click the <i>Explore</i> button that
+      appears when you hover over any Answer.
+    </p>
+    <fig id="fig_1580796177_1"><title>The Explore button</title><image href="https://docs.thoughtspot.com/6.0/images/explore-button.png" id="image_1580796177_1" scope="external"/></fig>
+    <p>
+      The Answer expands to fill your screen, and the
+      <i>Explore this data</i> menu appears.
+    </p>
+    <fig id="fig_1580796177_2"><title>Explore this data</title><image href="https://docs.thoughtspot.com/6.0/images/explore-fullscreen.png" id="image_1580796177_2" scope="external"/></fig>
+    <p>
+      You can explore your data in several different ways, using
+      [filters]({{ site.baseurl }}#explore-filters), [breakdowns]({{
+      site.baseurl }}#explore-breakdowns), [metrics]({{ site.baseurl
+      }}#explore-metrics), or [comparisons]({{ site.baseurl
+      }}#explore-comparisons).
+    </p>
+    <p>
+      Answer Explorer's AI updates its suggestions every time you add
+      something new to your visualization. If you add a suggested
+      filter, Answer Explorer then suggests new filters, breakdowns,
+      metrics, and comparisons, based on that new filter in your chart.
+    </p>
+    </section>
+  <section id="filters">
+    <title>Filters</title>
+    <p>
+      Use the <i>Filters</i> search bar to
+      filter your data. Answer Explorer uses sophisticated technology to
+      show only the most relevant suggestions. Click
+      <i>Add</i> to add a suggested filter
+      to your visualization. You can click <i>Show
+      more</i> to see even more suggestions.
+    </p>
+    <p>
+      If you want to filter on a column value that Answer Explorer did
+      not suggest, you can search for it in the
+      <i>Filters</i> search bar. Specify the
+      column values you wish to see, such as <i>Age
+      group=65+</i>, and press
+      <i>Enter</i>.
+    </p>
+    </section>
+  <section id="breakdowns">
+    <title>Breakdowns</title>
+    <p>
+      Use <i>Breakdowns</i> to visualize
+      your data, separated by an attribute. For example, break by
+      <i>Store State</i> to see which states have the best
+      sales. If your Answer has a time attribute, you can easily change
+      from <i>daily</i> to <i>quarterly</i>,
+      and so on.
+    </p>
+    <fig id="fig_1580796177_3"><title>Break by store state</title><image href="https://docs.thoughtspot.com/6.0/images/explore-breakdown.png" id="image_1580796177_3" scope="external"/></fig>
+    <p>
+      After you make a change to your Answer, you may want to go back to
+      an earlier version of your Answer. You can click the Back icon
+      ![]({{ site.baseurl }}/images/icon-arrow-left-20px.png){: .inline}
+      to go back one step, or the Reset icon ![]({{ site.baseurl
+      }}/images/icon-reset-20px.png){: .inline} to go back to the
+      original answer.
+    </p>
+    </section>
+  <section id="metrics">
+    <title>Metrics</title>
+    <p>
+      Use <i>Metrics</i> to add other
+      available measures. For example, you can add <i>gross
+      profit margin</i> to view both sales and gross profit
+      margin by store region.
+    </p>
+    <fig id="fig_1580796177_4"><title>Sales and gross profit margin</title><image href="https://docs.thoughtspot.com/6.0/images/explore-metrics.png" id="image_1580796177_4" scope="external"/></fig>
+    <p>
+      If you want to see <i>gross profit margin</i>
+      instead of <i>sales</i>, click
+      <i>Show more</i> and select
+      <i>Change sales to gross profit
+      margin</i>.
+    </p>
+    <fig id="fig_1580796177_5"><title>Gross profit margin by store region</title><image href="https://docs.thoughtspot.com/6.0/images/explore-metricsprofit.png" id="image_1580796177_5" scope="external"/></fig>
+    </section>
+  <section id="comparisons">
+    <title>Comparisons</title>
+    <p>
+      Use <i>Comparisons</i> to easily
+      perform a <i>versus</i> analysis. For example,
+      Answer Explorer might suggest you compare your best- and
+      worst-performing products.
+    </p>
+  </section>
+  <section id="drill-down-with-answer-explorer">
+    <title>Drill down with Answer Explorer</title>
+    <p>
+      You can Drill down from within Answer Explorer. When you Drill
+      down in Answer Explorer, you have the option of going back one
+      step at a time, using the Back icon ![]({{ site.baseurl
+      }}/images/icon-arrow-left-20px.png){: .inline}. You cannot go back
+      one step at a time if you Drill down on an Answer in a Pinboard,
+      without using Answer Explorer.
+    </p>
+    <p>
+      See [Drill down]({{ site.baseurl
+      }}/complex-search/drill-down.html).
+    </p>
+  </section>
+  <section id="save-your-new-answer">
+    <title>Save your new answer</title>
+    <p>
+      When you find a valuable insight using Answer Explorer, you may
+      want to save that Answer as it appears, instead of trying to
+      recreate it in the <i>Search</i> bar.
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Click the ellipsis icon ![]({{ site.baseurl
+          }}/images/icon-more-20px.png){: .inline}.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>copy and edit</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Save</i> your new Answer within
+          ThoughtSpot and continue working with it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Alternatively, select
+          <i>Download</i> to download an
+          image of your current visualization.
+        </p>
+      </li>
+    </ol>
+    <p>
+      You can also <i>pin</i> the current
+      Answer to any Pinboard you have
+      <i>edit</i> access to. Click the
+      <i>pin</i> icon ![]({{ site.baseurl
+      }}/images/icon-pin.png){: .inline} and select a Pinboard.
+    </p>
+    <p>
+      Otherwise, the Answer returns to its original state when you exit
+      the <i>Explore</i> menu by clicking
+      the <i>X</i> icon.
+    </p>
+  </section>
+</body>
+
+</topic>

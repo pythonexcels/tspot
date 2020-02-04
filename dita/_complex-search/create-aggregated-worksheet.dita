@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="create-aggregated-worksheet_xml"><title>Save a search as a view</title><body>
+  <section id="last_updated-1122018-summary-if-you-want-to-search-on-top-of-another-search-try-saving-your-search-as-a-view-then-you-can-use-the-saved-view-as-a-data-source-for-a-new-search-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Save a search as a view</title>
+    <p>
+      This procedure walks you through creating a view from a search. To
+      create a view from a search:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Start a new search, or edit an existing visualization from a
+          pinboard.
+        </p>
+        <p>
+          Any filters or aggregations created during this search will be
+          reflected in the view.
+        </p>
+      </li>
+      <li>
+        <p>
+          Make any changes to the visualization that you want in your
+          saved view (change aggregation level, filters, etc.)
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline}, and
+          <i>Save as view</i>.
+        </p>
+        <fig id="fig_1580796168_1"><title>Save as a View</title><image href="https://docs.thoughtspot.com/6.0/images/save_as_view.png" id="image_1580796168_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Give the view a name and save it.
+        </p>
+        <fig id="fig_1580796168_2"><title>Name the View</title><image href="https://docs.thoughtspot.com/6.0/images/save_view_dialog.png" id="image_1580796168_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          [Link]({{ site.baseurl
+          }}/admin/data-modeling/create-new-relationship.html) your view
+          to any other data source, or [define joins]({{ site.baseurl
+          }}/admin/loading/constraints.html).
+        </p>
+      </li>
+    </ol>
+    <p>
+      At this point the view has been saved, but you may also want to
+      [materialize the view]({{ site.baseurl
+      }}/admin/loading/materialized-views.html), to improve its
+      performance when searching.
+    </p>
+  </section>
+</body>
+
+</topic>

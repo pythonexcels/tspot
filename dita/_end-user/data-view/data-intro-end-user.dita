@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-intro-end-user_xml"><title>"Understand data sources"</title><body>
+  <section id="title-understand-data-sources-last_updated-tbd-summary-use-the-data-tab-to-manage-data-sources-toc-false-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Understand data sources"</title>
+    <p>
+      The <i>Data</i> tab lists all of the
+      tables and data sources available to you. There are three types of
+      data sources that you may see in the data list. They are tables,
+      worksheets, and user uploaded data. You usually see only
+      worksheets and user-uploaded sources. These are the most commonly
+      used data sources for searching.
+    </p>
+    <informaltable>
+      <tgroup cols="4">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              Name
+            </entry>
+            <entry>
+              Icon
+            </entry>
+            <entry>
+              Definition
+            </entry>
+            <entry>
+              Created by
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              Table
+            </entry>
+            <entry>
+            </entry>
+            <entry>
+              Raw table loaded by an Administrator
+            </entry>
+            <entry>
+              Administrators
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Worksheet
+            </entry>
+            <entry>
+            </entry>
+            <entry>
+              Collection of related tables optimized for searching (like
+              standard concept of a <i>view</i>)
+            </entry>
+            <entry>
+              Anyone
+            </entry>
+          </row>
+          <row>
+            <entry>
+              User Imported
+            </entry>
+            <entry>
+            </entry>
+            <entry>
+              Table uploaded by a user through the web browser (e.g. as
+              a <codeph>.csv</codeph> file)
+            </entry>
+            <entry>
+              Anyone
+            </entry>
+          </row>
+          <row>
+            <entry>
+              View
+            </entry>
+            <entry>
+            </entry>
+            <entry>
+              Table saved as a [materialized view]({{ site.baseurl
+              }}/complex-search/about-query-on-query.html) by a user
+              through the web browser through
+              <i>Save as view</i> option on
+              a search
+            </entry>
+            <entry>
+              Anyone
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+    <fig id="fig_1580796171_1"><title>Types of Data Sources</title><image href="https://docs.thoughtspot.com/6.0/images/types_of_data_sources_table.png" id="image_1580796171_1" scope="external"/></fig>
+    <p>
+      Clicking on the name of a table or data source shows you detailed
+      information about it. You won't be able to change these settings
+      or edit the table unless it was shared with you with the
+      <i>Edit</i> privilege. To see how to
+      edit a data source, refer to the <i>ThoughtSpot
+      Administrator Guide</i>.
+    </p>
+    <p>
+      Use the filters at the top of the page to find the data you are
+      interested in. From the <i>Data</i>
+      tab, you can also delete or apply stickers to tables and data
+      sources in bulk by selecting them and clicking the appropriate
+      action button.
+    </p>
+    <fig id="fig_1580796171_2"><title>Data page</title><image href="https://docs.thoughtspot.com/6.0/images/manage_data_page.png" id="image_1580796171_2" scope="external"/></fig>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+<literallayout>[View your data profile]({{ site.baseurl }}/admin/loading/view-your-data-profile.html)
+Basic column data profile information is available under Profile on the Data page.</literallayout>
+      </li>
+      <li>
+<literallayout>[About sharing]({{ site.baseurl }}/end-user/data-view/sharing-for-end-users.html)
+Whenever you are working in ThoughtSpot, you are in your own private environment until you share your work with others. This applies to searches, pinboards, and any data you upload.</literallayout>
+      </li>
+      <li>
+        <p>
+          [Overview of data modeling settings]({{ site.baseurl
+          }}/admin/data-modeling/data-modeling-settings.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

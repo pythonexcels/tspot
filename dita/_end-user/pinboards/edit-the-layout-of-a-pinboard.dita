@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="edit-the-layout-of-a-pinboard_xml"><title>Edit the layout of a pinboard</title><body>
+  <section id="title-edit-the-layout-of-a-pinboard-last_updated-tbd-summary-editing-the-layout-of-a-pinboard-lets-you-snap-visualizations-into-place-choose-between-set-visualization-sizes-and-reset-your-layout-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Edit the layout of a pinboard</title>
+    <p>
+      Visualizations within a pinboard are easy to move around and snap
+      into place on a relative flow layout. Your pinboard layout is also
+      responsive to your browser resolution. This helps keep the layout
+      of your pinboard neat and organized.
+    </p>
+  </section>
+  <section id="reorder-the-visualization">
+    <title>Reorder the visualization</title>
+    <p>
+      In addition, the size picker at the bottom of a visualization's
+      three-dot Actions menu lets you toggle between predetermined sizes
+      for each visualization. Charts and graphs can be toggled between a
+      small, medium, and full width size, while headlines can be only
+      one size (small). One row of the pinboard can hold a predetermined
+      number of visualizations of each size.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboards page, click the pinboard you would like to
+          edit.
+        </p>
+      </li>
+      <li>
+        <p>
+          Drag and drop your visualizations on the layout grid to
+          reorder your pinboard. Resize a visualization by choosing a
+          predetermined size under the ellipses icon ![more options menu
+          icon]({{ site.baseurl }}/images/icon-ellipses.png){: .inline}
+          for the visualization.
+        </p>
+        <fig id="fig_1580796176_2"><title>Resize your visualization</title><image href="https://docs.thoughtspot.com/6.0/images/resize_pinboard_visualization.png" id="image_1580796176_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Save your pinboard by clicking the ellipses icon ![more
+          options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and selecting
+          <i>Save</i>.
+        </p>
+        <fig id="fig_1580796176_3"><title>Save your pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/save_a_pinboard.png" id="image_1580796176_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="change-the-orientation-of-a-chart-or-table">
+    <title>Change the orientation of a chart or table</title>
+    <p>
+      You can change the orientation of a chart or table on a pinboard.
+      To do this:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Navigate to the chart or table.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} for the
+          chart or table.
+        </p>
+        <p>
+          ThoughtSpot displays the drop-down menu.
+        </p>
+        <fig id="fig_1580796176_4"><title>Resize an item</title><image href="https://docs.thoughtspot.com/6.0/images/size_pinboard_item.png" id="image_1580796176_4" scope="external"/></fig>
+        <p>
+          The last item shows different possible orientations, with the
+          current orientation selected.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select a new orientation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Save</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="delete-a-visualization-from-your-pinboard">
+    <title>Delete a visualization from your pinboard</title>
+    <p>
+      To delete a visualization:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_5"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboard list page, click the pinboard that contains
+          the visualization you would like to delete.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the upper-right corner of the visualization, click the
+          ellipses icon ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and select
+          <i>Delete</i>.
+        </p>
+        <fig id="fig_1580796176_6"><title>Delete a visualization</title><image href="https://docs.thoughtspot.com/6.0/images/detele_a_pinboard_visualization.png" id="image_1580796176_6" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Save your pinboard by clicking the ellipses icon ![more
+          options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and selecting
+          <i>Save</i>.
+        </p>
+        <fig id="fig_1580796176_7"><title>Save your pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/save_a_pinboard.png" id="image_1580796176_7" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="copy-and-edit-a-visualization-from-your-pinboard">
+    <title>Copy and edit a visualization from your pinboard</title>
+    <p>
+      To edit a copy of a visualization:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_8"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_8" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboard list page, click the pinboard that contains
+          the visualization you would like to edit a copy of.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find a visualization in the pinboard you want to edit.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the upper-right corner of the visualization, click the
+          ellipses icon ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and select
+          <i>Copy and edit</i>.
+        </p>
+        <fig id="fig_1580796176_9"><title>Make a copy of the pinboard visualization</title><image href="https://docs.thoughtspot.com/6.0/images/make_a_copy_of_a_pinboard_viz.png" id="image_1580796176_9" scope="external"/></fig>
+        <p>
+          A copy of the answer that was used to create the visualization
+          is displayed with “Copy of” added to the beginning of the
+          title.
+        </p>
+      </li>
+      <li>
+        <p>
+          Make any changes you want to the visualization.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Save</i>.
+        </p>
+        <p>
+          The Save Answer dialog box appears.
+        </p>
+        <fig id="fig_1580796176_10"><title>Name and save your answer copy</title><image href="https://docs.thoughtspot.com/6.0/images/name_your_pinboard_copy.png" id="image_1580796176_10" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Change the name and description, as needed, and click
+          <i>SAVE</i>.
+        </p>
+        <p>
+          When you navigate back to the Answers page, your edited Answer
+          will appear in the list.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="other-pinboard-edits">
+    <title>Other pinboard edits</title>
+    <p>
+      Other pinboard actions include actions you normally perform on
+      your search as well as actions that you can only perform on a
+      pinboard. Most of these actions are found under the ellipses icon
+      ![more options menu icon]({{ site.baseurl
+      }}/images/icon-ellipses.png){: .inline}.
+    </p>
+    <fig id="fig_1580796176_11"><title>Pinboard actions button</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard_actions.png" id="image_1580796176_11" scope="external"/></fig>
+    <p>
+      Other actions are available on a pinboard display itself. Some
+      actions are static others appear only when you over over specific
+      locations of the pinboard. This diagram displays active action
+      areas on a pinboard.
+    </p>
+    <fig id="fig_1580796176_12"><title>Pinboard controls</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-controls.png" id="image_1580796176_12" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

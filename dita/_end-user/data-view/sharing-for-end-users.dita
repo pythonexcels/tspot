@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sharing-for-end-users_xml"><title>Overview of sharing</title><body>
+  <section id="title-overview-of-sharing-last_updated-12102019-toc-false-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Overview of sharing</title>
+    <p>
+      Whenever you are working in ThoughtSpot, you are in your own
+      private environment until you share your work with others. Sharing
+      applies to searches, pinboards, and any data you upload. You share
+      by clicking the <i>Share</i> button
+      from within the object you want to share and specifying the users
+      or groups with whom you want to share. An email notification goes
+      out to those users or groups when you click
+      <i>Share</i>.
+    </p>
+  </section>
+  <section id="what-you-can-share">
+    <title>What you can share</title>
+    <p>
+      This is a list of objects a regular, non-administrator user can
+      share. Administrators have more granular control over data
+      security.
+    </p>
+    <p>
+      You can share with groups and with individual people. You can
+      share several different types of objects:
+    </p>
+    <informaltable>
+      <tgroup cols="3">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              Object type
+            </entry>
+            <entry>
+              Description
+            </entry>
+            <entry>
+              Default security model
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              Uploaded data
+            </entry>
+            <entry>
+              Data you upload using a Web browser.
+            </entry>
+            <entry>
+              Only the user who uploaded the data (and any user with
+              administrator privileges) has access to it by default.
+              They can share a table (or selected columns) with other
+              people or groups. See
+              <link href="share-user-imported-data.html#">Share
+              uploaded data</link>.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Pinboards
+            </entry>
+            <entry>
+              A pinboard of saved search results.
+            </entry>
+            <entry>
+              Anyone who can view a pinboard can share it. See [share a
+              pinboard]({{ site.baseurl
+              }}/end-user/pinboards/share-pinboards.html#).
+            </entry>
+          </row>
+          <row>
+            <entry>
+              Answers
+            </entry>
+            <entry>
+              The result of a single search.
+            </entry>
+            <entry>
+              Anyone who can view an answer can share it. See [share
+              answers]({{ site.baseurl
+              }}/end-user/pinboards/share-answers.html).
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+  <section id="who-can-share-and-to-whom">
+    <title>Who can share and to whom</title>
+    <p>
+      You do not have to be an administrator or the owner of an object
+      to share saved answers or pinboards. Any user can share them,
+      based on the access levels the user has.
+    </p>
+    <p>
+      If you upload a spreadsheet, you can share
+      <i>Can View</i> or
+      <i>Can Edit</i> privileges with other
+      people, who can further share them with others. This last point is
+      important. Like sharing a secret, sharing an object or your data
+      can quickly spread in ths way to people you do not intend it to.
+      So, if your data or work is sensitive to your business be
+      thoughtful in how you share it.
+    </p>
+    <p>
+      Finally, you can revoke access to an object (table, worksheet, or
+      pinboard) that you have previously shared. Unsharing an object is
+      very similar to sharing it.
+    </p>
+  </section>
+</body>
+
+</topic>

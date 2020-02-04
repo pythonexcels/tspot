@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="replay-search_xml"><title>Replay search</title><body>
+  <section id="last_updated-tbd-summary-you-can-instantly-generate-a-step-by-step-replay-showing-the-creation-of-a-table-or-chart-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Replay search</title>
+    <p>
+      The replay feature shows how to create the chart or table you are
+      viewing. Use it to teach yourself, or take a screen recording of
+      it and create your own ThoughtSpot training for your team.
+    </p>
+    <ul>
+      <li>
+        <p>
+          When viewing a chart or table, click the ellipses icon ![more
+          options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and select
+          <i>Replay search</i>.
+        </p>
+        <fig id="fig_1580796172_1"><title>The Replay search icon</title><image href="https://docs.thoughtspot.com/6.0/images/replay_search_icon.png" id="image_1580796172_1" scope="external"/></fig>
+        <p>
+          The replay will start automatically. You can pause and resume
+          it by clicking on it.
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

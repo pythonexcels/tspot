@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-attributes-and-measures_xml"><title>Search results and column types</title><body>
+  <section id="title-search-results-and-column-types-last_updated-tbd-summary-searches-in-thoughtspot-use-columns-that-are-defined-as-either-attributes-or-measures-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Search results and column types</title>
+    <p>
+      ThoughtSpot identifies search columns (<codeph>sales</codeph>,
+      <codeph>customer_name</codeph>, <codeph>total_sale</codeph>)
+      as either attributes or measures. The columns you choose impact
+      your search results. That's because several chart types expect
+      that your search contains a certain number of attributes and a
+      certain number of measures.
+    </p>
+  </section>
+  <section id="attributes">
+    <title>Attributes</title>
+    <p>
+      Attribute are primarily text or date values. Attributes make up
+      the x-axis of your chart most of time. Some examples of attributes
+      in terms of a person include name, eye color, occupation, social
+      security number, address, employee ID, and phone number.
+    </p>
+  </section>
+  <section id="measures">
+    <title>Measures</title>
+    <p>
+      Measures are numeric values you can do math on, with meaningful
+      results. You will most likely find your measures on the y-axis of
+      your chart. Some examples of measures in terms of a person are
+      age, height, and weight.
+    </p>
+  </section>
+  <section id="query-details">
+    <title>Query details</title>
+    <p>
+      After, or while completing a search, you can see how ThoughtSpot
+      displayed the answer. Click the <i>Query
+      details</i> button on the right-hand side of the screen to
+      open the <i>Query details</i> panel.
+    </p>
+    <fig id="fig_1580796173_1"><title>Query details</title><image href="https://docs.thoughtspot.com/6.0/images/what_am_i_looking_at.png" id="image_1580796173_1" scope="external"/></fig>
+    <p>
+      This panel shows the measures that ThoughtSpot computed, for each
+      combination of attributes. Choose <i>Query
+      visualizer</i> to see search filters and how the tables
+      were linked and used.
+    </p>
+  </section>
+</body>
+
+</topic>

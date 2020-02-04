@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="share-pinboards_xml"><title>Share a pinboard</title><body>
+  <section id="title-share-a-pinboard-last_updated-12182019-toc-false-summary-when-you-view-a-pinboard-in-thoughtspot-you-can-share-it-with-others--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Share a pinboard</title>
+    <p>
+      {% include content/share-pinboard.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-r-in-thoughtspot_xml"><title>About R in ThoughtSpot</title><body>
+  <section id="title-about-r-in-thoughtspot-summary-analyze-your-data-with-r-scripts-that-ship-with-thoughtspot-and-build-visualizations-and-pinboards-based-on-the-analytical-insights-you-obtained-you-can-also-create-custom-r-scripts-and-share-them-with-your-team-last_updated-11222019-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>About R in ThoughtSpot</title>
+    <p>
+      R is a popular open source programming language for statistical
+      computing, machine learning, and AI. ThoughtSpot makes R analysis
+      available as a fully integrated feature.
+    </p>
+    <p>
+      {% include note.html content="Custom R is disabled by
+      default. To turn on custom R scripting, contact your site
+      administrator." %}
+    </p>
+  </section>
+  <section id="using-r-in-thoughtspot">
+    <title>Using R in ThoughtSpot</title>
+    <p>
+      Users with R privileges can run R scripts directly on search
+      results.
+    </p>
+    <p>
+      Analysts and data scientists who are proficient in R can create
+      and share custom scripts.
+    </p>
+    <p>
+      Users can leverage custom scripts and ThoughtSpot provided
+      scripts, run pre-built R scripts on top of their search results,
+      and share R visualizations as answers and pinboards.
+    </p>
+    <p>
+      This topic explains how to use R in ThoughtSpot both from an end
+      user and scripting perspective, but is not meant as an R primer.
+    </p>
+  </section>
+  <section id="how-to-access-r-scripts">
+    <title>How to access R scripts</title>
+    <p>
+      Users with R script privileges can click the
+      <i>R</i> icon ![R icon]({{
+      site.baseurl }}/images/r-icon-inline.png){: .inline} on the
+      toolbar for any search result (answer).
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-icon.png)
+    </p>
+    <p>
+      From here, you have options to write a custom script, or load a
+      pre-built or ThoughtSpot provided script.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-load-or-write-script.png)
+    </p>
+  </section>
+  <section id="run-pre-built-r-scripts">
+    <title>Run pre-built R scripts</title>
+    <p>
+      You don't have to have a background in statistics or be an R
+      programmer to run R analyses in ThoughtSpot. You can use
+      ThoughtSpot-provided scripts and share the R visualizations with
+      others.
+    </p>
+    <p>
+      For more on how to run provided scripts, skip to [Run pre-built R
+      scripts on answers]({{ site.baseurl
+      }}/end-user/r-scripts/run-prebuilt-r-scripts.html)
+    </p>
+  </section>
+  <section id="write-your-own-r-scripts-in-thoughtspot">
+    <title>Write your own R scripts in ThoughtSpot</title>
+    <p>
+      If you know R, you can write your own custom scripts, share them
+      as templates, test and run them on your data in ThoughtSpot, and
+      build up a shared library of R analyses, scripts, visualizations,
+      and pinboards.
+    </p>
+    <p>
+      Start with the topic on how to [Create and share R scripts]({{
+      site.baseurl }}/end-user/r-scripts/create-r-scripts.html) to learn
+      more about writing R scripts in ThoughtSpot, including a few
+      particulars on syntax and column bindings.
+    </p>
+    <p>
+      To learn more about R programming in general, a good place to
+      start is <link href="https://www.r-project.org/">R Project
+      for Statistical Computing</link>. Also, Anthony Chen's blog post
+      on
+      <link href="https://www.thoughtspot.com/codex/using-r-analysis-thoughtspot-time-series-forecasting">Using
+      R Analysis in ThoughtSpot for Time Series Forecasting</link> is a
+      nice introduction to writing R scripts in ThoughtSpot.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-pinboard-examples.png)
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          <link href="create-r-scripts.html#">Create and share R
+          scripts</link>
+        </p>
+      </li>
+      <li>
+        <p>
+          <link href="run-prebuilt-r-scripts.html">Run pre-built R
+          scripts on answers</link>
+        </p>
+      </li>
+      <li>
+        <p>
+          [SpotIQ custom analysis]({{
+          site.baseurl}}/spotiq/adv-customize-withr.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Understand groups and privileges]({{
+          site.baseurl}}/admin/users-groups/about-users-groups.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [tscli rpackage]({{ site.baseurl
+          }}/reference/tscli-command-ref.html#rpackage)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

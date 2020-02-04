@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="delete-a-visualization_xml"><title>Delete a visualization</title><body>
+  <section id="title-delete-a-visualization-last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Delete a visualization</title>
+    <p>
+      You can remove a visualization from your pinboard. To delete a
+      visualization:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboard list page, click the pinboard you would like
+          to edit.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Delete</i> under the
+          dropdown menu of the visualization you would like to delete.
+        </p>
+        <fig id="fig_1580796176_2"><title>Delete a visualization</title><image href="https://docs.thoughtspot.com/6.0/images/detele_a_pinboard_visualization.png" id="image_1580796176_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Save your pinboard by clicking
+          <i>Actions</i> and
+          <i>Save</i>.
+        </p>
+        <fig id="fig_1580796176_3"><title>Save your pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/save_a_pinboard.png" id="image_1580796176_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

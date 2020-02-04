@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="work-with-answers_xml"><title>Work with Answers</title><body>
+  <section id="last_updated-tbd-summary-answers-are-the-saved-results-of-a-search--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Work with Answers</title>
+    <p>
+      You can save the results of any search and share these with other
+      people. Your saved searches appear on the
+      <i>Answers</i> page. From this page,
+      you can see answers you saved and answers other people have saved,
+      provided these people shared them with you or a group you belong
+      to.
+    </p>
+  </section>
+  <section id="apply-a-sticker">
+    <title>Apply a sticker</title>
+    <p>
+      Only administrators create stickers, but anyone with edit
+      privileges can tag an object with a sticker. To add a sticker to
+      an answer:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Find the item(s) you want to tag in the list.
+        </p>
+      </li>
+      <li>
+        <p>
+          Check the box next to its name.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the apply sticker icon and choose one from the list.
+        </p>
+      </li>
+    </ol>
+    <p>
+      You can apply as many stickers as you like to an object.
+    </p>
+  </section>
+  <section id="copy-and-edit-an-answer">
+    <title>Copy and edit an answer</title>
+    <p>
+      You can edit a copy of an answer if you would like to make edits
+      without changing the original answer. When saving, you can type in
+      a different name for your copy.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Answers</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796172_1"><title>Answers</title><image href="https://docs.thoughtspot.com/6.0/images/answers_icon.png" id="image_1580796172_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the answer list page, click the answer you would like to
+          edit a copy of.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Copy and edit</i>.
+        </p>
+        <fig id="fig_1580796172_2"><title>Make a copy of the answer</title><image href="https://docs.thoughtspot.com/6.0/images/copy_an_answer.png" id="image_1580796172_2" scope="external"/></fig>
+        <p>
+          A copy of the answer is displayed with “Copy of” added to the
+          beginning of the title.
+        </p>
+      </li>
+      <li>
+        <p>
+          Make any changes you want to the answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Save</i>.
+        </p>
+        <p>
+          The Save Answer dialog box appears.
+        </p>
+        <fig id="fig_1580796172_3"><title>Name and save your answer copy</title><image href="https://docs.thoughtspot.com/6.0/images/name_your_pinboard_copy.png" id="image_1580796172_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Change the name and description, as needed, and click
+          <i>SAVE</i>.
+        </p>
+        <p>
+          When you navigate back to the Answers page, your edited Answer
+          will appear in the list.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="other-features">
+    <title>Other features</title>
+    <p>
+      At the bottom of the <i>Answers</i>
+      page, you can an additional area, called
+      <i>SpotIQ Insights</i>. This area is
+      derived from your original answer and you can select any of the
+      insights to deepen your search.
+    </p>
+    <fig id="fig_1580796172_4"><title>Features of Answers</title><image href="https://docs.thoughtspot.com/6.0/images/other-answers.png" id="image_1580796172_4" scope="external"/></fig>
+    <p>
+      The <i>SpotIQ Insights</i> section is
+      only visible to users with the <i>Has
+      SpotIQ</i> privilege. After you expand an insight on this
+      list, an <i>Edit</i> button allows you
+      modify the insight and make it your own. Your installation
+      configuration determines how many insights can appear in this
+      section. The default is 6.
+    </p>
+  </section>
+  <section id="copy-and-edit-a-spotiq-insight">
+    <title>Copy and edit a SpotIQ Insight</title>
+    <p>
+      You can edit a copy of a SpotIQ Insight if you would like to make
+      edits without changing the original insight. When saving, you can
+      type in a different name for your copy.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Find the SpotIQ insight you want to edit and click it to open
+          it as an answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Copy and edit</i>.
+        </p>
+        <fig id="fig_1580796172_5"><title>Insights</title><image href="https://docs.thoughtspot.com/6.0/images/copy_an_edit_spiq.png" id="image_1580796172_5" scope="external"/></fig>
+        <p>
+          A copy of the answer is displayed with “Copy of” added to the
+          beginning of the title.
+        </p>
+      </li>
+      <li>
+        <p>
+          Make any changes you want to the answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Save</i>.
+        </p>
+        <p>
+          The Save Answer dialog box appears.
+        </p>
+      </li>
+      <li>
+        <p>
+          Change the name and description, as needed, and click
+          <i>SAVE</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

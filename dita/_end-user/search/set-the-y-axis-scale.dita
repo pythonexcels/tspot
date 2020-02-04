@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="set-the-y-axis-scale_xml"><title>Set the y-axis range</title><body>
+  <section id="last_updated-tbd-summary-on-charts-you-can-manually-configure-the-y-axis-range-to-be-different-from-the-search-default-you-can-have-multiple-measures-on-the-y-axis-of-many-charts-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Set the y-axis range</title>
+    <p>
+      You can manually set the y-axis range by using the
+      <i>Edit chart styles</i> icon.
+    </p>
+  </section>
+  <section id="setting-the-y-axis-range">
+    <title>Setting the y-axis range</title>
+    <p>
+      The style panel includes the option to manually set the y-axis
+      range. To set the y-axis range:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a chart, click
+          <i>Edit chart styles</i>.
+        </p>
+        <fig id="fig_1580796172_1"><title>Edit chart styles icon</title><image href="https://docs.thoughtspot.com/6.0/images/y_axis_range_select_styles.png" id="image_1580796172_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Under <i>Y-Axis Range</i> enter
+          your preferred start and end values.
+        </p>
+        <p>
+          In this example, our original chart is showing sales values by
+          department from 0 to over $10M. We can enter a y-axis range of
+          <codeph>5000000</codeph> to <codeph>9000000</codeph> to
+          show only sales between $5M and $10M.
+        </p>
+        <p>
+          The chart will reorganize itself to reflect the new y-axis
+          range.
+        </p>
+        <fig id="fig_1580796172_2"><title>Y-Axis Range details</title><image href="https://docs.thoughtspot.com/6.0/images/y_axis_range.png" id="image_1580796172_2" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="create-charts-with-multiple-measures-on-the-y-axis">
+    <title>Create charts with multiple measures on the y-axis</title>
+    <p>
+      You can have multiple measures on the y-axis of most (but not all)
+      chart types. You can configure this on the chart styles panel. To
+      learn more, see these topics:
+    </p>
+    <ul>
+      <li>
+        <p>
+          [Configure columns for X and Y axis]({{ site.baseurl
+          }}/end-user/search/show-data-labels.html#stack-multiple-measures-on-the-y-axis)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Charts with multiple measures on the y-axis]({{ site.baseurl
+          }}/end-user/search/about-charts.html#charts-with-multiple-measures-on-the-y-axis)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

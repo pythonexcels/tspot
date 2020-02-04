@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="copy-a-pinboard_xml"><title>Copy a pinboard</title><body>
+  <section id="title-copy-a-pinboard-last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Copy a pinboard</title>
+    <p>
+      You can make a copy of a pinboard if you would plan to make edits
+      without overwriting the original pinboard. When you save a copy,
+      you can use a new pinboard name.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796177_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796177_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboard list page, click the pinboard you would like
+          to copy.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Make a copy</i>.
+        </p>
+        <fig id="fig_1580796177_2"><title>Make a copy of the pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/make_a_copy_of_a_pinboard.png" id="image_1580796177_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Give your pinboard a new name and description, and then click
+          <i>Save</i>.
+        </p>
+        <fig id="fig_1580796177_3"><title>Name and save your pinboard copy</title><image href="https://docs.thoughtspot.com/6.0/images/name_your_pinboard_copy.png" id="image_1580796177_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

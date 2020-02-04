@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="share-answers_xml"><title>Share answers</title><body>
+  <section id="title-share-answers-last_updated-12182019-toc-false-summary-when-you-view-an-answer-in-thoughtspot-you-can-share-it-with-others-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Share answers</title>
+    <p>
+      {% include content/share-answer.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

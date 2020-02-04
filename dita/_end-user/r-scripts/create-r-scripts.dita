@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="create-r-scripts_xml"><title>Create and share R scripts</title><body>
+  <section id="title-create-and-share-r-scripts-summary-you-can-create-and-share-your-custom-r-scripts-in-thoughtspot-last_updated-11222019-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Create and share R scripts</title>
+    <p>
+    </p>
+  </section>
+  <section id="overview">
+    <title>Overview</title>
+    <p>
+      {% include note.html content="Custom R is disabled by
+      default. To turn on custom R scripting, contact your site
+      administrator." %}
+    </p>
+    <p>
+      Each ThoughtSpot cluster is capable of running an R analysis on
+      your data. To perform your own R analysis, start with a simple
+      search and click the R icon on the right.
+    </p>
+    <p>
+      Use the <i>Custom R Script</i> dialog
+      and settings to enter your script, set which columns to include
+      for analysis, and indicate what output data to expect from your
+      script (PNG or CSV).
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-script-dialog.png)
+    </p>
+    <p>
+      ThoughtSpot also supports the sharing of scripts among users to
+      enable you to share your powerful R analyses across the system,
+      and allow others to run your scripts on different search results.
+    </p>
+  </section>
+  <section id="how-it-works">
+    <title>How it works</title>
+    <p>
+      An R script in ThoughtSpot is based off of your original search
+      (both the data and the schema), using the columns you select for
+      the analysis. You can select all columns used in the original
+      search or a subset of those columns, depending on the script.
+    </p>
+    <p>
+      ThoughtSpot auto generates objects with variable names by which
+      you can refer to data elements in your script.
+    </p>
+    <p>
+      You can refer to the data in the selected columns by using vectors
+      that ThoughtSpot generates for these before the script is run. The
+      first column you select has the variable name
+      <codeph>.param0</codeph>, the second column you select has the
+      variable name <codeph>.param1</codeph>, and so on. This naming
+      scheme continues if there are more columns. (You can click the
+      question mark icon ![question icon]({{ site.baseurl
+      }}/images/r-icon-question-mark.png){: .inline} next to
+      "<i>Select columns for R
+      analysis</i>" to get a visual mapping of how the
+      columns are bound to variables in R.)
+    </p>
+    <p>
+      ThoughtSpot also provides an automatically-generated
+      <i>data frame</i> object, <codeph>df</codeph>,
+      that contains all selected column vectors. The data frame is R’s
+      representation of a table (a 2D data structure containing rows and
+      columns).
+    </p>
+    <p>
+      When the script executes, it passes the information to the server
+      to run the analysis, and displays the answer as a visualization,
+      in either PNG or CSV (table) format.
+    </p>
+    <p>
+      As we demonstrate in the following examples, you can chain R
+      analyses together by running another R script on the answer to a
+      previous script.
+    </p>
+  </section>
+  <section id="write-a-custom-script">
+    <title>Write a custom script</title>
+    <p>
+      To add a custom R script, start by running a search, then click
+      the <i>R</i> icon ![R icon]({{
+      site.baseurl }}/images/r-icon-inline.png){: .inline} on the
+      toolbar.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-icon.png)
+    </p>
+    <p>
+      Add your script into the <i>Custom R
+      Script</i> dialog, and set the
+      <xref keyref="column-bindings">column bindings</xref> and
+      <xref keyref="output-file-type">output type</xref> appropriately,
+      as shown in the following examples.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-png-basic.png)
+    </p>
+    <p>
+      For an R script to produce a meaningful output in ThoughtSpot, the
+      script should generate a CSV or PNG file. Output should be written
+      to the token <codeph>#output_file#</codeph>. CSV output is
+      rendered back as a simple table in ThoughtSpot, PNG output is
+      rendered back as a static PNG.
+    </p>
+  </section>
+  <section id="basic-r-script-to-generate-csv-data">
+    <title>Basic R script to generate CSV data</title>
+    <p>
+      This is an example of a basic R script that generates CSV data.
+      (The <codeph>df</codeph> variable name must be lower case, as
+      shown.)
+    </p>
+    <programlisting>
+write.csv(df,  #output_file#)
+</programlisting>
+    <p>
+      The generated data is displayed back as a table when you run the
+      analysis:
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-csv-basic.png)
+    </p>
+    <p>
+      This basic script returns the same table results as if you did the
+      query directly in ThoughtSpot and selected the table view, barring
+      some additional formatting you get for free on the search.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-basic-table-search-result.png)
+    </p>
+  </section>
+  <section id="basic-r-script-to-generate-a-png-graphic">
+    <title>Basic R script to generate a PNG graphic</title>
+    <p>
+      This is an example of a basic R script that generates PNG data as
+      output.
+    </p>
+    <programlisting>
+png(#output_file#)
+plot(.param0, .param1)
+</programlisting>
+    <p>
+      The generated data is displayed back as a static PNG when you run
+      the analysis:
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-png-basic.png)
+    </p>
+  </section>
+  <section id="column-bindings-and-output-file-type">
+    <title>Column bindings and output file type</title>
+    <ul>
+      <li>
+        <p>
+          Under <i>Select column(s) for R
+          analysis</i>, you specify the data you want to send to
+          R and how to send it. If you do not make any choices here, all
+          columns in the search are selected in the order they appear in
+          the search bar.
+        </p>
+        <p>
+          In the examples above, <codeph>Year (Date)</codeph> is
+          <codeph>.param0</codeph>, and <codeph>Sales</codeph> is
+          <codeph>.param1</codeph>. To verify this, click the question
+          mark icon next to <i>Select columns for R
+          analysis</i> to see the “column bindings”. Reordering
+          the columns changes the column bindings/params.
+        </p>
+      </li>
+      <li>
+        <p>
+          Under <i>Output File Type</i>
+          Select PNG or CSV, depending on the output details and in your
+          script.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="options-on-scripts">
+    <title>Options on scripts</title>
+    <p>
+      You can click these icons in the R script dialog to get more
+      options:
+    </p>
+    <ul>
+      <li>
+        <p>
+          The R script information icon ![more options menu icon]({{
+          site.baseurl }}/images/r-icon-i.png){: .inline} provides a
+          basic reference guide for creating an R analysis in
+          ThoughtSpot.
+        </p>
+      </li>
+      <li>
+        <p>
+          The ellipses icon ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} provides a menu with
+          options to save or load a previously saved R script, as well
+          as share your R script with other users in the system.
+        </p>
+      </li>
+      <li>
+        <p>
+          The arrow at the top right of the script dialog ![popout
+          arrow]({{ site.baseurl }}/images/r-icon-popout-arrow.png){:
+          .inline} opens a popout editor that gives you a larger space
+          in which to view and edit your R script.
+        </p>
+      </li>
+      <li>
+        <p>
+          The question mark icon ![question icon]({{ site.baseurl
+          }}/images/r-icon-question-mark.png){: .inline} next to
+          "<i>Select column(s) for R
+          analysis</i>" provides a visual mapping of how the
+          columns are bound to variables in R.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="k-means-clustering-example-scripts">
+    <title>K-Means clustering example scripts</title>
+    <p>
+      This script loads the <codeph>ggplot2</codeph> visualization
+      package, labels the columns inside of the ThoughtSpot generated
+      data frame object (<codeph>df</codeph>), and runs a K-Means
+      clustering algorithm.
+    </p>
+    <programlisting>
+library(ggplot2)
+
+kmeansOutput &lt;- kmeans(df[1:2], 3, nstart = 20)
+kmeansOutput$cluster &lt;- as.factor(kmeansOutput$cluster)
+png(file=#output_file#, width=400, height=350, res=72)
+print(ggplot(df, aes(.param0, .param1, color = kmeansOutput$cluster)) + geom_point())
+</programlisting>
+    <p>
+      When you run this script on the results of the original
+      <codeph>sales date</codeph> search, you get the following
+      visualization as a PNG.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-custom-script-png.png)
+    </p>
+    <p>
+      You can run another R script directly on this result to get CSV
+      results:
+    </p>
+    <programlisting>
+kmeansOutput &lt;- kmeans(df[1:2], 3, nstart = 20);
+df$Cluster &lt;- as.factor(kmeansOutput$cluster);
+write.csv(df, file=#output_file#, row.names=FALSE);
+</programlisting>
+    <p>
+      The script for CSV output generates a table:
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-custom-script-csv.png)
+    </p>
+  </section>
+  <section id="save-and-share-your-script">
+    <title>Save and share your script</title>
+    <p>
+      To save a script, choose <i>Save
+      as</i> from the options menu ![more options menu icon]({{
+      site.baseurl }}/images/icon-ellipses.png){: .inline} of the
+      script. After you name and save it, your script will show in the
+      <i>Load</i> scripts dialog.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-save-script.png)
+    </p>
+    <p>
+      To share a script, choose <i>Share</i>
+      from the options menu ![more options menu icon]({{ site.baseurl
+      }}/images/icon-ellipses.png){: .inline}.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/r-share-script.png)
+    </p>
+  </section>
+  <section id="more-script-examples">
+    <title>More script examples</title>
+    <p>
+      For some more example scripts, check out the blog post on
+      <link href="https://www.thoughtspot.com/codex/using-r-analysis-thoughtspot-time-series-forecasting">Using
+      R Analysis in ThoughtSpot for Time Series Forecasting</link>, or
+      load one of the ThoughtSpot provided scripts:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Binomial Logistic Regression
+        </p>
+      </li>
+      <li>
+        <p>
+          K-Means Clustering Plot
+        </p>
+      </li>
+      <li>
+        <p>
+          K-Means Clustering Table
+        </p>
+      </li>
+      <li>
+        <p>
+          Time Series Outlier Detection
+        </p>
+      </li>
+      <li>
+        <p>
+          Time Series Forecast
+        </p>
+      </li>
+    </ul>
+    <p>
+      ![]({{ site.baseurl }}/images/r-script-load-prebuilt.png)
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          <link href="https://www.thoughtspot.com/codex/using-r-analysis-thoughtspot-time-series-forecasting">Using
+          R Analysis in ThoughtSpot for Time Series Forecasting</link>
+          (blog post by Antony Chen of ThoughtSpot)
+        </p>
+      </li>
+      <li>
+        <p>
+          <link href="https://www.r-project.org/">R Project for
+          Statistical Computing</link>
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

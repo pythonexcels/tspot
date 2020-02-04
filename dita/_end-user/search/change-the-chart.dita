@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="change-the-chart_xml"><title>Change a chart</title><body>
+  <section id="title-change-a-chart-last_updated-11042019-summary-you-can-adjust-all-aspects-of-thoughtspot-charts-color-legends-axis-number-format-and-many-more--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Change a chart</title>
+    <p>
+      To make changes to the chart configuration, click the gear icon in
+      the top right corner of the visualization.
+    </p>
+    <fig id="fig_1580796174_1"><title>Edit chart configuration</title><image href="https://docs.thoughtspot.com/6.0/images/edit-chart-configuration.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      This opens the <i>Customize</i> menu
+      for the chart.
+    </p>
+    <fig id="fig_1580796174_2"><title>Customize chart configuration</title><image href="https://docs.thoughtspot.com/6.0/images/customize-chart.png" id="image_1580796174_2" scope="external"/></fig>
+    <p>
+      You can edit some of the elements of the chart directly, by
+      clicking on them. For example, you can change the appearance of a
+      chart [axis]({{ site.baseurl
+      }}/end-user/search/chart-axes-options.html) by clicking it and
+      making selections in the available options.
+    </p>
+    <p>
+      Through this menu, you can perform a number of customizations:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Editable 'drag and drop' chips
+        </p>
+        <ul>
+          <li>
+            <p>
+              'Not Visualized' section
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Number formatting for all data labels
+        </p>
+        <ul>
+          <li>
+            <p>
+              Category (Number, Percentage, Currency)
+            </p>
+          </li>
+          <li>
+            <p>
+              Units (K, M, B)
+            </p>
+          </li>
+          <li>
+            <p>
+              Decimals
+            </p>
+          </li>
+          <li>
+            <p>
+              Independent control for each measure on the chart
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          [Axes]({{ site.baseurl
+          }}/end-user/search/chart-axes-options.html)
+        </p>
+        <ul>
+          <li>
+            <p>
+              Grouping and ungrouping of axes
+            </p>
+          </li>
+          <li>
+            <p>
+              Axis renaming
+            </p>
+          </li>
+        </ul>
+        <p>
+          See [Change the options on an axis]({{ site.baseurl
+          }}/end-user/search/chart-axes-options.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          Color configuration
+        </p>
+      </li>
+      <li>
+        <p>
+          Tables
+        </p>
+        <ul>
+          <li>
+            <p>
+              Column renaming for chart and pivot tables
+            </p>
+          </li>
+          <li>
+            <p>
+              Wrap or clip options for long text
+            </p>
+          </li>
+          <li>
+            <p>
+              No line limit for headers in wrap mode
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p>
+      Use the configuration options to perform any chart adjustments,
+      such as:
+    </p>
+    <ul>
+      <li>
+<literallayout><i>[Reorder labels on the axis or legend]({{ site.baseurl }}/end-user/search/reorder-values-on-the-x-axis.html)</i>
+When there are multiple columns on the x- or y-axis or legend of a chart, you can reorder them by using the <i>Configure Chart</i> icon.</literallayout>
+      </li>
+      <li>
+<literallayout><i>[Set the y-axis range]({{ site.baseurl }}/end-user/search/set-the-y-axis-scale.html)</i>
+You can manually set the y-axis range by using the <i>Edit chart configuration</i> icon.</literallayout>
+      </li>
+      <li>
+<literallayout><i>[Hide and show values]({{ site.baseurl }}/end-user/search/hide-and-show-values.html)</i>
+You can hide and show values on the chart using the legend.</literallayout>
+      </li>
+      <li>
+<literallayout><i>[Change chart colors]({{ site.baseurl }}/end-user/search/change-chart-colors.html)</i>
+You can easily change the legend colors in a chart.</literallayout>
+      </li>
+      <li>
+<literallayout><i>[Additional chart options]({{ site.baseurl }}/end-user/search/show-data-labels.html)</i>
+You can configure charts to show the y-axis data values.</literallayout>
+      </li>
+      <li>
+<literallayout><i>[Zoom into a chart]({{ site.baseurl }}/end-user/search/zoom-into-a-chart.html)</i>
+You can zoom into your chart by selecting an area with your mouse.</literallayout>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

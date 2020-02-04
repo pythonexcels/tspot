@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-nested-formulas_xml"><title>Nested formulas</title><body>
+  <section id="last_updated-tbd-toc-false-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Nested formulas</title>
+    <p>
+      Nested formulas, or formula on formula, allow you to reference a
+      formula within another formula. This graphic illustrates how you
+      would define a formula and then reference it from another:
+    </p>
+    <fig id="fig_1580796167_1"><title>formula1 nested in formula2</title><image href="https://docs.thoughtspot.com/6.0/images/nested_formulas_example.png" id="image_1580796167_1" scope="external"/></fig>
+    <p>
+      These formulas become columns, and are even suggested within the
+      Formula Builder. There is no limit to the nesting depth you can
+      create.
+    </p>
+    <p>
+      ThoughtSpot doesn't allow users to create invalid formulas, such
+      as cyclic (loops) or inconsistent aggregation formulas. To support
+      this, formulas have dependency awareness. For example, you cannot
+      delete a formula that is nested in another. Also, formula
+      dependency awareness ensures that you do not break any dependent
+      formulas while editing a formula with dependent formulas. For
+      example, common cases of invalidating occur when users try to
+      change a data type.
+    </p>
+    <p>
+      Nesting enables encapsulation and decomposition of formula logic.
+      Meaning, you may have a staff member create some small useful
+      formulas that others can use. This also minimizes duplication of
+      formulas.
+    </p>
+  </section>
+</body>
+
+</topic>

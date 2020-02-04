@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="search-using-growth-over-time_xml"><title>Search using growth over time</title><body>
+  <section id="last_updated-tbd-summary-you-can-show-growth-over-time-by-using-the-growth-of-keyword-in-your-search--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Search using growth over time</title>
+    <p>
+      The <codeph>growth of</codeph> keyword compares the data from
+      different date periods, and returns a percentage of growth.
+    </p>
+  </section>
+  <section id="growth-of-measure-by-year">
+    <title>Growth of measure by year</title>
+    <p>
+      To search using growth over time:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Type <codeph>growth of</codeph> into the search bar, and
+          choose a measure you're interested in seeing the growth of.
+        </p>
+        <fig id="fig_1580796167_1"><title>Growth of suggestions</title><image href="https://docs.thoughtspot.com/6.0/images/growth_of_suggestions.png" id="image_1580796167_1" scope="external"/></fig>
+        <p>
+          You will see a list of suggestions to choose from based on
+          your sources. You can also type a different column name
+          containing numeric data to compare.
+        </p>
+      </li>
+      <li>
+        <p>
+          Type <codeph>by</codeph>, followed by a date column name.
+        </p>
+        <p>
+          The growth is calculated as a positive or negative percentage,
+          for each period relative to the last period in the series. A
+          line chart is a good way to display your data, but the
+          waterfall chart is especially effective to show growth.
+        </p>
+        <fig id="fig_1580796167_2"><title>Growth of total sales waterfall chart</title><image href="https://docs.thoughtspot.com/6.0/images/growth_of_waterfall_chart.png" id="image_1580796167_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          You can also do year-over-year analysis, which compares each
+          time period to the corresponding time period in the prior
+          year.
+        </p>
+        <p>
+          This type of growth analysis is more common in retail and
+          other seasonal businesses. To do this, type monthly
+          year-over-year after your growth of phrase in the search bar.
+        </p>
+        <fig id="fig_1580796167_3"><title>Growth of by monthly year-over-year</title><image href="https://docs.thoughtspot.com/6.0/images/growth_of_year_over_year.png" id="image_1580796167_3" scope="external"/></fig>
+        <p>
+          This compares data between the same month from different
+          years. For example, it will allow you to compare sales from
+          June of this year to the sales from June of last year. Note
+          that for the first year, values are labeled as
+          "{Blank}" in the Data View since there are no
+          previous data to compare them to.
+        </p>
+        <p>
+          Add an attribute to your search see the breakdown of how each
+          grouping of the attribute contributed to the overall growth of
+          your measure.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Configure Chart</i> and
+          add your attribute to the Legend field.
+        </p>
+        <fig id="fig_1580796167_4"><title>Growth of broken up by category</title><image href="https://docs.thoughtspot.com/6.0/images/growth_of_attribute_breakdown.png" id="image_1580796167_4" scope="external"/></fig>
+        <p>
+          It looks like Q4, FY 15 was a much more productive period for
+          a number of categories compared to a year ago.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="display-periods-daily-over-time-year-over-year">
+    <title>Display periods (daily) over time (year-over-year)</title>
+    <p>
+      Growth query now supports more hierarchical date buckets and
+      period calculations. The growth query syntax is as follows:
+    </p>
+    <p>
+      <codeph>growth of &lt;measure_column&gt; by &lt;date_column&gt; &lt;bucket&gt; &lt;period-over-period&gt;</codeph>
+    </p>
+    <p>
+      This table shows the possible buckets and the period-over keywords
+      you can combine:
+    </p>
+    <p>
+      For example, the following query
+      <codeph>growth of sales by date daily month-over-month</codeph>:
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/date-period-over-period.png)
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="aggregation-flexible_xml"><title>Flexible aggregation functions</title><body>
+  <section id="title-flexible-aggregation-functions-summary-use-the-group_aggregate-function-in-thoughtspot-to-aggregate-measures-at-different-granularities-then-the-dimensions-used-in-the-search-columns-last_updated-11052019-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Flexible aggregation functions</title>
+    <p>
+    </p>
+  </section>
+  <section id="how-aggregation-formulas-work">
+    <title>How aggregation formulas work</title>
+    <p>
+      Typically, the groupings and filters used in a formula use the
+      same fields as columns returned in the search results. The concept
+      of a grouping equates to an attribute column.
+    </p>
+    <p>
+      For example, in the search <codeph>revenue ship mode</codeph>,
+      <codeph>revenue</codeph> is the measure, and
+      <codeph>ship mode</codeph> is the attribute, or grouping. The
+      result of this search shows total revenue for each ship mode:
+    </p>
+    <informaltable>
+      <tgroup cols="2">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              revenue
+            </entry>
+            <entry>
+              ship mode
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              $ <i>a</i>
+            </entry>
+            <entry>
+              air
+            </entry>
+          </row>
+          <row>
+            <entry>
+              $ <i>r</i>
+            </entry>
+            <entry>
+              rail
+            </entry>
+          </row>
+          <row>
+            <entry>
+              $ <i>t</i>
+            </entry>
+            <entry>
+              truck
+            </entry>
+          </row>
+          <row>
+            <entry>
+              $ <i>s</i>
+            </entry>
+            <entry>
+              sea transport
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+    <p>
+      The aggregation formulas are described in
+      <link href="aggregation-formulas.html#">Overview of
+      aggregate formulas</link>.
+    </p>
+  </section>
+  <section id="about-flexible-aggregation">
+    <title>About flexible aggregation</title>
+    <p>
+      ThoughtSpot provides flexible aggregation with the
+      <codeph>group_aggregate</codeph> function. You can use this
+      formula to group and filter query results on different dimensions
+      and granularities from the columns already used in the search bar
+      query.
+    </p>
+    <p>
+      The <codeph>group_aggregate</codeph> formula uses a sub-query to
+      perform these custom aggregations. If the sub-query is at a higher
+      detailed level, ThoughtSpot adds the result column to the result
+      of original query. When the sub-query is at a finer detail level
+      than the original query, ThoughtSpot uses
+      <i>roll-up</i>, or
+      <i>reaggregation</i>.
+    </p>
+    <p>
+      This is particularly useful for comparison analysis.
+    </p>
+    <p>
+      To use the groups and filters, specify them using the
+      <codeph>query_groups</codeph> and
+      <codeph>query_filters</codeph> keywords, respectively. You can
+      also add or exclude groups or filters.
+    </p>
+    <p>
+      {% include content/flexible-aggregation-best-practices.md %}
+    </p>
+  </section>
+  <section id="examples">
+    <title>Examples</title>
+    <p>
+      For a search on <codeph>revenue monthly ship mode</codeph>, you
+      can add a formula to calculate yearly revenue by ship mode:
+    </p>
+    <programlisting>
+group_aggregate(sum(revenue), {ship mode, year(commit date)}, {})
+</programlisting>
+    <p>
+      The same formula can also be written using
+      <codeph>query_groups()</codeph> and
+      <codeph>query_filters()</codeph> as following:
+    </p>
+    <programlisting>
+group_aggregate(sum(revenue), query_groups() - {commit date} + {year(commit date)}, {})
+</programlisting>
+    <p>
+      This is helpful to include the main query groups that are not
+      known at formula creation time. You can use <codeph>+/-</codeph>
+      to modify the set of groups included from the query.
+    </p>
+    <p>
+      {% include note.html content="<codeph>+/-</codeph> is
+      currently supported only for <codeph>query_groups</codeph>, not
+      <codeph>query_filters</codeph>."%}
+    </p>
+  </section>
+  <section id="when-group-formula-results-are-finer-grained-than-the-search">
+    <title>When group formula results are finer-grained than the
+    search</title>
+    <p>
+      With the flexibility of groupings for group formulas, the computed
+      column created by a formula can be finer or courser grained than
+      the search itself.
+    </p>
+    <p>
+      For example, you can have a search that shows
+      <i>total yearly sales</i> and a
+      formula that computes total sales <i>for each
+      month</i> (a finer-grained calculation than the search).
+    </p>
+    <p>
+      In such cases, if an additional aggregation is specified by the
+      formula, the results get <i>reaggregated</i>.
+    </p>
+    <p>
+      Reaggregation can be applied in either of these ways:
+    </p>
+    <ul>
+      <li>
+        <p>
+          You can add an aggregation keyword just before a formula
+          column in a search. For example, in this search we've added
+          the keyword <i>min</i> just before
+          our formula for <codeph>monthly_sales</codeph>:
+        </p>
+        <p>
+          <i>sum revenue yearly min
+          monthly_sales</i>
+        </p>
+        <p>
+          where, the <codeph>monthly_sales</codeph> formula is written
+          as:
+        </p>
+        <programlisting>
+ group_aggregate(sum(revenue), {start_of_month(date)}, {})
+</programlisting>
+      </li>
+      <li>
+        <p>
+          You can create a separate formula, such as in this search for:
+        </p>
+        <p>
+          <i>sum revenue yearly
+          min_monthly_sales</i>
+        </p>
+        <p>
+          where, the <codeph>min_monthly_sales</codeph> formula is
+          written as:
+        </p>
+        <programlisting>
+min(monthly_sales)
+</programlisting>
+      </li>
+    </ul>
+    <p>
+      Alternatively, if no aggregation is specified, then the search
+      query also inherits the formula groupings, as in this search:
+    </p>
+    <p>
+      <i>sum revenue yearly
+      monthly_sales</i>
+    </p>
+    <p>
+      where, the original query is computed at a monthly grain instead
+      of yearly.
+    </p>
+  </section>
+  <section id="reaggregation-scenarios">
+    <title>Reaggregation scenarios</title>
+    <p>
+      Some scenarios require aggregation on an already aggregated
+      result.
+    </p>
+    <p>
+      For example, computing minimum monthly sales per ship mode,
+      requires two aggregations:
+    </p>
+    <ul>
+      <li>
+        <p>
+          the first aggregation of
+          <i>sum</i> to compute total
+          monthly sales per ship mode.
+        </p>
+      </li>
+      <li>
+        <p>
+          the second aggregation of
+          <i>min</i> to compute minimum sale
+          that happened for any given month for that ship mode.
+        </p>
+      </li>
+    </ul>
+    <p>
+      An example of this is this search:
+    </p>
+    <p>
+      <i>ship mode min monthly_sales</i>
+    </p>
+    <p>
+      where the formula <codeph>monthly_sales</codeph> is written as:
+    </p>
+    <programlisting>
+group_aggregate(sum(revenue), query_groups() + {start_of_month(date)}, {})
+</programlisting>
+    <p>
+      For more extensive examples of using the
+      <codeph>group-aggregate</codeph> function, we encourage you to
+      see
+      <link href="{{site.baseurl}}/reference/reaggregation-scenarios.html">Reaggreggation
+      scenarios in practice</link>
+    </p>
+  </section>
+  <section id="groups-and-filters">
+    <title>Groups and filters</title>
+    <p>
+      Flexible group aggregate formulas allow for flexibility in both
+      <link href="about-pinned-measures.html#">groupings</link>
+      and <link href="filtered-agg-forms.html#">filters</link>.
+      The formulas give you the ability to specify only groupings or
+      only filters.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          For more examples of flexible aggregation, see the
+          <link href="{{site.baseurl}}/reference/practice/formula-reference.html#group_aggregate">group_aggregate</link>
+          function in the
+          <link href="{{site.baseurl}}/reference/formula-reference.html">Formula
+          function reference</link>.
+        </p>
+      </li>
+      <li>
+        <p>
+          To learn about aggregation formulas in general, see
+          <link href="aggregation-formulas.html#">Overview of
+          aggregate formulas</link> and
+          <link href="about-pinned-measures.html#">Group
+          aggregation functions</link>
+        </p>
+      </li>
+      <li>
+        <p>
+          To learn about how the <codeph>group-aggregate</codeph>
+          function can be used within your business practice, we
+          encourage you to see
+          <link href="{{site.baseurl}}/reference/practice/reaggregation-scenarios.html">Reaggregation
+          scenarios in practice</link>
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

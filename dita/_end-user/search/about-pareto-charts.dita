@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-pareto-charts_xml"><title>Pareto charts</title><body>
+  <section id="last_updated-tbd-summary-the-pareto-chart-is-a-type-of-chart-that-contains-both-columns-and-a-special-type-of-line-chart--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Pareto charts</title>
+    <p>
+      The individual values of a pareto chart are represented in
+      descending order by columns, and the cumulative percent total is
+      represented by the line. The y-axis on the left is paired with the
+      columns, while the y-axis on the right is paired with the line. By
+      the end of the line, the cumulative percent total reaches 100
+      percent.
+    </p>
+    <fig id="fig_1580796173_1"><title>Pareto chart example</title><image href="https://docs.thoughtspot.com/6.0/images/pareto_chart_example.png" id="image_1580796173_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as a pareto chart.
+    </p>
+  </section>
+</body>
+
+</topic>

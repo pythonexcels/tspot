@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-searchiq_xml"><title>"About SearchIQ"</title><body>
+  <section id="title-about-searchiq-last_updated-09232019-summary-with-searchiq-you-can-search-your-data-through-natural-language-just-like-speaking-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"About SearchIQ"</title>
+    <p>
+      To understand natural language search, SearchIQ collects data on
+      searches and user-language preferences. Find more information
+      about what SearchIQ collects at [SearchIQ data collection]({{
+      site.baseurl }}/end-user/search/searchiq-data-collection.html).
+    </p>
+    <p>
+      SearchIQ is a different search experience that understands more
+      natural, speech-like search language than the [original
+      ThoughtSpot search]({{ site.baseurl
+      }}/end-user/search/about-starting-a-new-search.html). For example,
+      you can search for
+      <codeph>What was my top selling product last month?</codeph>,
+      instead of typing
+      <codeph>top 1 product by sales last month</codeph>. You can also
+      speak your search using the voice-to-text capability of your
+      operating system.
+    </p>
+  </section>
+  <section id="how-do-i-use-searchiq">
+    <title>How do I use SearchIQ?</title>
+    <p>
+      Search IQ collects data to improve accuracy of natural language
+      interpretation. For more details, see [SearchIQ data
+      collection]({{ site.baseurl
+      }}/end-user/search/searchiq-data-collection.html).
+    </p>
+    <p>
+      Clicking on the search bar on your homepage, or clicking
+      <i>Search</i> in the top menu bar
+      takes you to the search screen.
+    </p>
+    <p>
+      From here, if SearchIQ is enabled for you by your administrator,
+      you can see a <i>SearchIQ</i> toggle
+      button to the right of the search bar.
+    </p>
+    <fig id="fig_1580796175_1"><title>Search bar</title><image href="https://docs.thoughtspot.com/6.0/images/choose_searchiq.png" id="image_1580796175_1" scope="external"/></fig>
+    <p>
+      Switch it to the on position. This puts the search into SearchIQ
+      mode, and you can now type in a search using plain, speech-like
+      language.
+    </p>
+    <p>
+      If you leave the <i>SearchIQ</i>
+      setting in the off position, you have the [original ThoughtSpot
+      search experience]({{ site.baseurl
+      }}/end-user/search/about-starting-a-new-search.html), which uses
+      keywords, column names, and data values.
+    </p>
+  </section>
+  <section id="what-kinds-of-things-can-i-type">
+    <title>What kinds of things can I type?</title>
+    <p>
+      Like regular search, SearchIQ is based on the tables that exist in
+      your data. Tables are made of rows and columns, like spreadsheets.
+      So you can search by typing in any of these words:
+    </p>
+    <ul>
+      <li>
+        <p>
+          The column name: like revenue, product name, or store
+        </p>
+      </li>
+      <li>
+        <p>
+          Any of the values in the columns: like 20000, kitten chow, or
+          richmond
+        </p>
+      </li>
+      <li>
+        <p>
+          One of the special [keywords]({{ site.baseurl
+          }}/reference/keywords.html#) ThoughtSpot understands: like
+          yesterday, &gt;, or contains
+        </p>
+      </li>
+    </ul>
+    <p>
+      What's different about SearchIQ is that the form of your question
+      can be more like natural language. This means that SearchIQ
+      ignores extraneous words like <codeph>What was the</codeph> or
+      <codeph>Can you show me</codeph>. If you find that your natural
+      language search doesn't return the results you expect, you can
+      [teach SearchIQ your language]({{ site.baseurl
+      }}/end-user/search/teach-searchiq.html) easily.
+    </p>
+  </section>
+  <section id="how-do-i-use-voice-search-with-searchiq">
+    <title>How do I use voice search with SearchIQ?</title>
+    <p>
+      The ability to do voice search comes with your computer's
+      operating system and your browser's speech-to-text capabilities.
+      As such, it isn't provided by ThoughtSpot. But you can take
+      advantage of these when searching with SearchIQ.
+    </p>
+    <p>
+      Make sure your microphone on your computer is enabled and working
+      correctly. If you're unsure, check the documentation for your
+      operating system.
+    </p>
+    <p>
+      Next, make sure your browser supports the text-to-speech
+      capability by consulting its documentation.
+    </p>
+    <p>
+      If all is well, you can see a microphone icon it the search bar,
+      when it is in SearchIQ mode. Clicking on the microphone will begin
+      accepting voice input, which is translated to text in the search
+      bar.
+    </p>
+    <p>
+      {% include note.html content="If the SearchIQ text-to-speech
+      functionality is not working, ensure that you are accessing
+      ThoughtSpot in your browser using HTTPS:// and not HTTP://."
+      %}
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [SearchIQ Data Collection]({{ site.baseurl
+          }}/end-user/search/searchiq-data-collection.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Use SearchIQ]({{ site.baseurl
+          }}/end-user/search/use-searchiq.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Teach SearchIQ your language]({{ site.baseurl
+          }}/end-user/search/teach-searchiq.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

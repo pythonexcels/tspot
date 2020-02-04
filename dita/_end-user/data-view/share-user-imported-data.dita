@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="share-user-imported-data_xml"><title>Share uploaded data</title><body>
+  <section id="title-share-uploaded-data-last_updated-1172020-summary-when-you-upload-data-to-thoughtspot-you-can-share-it-with-others-toc-false-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Share uploaded data</title>
+    <fig id="fig_1580796170_1"><title>Share data</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-data.gif" id="image_1580796170_1" scope="external"/></fig>
+    <p>
+      If you upload a spreadsheet, you can share
+      <i>Can View</i> or
+      <i>Can Edit</i> privileges with other
+      people, who can further share them with others.
+    </p>
+  </section>
+  <section id="understand-data-sharing">
+    <title>Understand data sharing</title>
+    <p>
+      Data that you upload from a Web browser is only visible to you and
+      to the administrator. You can share the entire uploaded table, or
+      only some of its columns.
+    </p>
+    <p>
+      By default, if you share only some table columns, users with
+      access to those columns cannot see the other columns' data in
+      their searches. However, the data can become visible if a
+      worksheet or pinboard that <i>also contains</i>
+      those columns is shared with these users.
+    </p>
+    <p>
+      If you want to prevent other users from revealing your excluded
+      columns, you can ask your administrator to enable a stricter
+      behavior.
+    </p>
+    <p>
+      You can share data [from the
+      <i>Data</i> tab]({{ site.baseurl
+      }}#share-datatab), or [from within the table, worksheet, or
+      view]({{ site.baseurl }}#share-dataset) that you want to share.
+    </p>
+    </section>
+  <section id="share-from-the-data-tab">
+    <title>Share from the Data tab</title>
+    <p>
+      To share uploaded data from the
+      <i>Data</i> tab, follow these steps.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Data</i> on the top
+          navigation bar.
+        </p>
+      </li>
+      <li>
+        <p>
+          Hover over the uploaded data you want to share and select it
+          by clicking the empty checkbox that appears.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Share</i>.
+        </p>
+        <fig id="fig_1580796170_2"><title>Share the data</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-data.png" id="image_1580796170_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select <i>Entire Table</i> or
+          <i>Specific Columns</i>.
+        </p>
+        <fig id="fig_1580796170_3"><title>Specify sharing type</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-datacolumns.png" id="image_1580796170_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you select <i>Specific
+          Columns</i>, select the column(s) you want to share. If
+          you select <i>Entire Table</i>,
+          skip to step 6.
+        </p>
+        <p>
+          {% include note.html content="You cannot click multiple
+          columns at once. You must input the users or groups with whom
+          you want to share for each column." %}
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>+ Add users or groups</i>
+          and select the users and groups with whom you want to share.
+        </p>
+        <fig id="fig_1580796170_4"><title>Add users or groups</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-data-addusers.png" id="image_1580796170_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          [Specify permissions]({{ site.baseurl }}#specify-permissions).
+        </p>
+      </li>
+    </ol>
+    </section>
+  <section id="share-from-within-the-dataset">
+    <title>Share from within the dataset</title>
+    <p>
+      To share data from within the dataset, follow these steps.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Navigate to the dataset you want to share.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipsis icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline}, and then
+          click <i>Share</i>.
+        </p>
+        <fig id="fig_1580796170_5"><title>Share the data</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-data-in-dataset.png" id="image_1580796170_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select the users or groups with whom you want to share.
+          You can only share the entire table, worksheet, or view. You
+          cannot share individual columns. To share individual columns,
+          share [from the <i>Data</i>
+          tab]({{site.baseurl }}#share-datatab).
+        </p>
+      </li>
+      <li>
+        <p>
+          [Specify permissions]({{ site.baseurl }}#specify-permissions).
+        </p>
+      </li>
+    </ol>
+    </section>
+  <section id="specify-permissions">
+    <title>Specify permissions</title>
+    <ol>
+      <li override="7">
+        <p>
+          Configure the level of access by selecting from the dropdown
+          list. You can select:
+        </p>
+        <ul>
+          <li>
+            <p>
+              <i>Can View</i> to provide
+              read-only access. This enables viewing the table or other
+              data source's data, as well as defining worksheets based
+              on that data.
+            </p>
+          </li>
+          <li>
+            <p>
+              <i>Can Edit</i> to allow
+              modification. This enables renaming, modifying, or
+              deleting the entire table or other data source and adding
+              or removing its columns.
+            </p>
+          </li>
+        </ul>
+        <fig id="fig_1580796170_6"><title>Specify permissions</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-data-privileges.png" id="image_1580796170_6" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Add</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <i>Share settings updated</i>
+          notification appears on the bottom of your screen.
+        </p>
+        <fig id="fig_1580796170_7"><title>Share settings updated</title><image href="https://docs.thoughtspot.com/6.0/images/sharing-settingsupdated.png" id="image_1580796170_7" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

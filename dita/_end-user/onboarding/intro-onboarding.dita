@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intro-onboarding_xml"><title>Onboarding Users</title><body>
+  <section id="title-onboarding-users-last_updated-10072019-summary-guided-onboarding-simplifies-the-initial-engagement-that-new-users-have-with-thoughtspot-and-encourages-it-adoption-throughout-your-organization-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Onboarding Users</title>
+    <p>
+      Onboarding enables users to master the key workflows of
+      ThoughtSpot, and makes them productive and capable users in a very
+      short time.
+    </p>
+    <p>
+      When you create a new user, we recommend that you add them to a
+      user group immediately. Configure that user group to use a
+      specific data source, choose up to three initial pinboards, and
+      specify the text of the welcome email.
+    </p>
+    </section>
+  <section id="prerequisites-for-onboarding">
+    <title>Prerequisites for onboarding</title>
+    <ul>
+      <li>
+        <p>
+          <i>Valid emails</i> All users must
+          have valid emails.
+        </p>
+        <p>
+          To include users in the onboarding process, each user profile
+          must include a valid email address; see [Create a user]({{
+          site.baseurl }}/admin/users-groups/add-user.html#add-user).
+        </p>
+        <p>
+          To load and validate user information (including email
+          addresses) in bulk, we recommend using Active Directory
+          configuration and sync. See [Configure LDAP for Active
+          Directory]({{ site.baseurl
+          }}/admin/setup/LDAP-config-AD.html).
+        </p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          <i>Onboarding configuration</i>
+          Before starting the onboarding process, an administrator must
+          specify the configuration through the [tscli onboarding
+          command]({{ site.baseurl
+          }}/reference/tscli-command-ref.html#tscli-onboarding).
+        </p>
+      </li>
+    </ul>
+    </section>
+  <section id="onboarding-process">
+    <title>Onboarding Process</title>
+    <p>
+      The key workflows that enable successful onboarding include the
+      following:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Configure and save a default Pinboard (or Pinboards) for new
+          users. Alternatively, determine what default Pinboards you
+          plan to use for each user group.
+        </p>
+        <p>
+          See steps for [creating a pinboard]({{ site.baseurl
+          }}/end-user/pinboards/about-pinboards.html#create-a-pinboard).
+        </p>
+      </li>
+      <li>
+        <p>
+          Create a new user group, or edit an existing user group to
+          which new users belong:
+        </p>
+        <ul>
+          <li>
+            <p>
+              specify the group name and its display name
+            </p>
+          </li>
+          <li>
+            <p>
+              set the sharing visibility to visible
+            </p>
+          </li>
+          <li>
+            <p>
+              specify the Privileges
+            </p>
+          </li>
+          <li>
+            <p>
+              select up to 3 default pinboards
+            </p>
+          </li>
+          <li>
+            <p>
+              test and customize the test welcome email. See steps for
+              [creating a user group]({{ site.baseurl
+              }}/admin/users-groups/add-group.html#add-group) or
+              [editing a user group]({{ site.baseurl
+              }}/admin/users-groups/add-group.html#edit-group).
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Create a new user and assign them to the group you are using
+          for onboarding. See steps for [creating a new user]({{
+          site.baseurl }}/admin/users-groups/add-user.html#add-user).
+          You can also add existing users to the group; see
+        </p>
+        <p>
+          In addition to creating a new user directly in ThoughtSpot,
+          you can add users in bulk through [Active Directory]({{
+          site.baseurl
+          }}/admin/setup/active-directory-based-access.html).
+        </p>
+      </li>
+      <li>
+        <p>
+          When the new user signs in for the first time, the ThoughtSpot
+          onboarding process starts automatically and guides them
+          through a few basic scenarios of using the application. See
+          [User onboarding experience]({{ site.baseurl
+          }}/end-user/onboarding/user-onboarding-experience.html).
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>[Optional]</i> Any user can
+          repeat their onboarding experience at any time. Simply select
+          <i>Profile</i> from user icon on
+          the top right corner of the page. Under
+          <i>Preferences &gt; New user
+          onboarding</i>, click
+          <i>Revisit</i>. See [Revisit
+          onboarding]({{ site.baseurl
+          }}/end-user/introduction/about-user.html#onboarding).
+        </p>
+      </li>
+    </ol>
+    </section>
+  <section id="notes-on-data-source-recommendation">
+    <title>Notes on Data Source recommendation</title>
+    <p>
+      User groups in ThoughtSpot can be hierarchical, and each user can
+      belong to multiple groups. Because of this, the choice of the
+      Recommended Data Source may be be surprising, both to users and
+      admins.
+    </p>
+    <p>
+      We determine the default Data Source for
+      <i>each user</i> based on these
+      criteria:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Consider all default Pinboards, across all Groups
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify Data Sources associated with these Pinboards
+        </p>
+      </li>
+      <li>
+        <p>
+          Rank the Data Sources on frequency of use
+        </p>
+      </li>
+      <li>
+        <p>
+          Select the highest ranked Data Source
+        </p>
+      </li>
+    </ul>
+    <p>
+      Admins can preview onboarding flow for any given user, and adjust
+      the selection of default Pinboards.
+    </p>
+  </section>
+</body>
+
+</topic>

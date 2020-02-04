@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="edit-formula-in-answer_xml"><title>View or edit a formula in a search</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>View or edit a formula in a search</title>
+    <p>
+      You can always go back and view or edit a formula that was added
+      to a search. Do this by clicking the edit icon next to its name in
+      the <i>Columns</i> listing. Anyone who
+      has edit privileges on an answer can also edit any formulas it
+      contains. To view or edit an existing formula in an answer:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Navigate to the pinboard that contains the answer with the
+          formula, click the three-dot
+          <i>Actions</i> icon and select
+          <i>Edit</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Scroll down to the bottom of the
+          <i>Columns</i> listing. You will
+          see a data source called
+          <i>Formulas</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Expand <i>Formulas</i>, and you
+          can see a list of all the formulas in this answer.
+        </p>
+        <fig id="fig_1580796167_1"><title>Formulas section expanded to show formulas in the answer</title><image href="https://docs.thoughtspot.com/6.0/images/edit_formula_in_answer.png" id="image_1580796167_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click the edit icon next to the formula name.
+        </p>
+        <fig id="fig_1580796167_2"><title>The edit formula icon</title><image href="https://docs.thoughtspot.com/6.0/images/formula_edit_icon.png" id="image_1580796167_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          View or edit your formula in the Formula Builder.
+        </p>
+        <fig id="fig_1580796167_3"><title>Use the Formula Builder</title><image href="https://docs.thoughtspot.com/6.0/images/formula_builder_2.png" id="image_1580796167_3" scope="external"/></fig>
+        <p>
+          {% include note.html content="Formulas elements are color
+          coded by type and can include the formula operators and
+          functions (blue), the names of columns (purple), and/or
+          constants (black)." %}
+        </p>
+      </li>
+      <li>
+        <p>
+          If you edited your formula, click
+          <i>Save</i> to save your changes.
+          Otherwise, click <i>Cancel</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

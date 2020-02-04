@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reorder-values-on-the-x-axis_xml"><title>Reorder labels on the axis or legend</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Reorder labels on the axis or legend</title>
+    <p>
+      When there are multiple columns on the x- or y-axis or legend of a
+      chart, you can reorder them by using the
+      <i>Configure Chart</i> icon.
+    </p>
+    <p>
+      The order in which columns appear on the axis or legend is based
+      on the sequence they are added. The first field is used as the
+      primary sorting field for the chart. Adding another field adds it
+      after the first one on the axis label or legend. If you want to
+      change the order, you can remove the fields and re-add them in the
+      reverse order.
+    </p>
+    <p>
+      This example shows you how to reorder the x-axis columns.
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a chart, click
+          <i>Edit chart configuration</i>
+          near the top right.
+        </p>
+        <fig id="fig_1580796175_1"><title>Edit chart configuration icon</title><image href="https://docs.thoughtspot.com/6.0/images/edit_chart_configuration_bar.png" id="image_1580796175_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the X-Axis box, delete the values. Then re-add them in the
+          new preferred order.
+        </p>
+        <fig id="fig_1580796175_2"><title>Reordering X-Axis columns</title><image href="https://docs.thoughtspot.com/6.0/images/x-axis_column_order.png" id="image_1580796175_2" scope="external"/></fig>
+        <p>
+          Your chart reorganizes itself to reflect the new label order.
+        </p>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

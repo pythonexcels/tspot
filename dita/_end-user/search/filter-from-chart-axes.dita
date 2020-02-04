@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="filter-from-chart-axes_xml"><title>Add a filter to a chart</title><body>
+  <section id="last_updated-tbd-summary-you-can-add-a-simple-filter-from-a-chart-axis-while-viewing-your-answer-as-a-chart-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Add a filter to a chart</title>
+    <p>
+      You can filter a chart in two ways:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Click the legend labels to toggle the values on or off.
+        </p>
+      </li>
+      <li>
+        <p>
+          Follow the steps shown here to filter on the axis values.
+        </p>
+      </li>
+    </ol>
+    <p>
+      To add a filter from the chart axes:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your answer as a chart, click the chart axis you
+          want to filter on, and select
+          <i>Filter...</i>.
+        </p>
+        <fig id="fig_1580796175_1"><title>Choose filter from a chart axis</title><image href="https://docs.thoughtspot.com/6.0/images/filter_by_chart_axis.png" id="image_1580796175_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select the values you would like to include in your answer.
+        </p>
+        <fig id="fig_1580796175_2"><title>Axis filters include value box</title><image href="https://docs.thoughtspot.com/6.0/images/filter_menu_chart_axis.png" id="image_1580796175_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you want to exclude values, click
+          <i>Exclude</i> and choose values
+          to exclude.
+        </p>
+        <fig id="fig_1580796175_3"><title>Axis filters exclude value box</title><image href="https://docs.thoughtspot.com/6.0/images/filter_chart_exclude.png" id="image_1580796175_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>DONE</i>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      If there are too many values, you can use the filter search bar to
+      find the ones you want.
+    </p>
+  </section>
+</body>
+
+</topic>

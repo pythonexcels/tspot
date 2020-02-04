@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="follow-pinboard_xml"><title>Following pinboards</title><body>
+  <section id="title-following-pinboards-last_updated-1172020-summary-in-thoughtspot-you-can-follow-pinboards-and-schedule-email-notifications-to-regularly-review-the-visuals-that-represent-dynamic-data-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Following pinboards</title>
+    <p>
+      When you follow a pinboard, ThoughtSpot sends you regular emails
+      that contain the snapshot of the pinboard. You can change the
+      scheduling of this email to suit your business needs.
+    </p>
+    </section>
+  <section id="follow-pinboards">
+    <title>Follow Pinboards</title>
+    <p>
+      Complete the following steps to follow a Pinboard:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i> on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the Pinboard list page, select a Pinboard by clicking on
+          it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Follow</i> at the top
+          right corner of the Pinboard.
+        </p>
+        <fig id="fig_1580796176_2"><title>Follow Pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/follow-pinboard.png" id="image_1580796176_2" scope="external"/></fig>
+        <p>
+          This action opens the scheduler. See
+          <xref keyref="pinboard-follow-schedule">Schedule Pinboard
+          reports</xref>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      Notice that after you configure the schedule, the Pinboard appears
+      as <i>Following</i>.
+    </p>
+    <fig id="fig_1580796176_3"><title>Followed Pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/followed-pinboard.png" id="image_1580796176_3" scope="external"/></fig>
+    </section>
+  <section id="schedule-pinboard-reports">
+    <title>Schedule Pinboard reports</title>
+    <p>
+      In the <i>Follow</i> scheduler,
+      specify the email schedule by marking the appropriate options in
+      the pulldown menus. The default schedule is weekly, on the day and
+      time when you configure the schedule.
+    </p>
+    <p>
+      {% include content/schedule-details.md %}
+    </p>
+    <fig id="fig_1580796176_4"><title>Schedule weekly Pinboard notifications</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-follow-schedule-weekly.png" id="image_1580796176_4" scope="external"/></fig>
+    <fig id="fig_1580796176_5"><title>Schedule daily Pinboard notifications</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-follow-schedule-daily.png" id="image_1580796176_5" scope="external"/></fig>
+    <fig id="fig_1580796176_6"><title>Schedule monthly Pinboard notifications</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-follow-schedule-monthly.png" id="image_1580796176_6" scope="external"/></fig>
+    <p>
+      Click <i>Save</i>.
+    </p>
+    <p>
+      If the user account is not configured with an email, you must
+      supply one at this time.
+    </p>
+    </section>
+  <section id="change-the-schedule">
+    <title>Change the schedule</title>
+    <p>
+      To change the existing time interval and the timing of
+      notifications, click <i>Following</i>
+      in the top right corner of the Pinboard.
+    </p>
+    <p>
+      When the scheduling interface appears, make the necessary changes,
+      and click <i>Save</i>.
+    </p>
+    </section>
+  <section id="unfollow-pinboard">
+    <title>Unfollow Pinboard</title>
+    <p>
+      To stop following a Pinboard, click
+      <i>Following</i> in the top right
+      corner.
+    </p>
+    <p>
+      When the scheduling interface appears, click
+      <i>Unfollow</i>.
+    </p>
+    <fig id="fig_1580796176_7"><title>Unfollow Pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-unfollow.png" id="image_1580796176_7" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

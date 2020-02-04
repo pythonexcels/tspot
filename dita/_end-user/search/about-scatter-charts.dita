@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-scatter-charts_xml"><title>Scatter charts</title><body>
+  <section id="last_updated-tbd-summary-the-scatter-chart-is-useful-for-finding-correlations-or-outliers-in-your-data-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Scatter charts</title>
+    <p>
+      Scatter charts display your data as a collection of points, which
+      can either be evenly or unevenly distributed. Each point is
+      plotted based on its own axes values. This helps you determine if
+      there is a relationship between your searched columns.
+    </p>
+    <fig id="fig_1580796175_1"><title>Scatter chart example</title><image href="https://docs.thoughtspot.com/6.0/images/scatter_chart_example.png" id="image_1580796175_1" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and one measure to be
+      represented as a scatter chart.
+    </p>
+  </section>
+</body>
+
+</topic>

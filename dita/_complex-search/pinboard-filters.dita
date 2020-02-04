@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pinboard-filters_xml"><title>Pinboard filters</title><body>
+  <section id="last_updated-tbd-toc-false-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Pinboard filters</title>
+    <p>
+      Filters, including bulk filters and exclude fiters, can be applied
+      to pinboards just as with tables and charts. These kinds of
+      filters apply to an entire pinboard, making it easy to see only
+      the data that you are interested in across the tables and charts
+      within a pinboard.
+    </p>
+  </section>
+  <section id="when-to-use-a-pinboard-filter">
+    <title>When to use a pinboard filter</title>
+    <p>
+      Pinboard filters can be very useful when you want to apply the
+      same filters to more than one related visualization. You can
+      narrow the focus of your pinboard for specific purposes or
+      audiences.
+    </p>
+    <p>
+      When you apply a filter, the pinboard is not automatically saved
+      with your filter applied. This is to encourage ad hoc filtering.
+      Therefore, people with read-only access can create pinboard
+      filters. You must have edit access to the pinboard, and view
+      access (or higher) to the underlying data source in order save a
+      pinboard filter.
+    </p>
+    <p>
+      Note that pinboard filters only apply to the tables and charts
+      that are based on worksheets. If a pinboard also includes tables
+      and charts that were created from underlying tables or on user
+      uploaded data, the filters don’t apply to them.
+    </p>
+  </section>
+  <section id="create-a-pinboard-filter">
+    <title>Create a pinboard filter</title>
+    <p>
+      You can create a filter in the pinboard view for any pinboard.
+      This allows you to easily manipulate the visualizations and view
+      the modified presentation in one place.
+    </p>
+    <p>
+      Here is an example that shows you how to add a single filter to a
+      pinboard. To create a pinboard filter:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline}, and
+          select <i>Add filters</i>.
+        </p>
+        <fig id="fig_1580796170_1"><title>Add filters under Actions</title><image href="https://docs.thoughtspot.com/6.0/images/add_pinboard_filters.png" id="image_1580796170_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the populated columns menu, click the
+          <i>Add filter</i> icon next to the
+          column you would like to filter on.
+        </p>
+        <fig id="fig_1580796170_2"><title>Add filters menu</title><image href="https://docs.thoughtspot.com/6.0/images/add_filters_menu.png" id="image_1580796170_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select the values to include in your answer.
+        </p>
+        <fig id="fig_1580796170_3"><title>Include column filters value box</title><image href="https://docs.thoughtspot.com/6.0/images/column_filter.png" id="image_1580796170_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you want to exclude values, click
+          <i>Exclude</i> and choose values
+          to exclude.
+        </p>
+        <fig id="fig_1580796170_4"><title>Exclude column filters value box</title><image href="https://docs.thoughtspot.com/6.0/images/exclude_nulls.png" id="image_1580796170_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click <i>Done</i>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      When you apply a filter, the pinboard is not automatically saved
+      with your filter applied to every object in the pinboard that was
+      created from a worksheet. Pinboard filters do not apply to tables
+      and charts built directly on top of base tables.
+    </p>
+  </section>
+  <section id="edit-a-filter-from-the-answer">
+    <title>Edit a filter from the answer</title>
+    <p>
+      Your applied filter will sit at the top of the pinboard, where you
+      can edit it in place:
+    </p>
+    <fig id="fig_1580796170_5"><title>Select Filter Values</title><image href="https://docs.thoughtspot.com/6.0/images/select_filters.png" id="image_1580796170_5" scope="external"/></fig>
+    <p>
+      Or delete it:
+    </p>
+    <fig id="fig_1580796170_6"><title>Applied Pinboard Filter</title><image href="https://docs.thoughtspot.com/6.0/images/filter_appears.png" id="image_1580796170_6" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

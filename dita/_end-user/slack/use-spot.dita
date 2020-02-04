@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="use-spot_xml"><title>How to use Spot</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>How to use Spot</title>
+    <p>
+      You can’t ask Spot to do tricks until you after you invite him to
+      a channel and authorize yourself as a Spot trainer.
+    </p>
+  </section>
+  <section id="call-spot-and-make-him-do-tricks">
+    <title>Call Spot and make him do tricks</title>
+    <ol>
+      <li>
+        <p>
+          Launch Slack if you haven't already.
+        </p>
+      </li>
+      <li>
+        <p>
+          Go to a channel where you want to invite Spot.
+        </p>
+      </li>
+      <li>
+        <p>
+          Invite <strong>@spot</strong> like you would invite anyone
+          else.
+        </p>
+        <p>
+          Type <strong>@spot</strong> and press <code>RETURN</code>.
+        </p>
+        <fig id="fig_1580796171_1"><title>Invite spot</title><image href="https://docs.thoughtspot.com/6.0/images/slack-1.png" id="image_1580796171_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click invite them to join.
+        </p>
+      </li>
+      <li>
+        <p>
+          Ask him for help.
+        </p>
+        <p>
+          If this is the first time you’ve commanded him, Spot tells
+          you:
+        </p>
+        <fig id="fig_1580796171_2"><title>Spot speaks</title><image href="https://docs.thoughtspot.com/6.0/images/spot-2.png" id="image_1580796171_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Take the clicking here link.
+        </p>
+        <p>
+          Spot takes you out of Slack and to the ThoughtSpot
+          application.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter your username and password.
+        </p>
+        <p>
+          If you do this successfully, the application tells you:
+        </p>
+        <fig id="fig_1580796171_3"><title>Spot sits</title><image href="https://docs.thoughtspot.com/6.0/images/spot-3.png" id="image_1580796171_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Go back to Slack and ask Spot to list what he does by typing
+          <strong>@spot</strong> help.
+        </p>
+        <fig id="fig_1580796171_4"><title>Spot sits</title><image href="https://docs.thoughtspot.com/6.0/images/spot-4.png" id="image_1580796171_4" scope="external"/></fig>
+        <p>
+          Spot can run a query directly that’s the
+          <i>1. anything</i> command.
+        </p>
+      </li>
+      <li>
+        <p>
+          Try simply listing your subscriptions.
+        </p>
+        <fig id="fig_1580796171_5"><title>Spot sits</title><image href="https://docs.thoughtspot.com/6.0/images/spot-5.png" id="image_1580796171_5" scope="external"/></fig>
+        <p>
+          {% include note.html content="Spot only looks for objects
+          with the <strong>spot</strong> sticker on them. Work your way
+          from a pinboard to asking for a particular chart." %}
+        </p>
+      </li>
+      <li>
+        <p>
+          Work your way from a pinboard to asking for a particular
+          chart.
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/spot-6.png)
+        </p>
+      </li>
+    </ol>
+    <p>
+      At this point, you should go onto explore your Spot’s talents on
+      your own!
+    </p>
+  </section>
+  <section id="frequently-asked-questions">
+    <title>Frequently Asked Questions</title>
+    <p>
+      Whenever possible, Spot answers questions for you directly in
+      channel. Here, though, are some frequent questions owners ask.
+    </p>
+    <section id="can-i-name-my-spot-whatever-i-want">
+      <title>Can I name my Spot whatever I want?</title>
+      <p>
+        Sure. This is done by your administrator when the integration is
+        created. Um, I guess the answer is really “ask your parents?”
+      </p>
+    </section>
+    <section id="spot-isnt-fetching-what-i-want-why">
+      <title>Spot isn’t fetching what I want, why?</title>
+      <p>
+        Spot can only fetch “toys” that are have the spot sticker. Your
+        administrator should do this when he sets up ThoughtSpot.
+      </p>
+    </section>
+    <section id="my-spot-looks-different-why-is-that">
+      <title>My spot looks different, why is that?</title>
+      <p>
+        The screenshots in this document were taken on desktop
+        integration of Slack. If you are using mobile device, your
+        interactions with Spot will look different.
+      </p>
+    </section>
+    <section id="how-does-spot-know-you">
+      <title>How does Spot know you?</title>
+      <p>
+        The first time you message Spot, it will send back a link which
+        you can click to link your ThoughtSpot account to Slack account.
+        After the accounts are linked, all charts you query from Spot
+        will be tied to your permissions/authorization.
+      </p>
+    </section>
+    <section id="how-to-subscribe-to-charts-posted-to-a-channel">
+      <title>How to subscribe to charts posted to a channel?</title>
+      <p>
+        Any chart retrieved using spot can be subscribed to, and can
+        have any number of channel/user subscribers.
+      </p>
+    </section>
+    <section id="how-do-i-get-the-list-of-spot-commands">
+      <title>How do I get the list of Spot commands?</title>
+      <p>
+        Messaging <codeph>help</codeph> to <codeph>spot</codeph>
+        gives you a list of commands and how to use them.
+      </p>
+    </section>
+  </section>
+</body>
+
+</topic>

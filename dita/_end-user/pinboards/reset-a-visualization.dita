@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reset-a-visualization_xml"><title>Reset a pinboard visualization</title><body>
+  <section id="title-reset-a-pinboard-visualization-last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Reset a pinboard visualization</title>
+    <p>
+      You can undo your edits to a pinboard visualization by resetting
+      it.
+    </p>
+  </section>
+  <section id="reset-a-pinboard-visualization">
+    <title>Reset a pinboard visualization</title>
+    <p>
+      After performing ad hoc actions or edits to a visualization of
+      your pinboard, you can reset the visualization to its original
+      form.
+    </p>
+    <p>
+      To reset a visualization:
+    </p>
+    <ol>
+      <li>
+        <p>
+          On an altered visualization, click the reset icon.
+        </p>
+        <fig id="fig_1580796177_1"><title>Click to reset</title><image href="https://docs.thoughtspot.com/6.0/images/reset_a_visualization.png" id="image_1580796177_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Save your pinboard by clicking the ellipses icon ![more
+          options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and selecting
+          <i>Save</i>.
+        </p>
+        <fig id="fig_1580796177_2"><title>Save your pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/save_a_pinboard.png" id="image_1580796177_2" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

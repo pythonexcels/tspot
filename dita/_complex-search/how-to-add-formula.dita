@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="how-to-add-formula_xml"><title>Add a formula to a search</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Add a formula to a search</title>
+    <p>
+      You can add a formula directly within a search. Some common
+      reasons for using a formula in a search are to perform
+      mathematical functions, check for and replace null values, or add
+      conditional logic.
+    </p>
+  </section>
+  <section id="how-to-add-a-formula">
+    <title>How to add a formula</title>
+    <p>
+      To create a formula in a search:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Start a new search, or choose an existing answer from a
+          pinboard to edit.
+        </p>
+      </li>
+      <li>
+        <p>
+          If the answer shows a chart, switch to
+          <i>Table View</i>.
+        </p>
+        <fig id="fig_1580796168_1"><title>Switch to Data View</title><image href="https://docs.thoughtspot.com/6.0/images/toggle_between_views.png" id="image_1580796168_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the upper-right side of the table, click the three-dot
+          <i>Actions</i> icon and select
+          <i>Add formula</i>.
+        </p>
+        <fig id="fig_1580796168_2"><title>Create a new formula in an answer</title><image href="https://docs.thoughtspot.com/6.0/images/create_formula_in_answer.png" id="image_1580796168_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Name and enter your formula in the Formula Builder.
+        </p>
+        <fig id="fig_1580796168_3"><title>Use the Formula Builder</title><image href="https://docs.thoughtspot.com/6.0/images/formula_builder.png" id="image_1580796168_3" scope="external"/></fig>
+        <p>
+          {% include note.html content="Formulas elements are color
+          coded by type and can include the formula operators and
+          functions (blue), the names of columns (purple), and/or
+          constants (black)." %}
+        </p>
+      </li>
+      <li>
+        <p>
+          You can see a list of formula operators with examples by
+          clicking <i>Formula Assistant.</i>
+        </p>
+        <fig id="fig_1580796168_4"><title>Examples in the Formula Assistant</title><image href="https://docs.thoughtspot.com/6.0/images/formula_assistant.png" id="image_1580796168_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          If you want to change what your formula returns, use the
+          <i>Advanced settings</i>.
+          Depending on your formula, you may be able to change:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Data type
+            </p>
+          </li>
+          <li>
+            <p>
+              Measure or attribute
+            </p>
+          </li>
+          <li>
+            <p>
+              Aggregation
+            </p>
+          </li>
+        </ul>
+        <fig id="fig_1580796168_5"><title>Advanced settings in the Formula Builder</title><image href="https://docs.thoughtspot.com/6.0/images/formula_advanced_settings.png" id="image_1580796168_5" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Name the formula by clicking its title and typing the new
+          name. Click <i>Save</i>.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <p>
+      [Formula function reference]({{ site.baseurl
+      }}/reference/formula-reference.html#)
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-radar-charts_xml"><title>Radar charts; spiderweb charts</title><body>
+  <section id="last_updated-tbd-summary-the-radar-or-spiderweb-chart-contains-both-columns-and-a-special-type-of-line-chart--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Radar charts; spiderweb charts</title>
+    <p>
+      A Spiderweb chart displays data in the form of a two-dimensional
+      chart of three or more qualities, represented on axes starting
+      from the same point. This is a good chart to use when you have
+      asked users to rank an experience or product. You can use a
+      spiderweb chart to examine the relative values for a single data
+      point. You can also use it to locate outliers.
+    </p>
+    <p>
+      When you build a Spiderweb chart you must provide at least 3
+      (three) attributes and one measure. The measure values move from
+      smallest to the outer edge of the web. Each spoke of the web is
+      reserved for one of the variables. The points where each value
+      lies on the web are connected.
+    </p>
+    <fig id="fig_1580796174_1"><title>Spiderweb chart example</title><image href="https://docs.thoughtspot.com/6.0/images/Spiderweb.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      The [Austin Animal Center Outcomes]({{
+      site.baseurl}}/downloads/Austin_Animal_Center_Outcomes.csv) data
+      shows the outcome of processing. The measure is the count of total
+      animals. By clicking on a spoke, you can see the total animals in
+      any flow. The number of animals that were disposed of, meaning
+      they were (sadly) already deceased on arrival is very small.
+    </p>
+  </section>
+</body>
+
+</topic>

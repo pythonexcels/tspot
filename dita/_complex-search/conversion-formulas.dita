@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conversion-formulas_xml"><title>Type conversion functions</title><body>
+  <section id="last_updated-tbd-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Type conversion functions</title>
+    <p>
+      Some formulas require the input to be of a particular data type.
+      If you find that you want to pass a value to the function, but it
+      is of the wrong data type, you can convert it using a conversion
+      formula.
+    </p>
+    <p>
+      The following are the conversion formulas:
+    </p>
+    <p>
+      {% include content/conversion-func.md %}
+    </p>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="searchiq-optimize-experts_xml"><title>"Add Experts for SearchIQ"</title><body>
+  <section id="title-add-experts-for-searchiq-last_updated-09232019-summary-it-is-useful-to-identify-experts-who-can-help-with-searchiq-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Add Experts for SearchIQ"</title>
+    <p>
+      <i>SearchIQ is in Beta.</i>
+    </p>
+    <p>
+      {% include note.html content="SearchIQ is turned off by
+      default, you can have ThoughtSpot Support enable it for you.
+      SearchIQ is only available in English." %}
+    </p>
+    <p>
+      While not completely necessary, we recommend that you add Experts
+      to the datasource. These people in your organization know a great
+      deal about the data, and can help you train SearchIQ. They are
+      also the individuals who can assist business users in validating
+      the answers they receive as a result of both regular Search and
+      SearchIQ. You can learn more about that by reading about our [Ask
+      an expert]({{ site.baseurl }}/end-user/search/ask-an-expert.html)
+      feature.
+    </p>
+    <p>
+      To specify the experts for the datasource, follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click the ellipsis icon at the top right corner, and select
+          <i>Manage Experts</i>.
+        </p>
+        <fig id="fig_1580796174_1"><title>Manage Experts for SearchIQ</title><image href="https://docs.thoughtspot.com/6.0/images/manage-experts-searchiq.png" id="image_1580796174_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          In the <i>Manage Experts</i>
+          window modal, you may see existing experts. Add more users and
+          groups, and click <i>Add</i>.
+        </p>
+        <fig id="fig_1580796174_2"><title>Add experts</title><image href="https://docs.thoughtspot.com/6.0/images/add-experts.png" id="image_1580796174_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          After you finish adding experts, click
+          <i>Done</i>.
+        </p>
+        <fig id="fig_1580796174_3"><title>Complete adding experts</title><image href="https://docs.thoughtspot.com/6.0/images/add-experts-done.png" id="image_1580796174_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

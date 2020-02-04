@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="start-a-new-search_xml"><title>Start a new search</title><body>
+  <section id="last_updated-tbd-summary-starting-a-new-thoughtspot-search-is-simple-like-starting-a-new-google-search-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Start a new search</title>
+    <p>
+      To start a new search:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Search +</i> on the top
+          navigation bar. You can also click
+          <i>Search your data</i> at the top
+          of the home page.
+        </p>
+        <fig id="fig_1580796173_1"><title>Start a new search</title><image href="https://docs.thoughtspot.com/6.0/images/start_a_new_search.png" id="image_1580796173_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Click the Data button, to the left of the search field.
+        </p>
+        <fig id="fig_1580796173_2"><title>Search data</title><image href="https://docs.thoughtspot.com/6.0/images/start_a_new_search_data.png" id="image_1580796173_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Choose your sources by clicking <i>Choose
+          Sources</i>.
+        </p>
+        <fig id="fig_1580796173_3"><title>Choose sources menu</title><image href="https://docs.thoughtspot.com/6.0/images/choose_sources.png" id="image_1580796173_3" scope="external"/></fig>
+        <p>
+          To see details of all of the data, click
+          <i>EXPLORE ALL DATA</i>.
+        </p>
+        <ol spacing="compact">
+          <li>
+            <p>
+              Filter through all available sources by using the search
+              bar or stickers.
+            </p>
+          </li>
+          <li>
+            <p>
+              Select your sources.
+            </p>
+          </li>
+          <li>
+            <p>
+              Click <i>CLOSE</i>.
+            </p>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p>
+          Add columns to the search bar, or double click columns in the
+          Data column in the left panel.
+        </p>
+        <p>
+          The columns listed in the left panel are grouped together by
+          data sources for discoverability and ease of access. You can
+          also add multiple columns by clicking each column to select
+          it, and then clicking <i>+ Add
+          Columns</i>.
+        </p>
+        <fig id="fig_1580796173_4"><title>Add multiple columns</title><image href="https://docs.thoughtspot.com/6.0/images/add_multiple_columns.png" id="image_1580796173_4" scope="external"/></fig>
+      </li>
+    </ol>
+    <p>
+      Your search is given an automatic title based on your search
+      columns, and is displayed as either a table or chart, depending on
+      how it is best represented. You can [change the view]({{
+      site.baseurl }}/complex-search/change-the-view.html#) to fit your
+      needs.
+    </p>
+  </section>
+</body>
+
+</topic>

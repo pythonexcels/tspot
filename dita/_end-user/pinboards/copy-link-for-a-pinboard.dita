@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="copy-link-for-a-pinboard_xml"><title>Copy a pinboard or visualization link</title><body>
+  <section id="title-copy-a-pinboard-or-visualization-link-last_updated-tbd-summary-in-pinboards-there-is-a-copy-link-option-that-lets-you-copy-the-link-to-access-the-pinboard-and-visualizations-directly-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Copy a pinboard or visualization link</title>
+    <p>
+      You can copy and paste the copied link to include in a
+      presentation or spreadsheet, or email or Slack it to other people
+      in your company. Note that when clicking the link, the person must
+      be authenticated to ThoughtSpot to see the visualization (e.g. by
+      signing in, or through LDAP).
+    </p>
+    <p>
+      You can also use this link for embedding the chart or table in
+      another Web page, Web portal, or application when using the
+      ThoughtSpot JavaScript API with Embedding or the REST API. For
+      details, read the ThoughtSpot Application Integration Guide.
+    </p>
+  </section>
+  <section id="copying-a-pinboard-link">
+    <title>Copying a pinboard link</title>
+    <p>
+      To copy the link for a pinboard:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i>, on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796176_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796176_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          On the pinboard list page, click the pinboard you would like
+          to get a link for.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the ellipses icon ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} and
+          select <i>Copy link</i>.
+        </p>
+        <fig id="fig_1580796176_2"><title>Copy pinboard link option</title><image href="https://docs.thoughtspot.com/6.0/images/copy_pinboard_link.png" id="image_1580796176_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Copy the pinboard link. The highlighted portion is the
+          pinboard ID.
+        </p>
+        <fig id="fig_1580796176_3"><title>Copy pinboard link</title><image href="https://docs.thoughtspot.com/6.0/images/copy_link_pinboard.png" id="image_1580796176_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="copying-a-visualization-link">
+    <title>Copying a visualization link</title>
+    <ol>
+      <li>
+        <p>
+          To copy an individual visualization link, click the ellipses
+          icon ![more options menu icon]({{ site.baseurl
+          }}/images/icon-ellipses.png){: .inline} and select
+          <i>Copy link</i> of the
+          visualization you would like to copy a link from.
+        </p>
+        <fig id="fig_1580796176_4"><title>Copy visualization link option</title><image href="https://docs.thoughtspot.com/6.0/images/copy_link_of_a_visualization.png" id="image_1580796176_4" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Copy the visualization link. The highlighted portion is the
+          visualization ID.
+        </p>
+        <fig id="fig_1580796176_5"><title>Copy visualization link</title><image href="https://docs.thoughtspot.com/6.0/images/copy_link_viz_pinboard_part.png" id="image_1580796176_5" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+</body>
+
+</topic>

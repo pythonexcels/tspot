@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what-you-can-find-in-the-help-center_xml"><title>More help and support</title><body>
+  <section id="title-more-help-and-support-last_updated-1172020-summary-there-are-many-locations-on-the-web-where-you-can-find-help-for-thoughtspot-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>More help and support</title>
+    <p>
+      There are multiple locations inside and outside the ThoughtSpot
+      application where you can get more help. This page describes some
+      of the ways to get more help inside or outside of the application
+      interface.
+    </p>
+    <p>
+      Each version of ThoughtSpot has its own documentation set.
+      ThoughtSpot releases new documentation sets for every major
+      release version (<codeph>x.y</codeph>) of ThoughtSpot.
+      Documentation features added with minor versions
+      (<codeph>x.y.z</codeph>) are added to the corresponding major
+      release. This means, for example, that new documentation for the
+      6.0.1 minor release version appears in the 6.0 major version
+      documentation.
+    </p>
+    <p>
+      {% include tip.html content="ThoughtSpot supplies release
+      notes for every major release and every minor release version
+      (<codeph>x.y.z</codeph>). " %}
+    </p>
+  </section>
+  <section id="help-menu">
+    <title>Help menu</title>
+    <p>
+      You can navigate directly to this documentation site on the web by
+      entering
+      <link href="https://docs.thoughtspot.com">docs.thoughtspot.com</link>
+      in your browser's address bar. You can see the documentation for
+      the latest version of the product, and for other versions.
+    </p>
+    <fig id="fig_1580796171_1"><i>Help</i>.
+    <title>The help icon</title><image href="https://docs.thoughtspot.com/6.0/images/icon-help-20px.png" id="image_1580796171_1" scope="external"/></fig>
+    <fig id="fig_1580796171_2"><title>The help menu</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-helptohelp.png" id="image_1580796171_2" scope="external"/></fig>
+    <p>
+      The <i>Help</i> dialog box links you
+      to the following:
+    </p>
+    <p>
+      At the bottom of the <i>Help</i>
+      dialog box, you can see a link to contact Support as well as the
+      version of ThoughtSpot you are using.
+    </p>
+  </section>
+  <section id="getting-started">
+    <title>Getting started</title>
+    <p>
+      The <i>Getting Started</i> sidebar
+      teaches you about ThoughtSpot through a navigation overview and a
+      series of short videos. You can show or hide this sidebar from the
+      help menu. To show or hide this sidebar for your whole
+      organization, [contact ThoughtSpot Support]({{ site.baseurl
+      }}/appliance/contact.html).
+    </p>
+    <p>
+      Refer to [Getting Started]({{ site.baseurl
+      }}/end-user/introduction/getting-started.html).
+    </p>
+  </section>
+  <section id="community">
+    <title>Community</title>
+    <p>
+      The <i>Community</i> link in the
+      <i>Help</i> menu takes you to the
+      <link href="https://community.thoughtspot.com">ThoughtSpot
+      Community</link> website, where you can ask ThoughtSpot experts
+      questions, share your own ideas and feedback, and meet others.
+    </p>
+  </section>
+  <section id="learn">
+    <title>Learn</title>
+    <p>
+      Choosing <i>Learn</i> from the
+      <i>Help</i> menu takes you to the
+      <i>Learn</i> center. The center contains example
+      queries that you can replay to learn how to search in ThoughtSpot.
+      Note that you can only replay queries if you have access to their
+      data.
+    </p>
+    <p>
+      Click an item in Learn to replay it in ThoughtSpot. During a
+      replay, you can click <codeph>Pause</codeph> or
+      <codeph>Resume</codeph> or click <codeph>ESC</codeph> to exit
+      the replay.
+    </p>
+    <p>
+      Any administrator can add to the items in the
+      <i>Learn</i> center. To add a replay,
+      do the following:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Search in your search bar.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select the pin icon ![]({{ site.baseurl
+          }}/images/icon-pin-24px.png){: .inline}. The system lists the
+          pinboards you can pin to.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select the <i>Learn how to use
+          ThoughtSpot</i> pinboard.
+        </p>
+        <fig id="fig_1580796171_3"><title>Add to the Learn pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-learn.png" id="image_1580796171_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Navigate to the <i>Learn</i> center to replay
+          your search.
+        </p>
+        <fig id="fig_1580796171_4"><title>The Learn center</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-learnpage.png" id="image_1580796171_4" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="expert-requests">
+    <title>Expert requests</title>
+    <p>
+      <i>Expert requests</i> takes you to
+      the Expert Requests interface, where you can view your own
+      questions or answer other users' questions.
+    </p>
+    <fig id="fig_1580796171_5"><title>Expert requests</title><image href="https://docs.thoughtspot.com/6.0/images/expertrequests.png" id="image_1580796171_5" scope="external"/></fig>
+    <p>
+      Refer to [Ask an Expert]({{ site.baseurl
+      }}/end-user/search/ask-an-expert.html).
+    </p>
+  </section>
+  <section id="support-contact-information">
+    <title>Support contact information</title>
+    <p>
+      If you still can't find what you're looking for, you can contact
+      support.
+    </p>
+    <fig id="fig_1580796171_6"><title>Contact support</title><image href="https://docs.thoughtspot.com/6.0/images/gettingstarted-contactsupport.png" id="image_1580796171_6" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-treemap-charts_xml"><title>Treemap charts</title><body>
+  <section id="last_updated-tbd-summary-the-treemap-chart-displays-hierarchical-data-as-a-set-of-nested-rectangles-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Treemap charts</title>
+    <p>
+      Treemap charts use color and rectangle size to represent two
+      measure values. Each rectangle, or branch, is a value of the
+      attribute. Some branches can contain smaller rectangles, or
+      sub-branches. This setup makes it possible to display a large
+      number of items in an efficient way.
+    </p>
+    <fig id="fig_1580796174_1"><title>Treemap chart example</title><image href="https://docs.thoughtspot.com/6.0/images/treemap_example.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      You can rearrange the columns of your search into category, color,
+      and size under <i>Edit chart
+      configuration</i>.
+    </p>
+    <fig id="fig_1580796174_2"><title>Branch category, color, and size</title><image href="https://docs.thoughtspot.com/6.0/images/treemap_size.png" id="image_1580796174_2" scope="external"/></fig>
+    <p>
+      Your search needs at least one attribute and two measures to be
+      represented as a treemap chart.
+    </p>
+  </section>
+</body>
+
+</topic>

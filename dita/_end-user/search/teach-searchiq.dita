@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="teach-searchiq_xml"><title>"Teach SearchIQ your language"</title><body>
+  <section id="title-teach-searchiq-your-language-last_updated-09232019-summary-you-can-teach-searchiq-your-language-to-make-its-results-more-accurate-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"Teach SearchIQ your language"</title>
+    <p>
+      <i>SearchIQ is in Beta.</i>
+    </p>
+    <p>
+      {% include note.html content="SearchIQ is turned off by
+      default, you can have ThoughtSpot Support enable it for you.
+      SearchIQ is only available in English." %}
+    </p>
+    <p>
+      Sometimes the results from SearchIQ won't be quite what you were
+      expecting. You can easily teach SearchIQ your language as you use
+      it. Over time, it gets smarter about how to interpret terms that
+      don’t come directly from keywords, column names, or data values.
+    </p>
+  </section>
+  <section id="teach-searchiq-your-language">
+    <title>Teach SearchIQ your Language</title>
+    <p>
+      To teach SearchIQ your language:
+    </p>
+    <ol>
+      <li>
+        <p>
+          After receiving a search result from SearchIQ, notice a
+          section under the search bar that shows the SearchIQ
+          interpretation of what you typed or spoke. If you do not see
+          this, click <i>Refine your
+          query</i>.
+        </p>
+        <p>
+          Wherever you see <i>- -</i>, those
+          terms were ignored. Where you see a word or words, those are
+          the keywords, column names, or data values as understood by
+          SearchIQ.
+        </p>
+        <p>
+          Clicking on any term brings up the menu where you can change
+          how ThoughtSpot understands that term.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click any term you want SearchIQ to ignore in the future, and
+          choose <i>Ignore</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click any term you wish SearchIQ had interpreted differently,
+          and choose <i>Teach</i>.
+        </p>
+        <fig id="fig_1580796172_1"><title>Teach SearchIQ</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_teach.png" id="image_1580796172_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          When you see the teaching dialog box, 1) use the handles on
+          the search diagram to select a term for which you want to
+          change the mapping. Then 2) select a column name to map it to,
+          or type your mapping in the search bar below the diagram. 3)
+          You may need to select what you mean from the search
+          suggestions.
+        </p>
+        <fig id="fig_1580796172_2"><title>Teach SearchIQ mapper</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_teach_mapper.png" id="image_1580796172_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Choose <i>CONFIRM</i> to see the
+          new search result.
+        </p>
+        <fig id="fig_1580796172_3"><title>]SearchIQ after mapping</title><image href="https://docs.thoughtspot.com/6.0/images/searchiq_after_mapping.png" id="image_1580796172_3" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Repeat these steps until SearchIQ understands how to interpret
+          your search.
+        </p>
+        <p>
+          SearchIQ will remember what you taught it, and use that to
+          understand your searches in the future.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="what-are-some-best-practices-when-teaching-searchiq">
+    <title>What are some best practices when teaching SearchIQ?</title>
+    <p>
+      Searchiq learns the meanings of words and phrases as exact
+      matches. Because of this, it is recommended to include the context
+      in the phrase being mapped to improve the accuracy of the
+      mappings.
+    </p>
+    <p>
+      For example, consider the following search:
+    </p>
+    <p>
+      “How many travellers are travelling from New York to San Francisco
+      ?”.
+    </p>
+    <p>
+      You can train SearchIQ to map this natural language search to the
+      keyword search “unique count traveler name source city = ‘new
+      york’ destination name = ‘san francisco’”. However, SearchIQ will
+      not be able to understand whether "new york" is to be
+      considered a match for "new york" as the source city or
+      destination city.
+    </p>
+    <p>
+      To make the mapping more specific, you should map “from New York”
+      to “source city = ‘New
+      York<codeph>” and “to San Francisco” to “destination city = ‘San Francisco</codeph>”.
+      This will help SearchIQ match a city to the source city or
+      destination city based on the preceding preposition (to or from).
+    </p>
+  </section>
+  <section id="what-if-i-teach-searchiq-a-different-language-from-somebody-else">
+    <title>What if I teach SearchIQ a different language from somebody
+    else?</title>
+    <p>
+      SearchIQ learns the language you teach it, and your efforts are
+      useful to everyone else who uses SearchIQ in the future. If
+      SearchIQ learns different search term mappings from different
+      users, these are applied to new searches in a hierarchical
+      fashion, with the top learnings carrying more weight than those
+      further down the list.
+    </p>
+    <p>
+      The hierarchy of SearchIQ language learning is set up like this:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Language mappings the user taught SearchIQ
+        </p>
+      </li>
+      <li>
+        <p>
+          Language mappings the user's [Group members]({{ site.baseurl
+          }}/admin/users-groups/about-users-groups.html) taught SearchIQ
+        </p>
+      </li>
+      <li>
+        <p>
+          [Language mappings set by the administrator]({{ site.baseurl
+          }}/admin/data-modeling/searchiq-mappings.html)
+        </p>
+      </li>
+    </ol>
+    <p>
+      In this way, SearchIQ provides the best and most customized search
+      experience possible for all users, and your efforts to teach it
+      are valuable to as many people as possible.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [About SearchIQ]({{ site.baseurl
+          }}/end-user/search/about-searchiq.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Use SearchIQ]({{ site.baseurl
+          }}/end-user/search/use-searchiq.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Modify SearchIQ mappings]({{ site.baseurl
+          }}/admin/data-modeling/searchiq-mappings.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

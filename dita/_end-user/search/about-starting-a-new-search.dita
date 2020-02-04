@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about-starting-a-new-search_xml"><title>"What are Searches and Answers?"</title><body>
+  <section id="title-what-are-searches-and-answers-last_updated-09232019-summary-you-use-search-to-answer-questions-about-your-data-without-having-to-consult-a-data-analyst-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>"What are Searches and Answers?"</title>
+    <p>
+      Using ThoughtSpot's relational search is simple, so anyone can use
+      it. In the search bar, type what you are interested in exploring,
+      for example <codeph>revenue midwest sales rep</codeph>. Searches
+      return a set of results in the form of a table or a chart.
+      ThoughtSpot likes to call this set of results in response to a
+      search an <i>answer</i>.
+    </p>
+    <p>
+      As you get better with ThoughtSpot's search, you will be able to
+      get more out of your data by performing more complex searches.
+      There are a few basic things you should understand before starting
+      a new ThoughtSpot search.
+    </p>
+  </section>
+  <section id="how-do-i-search-data">
+    <title>How do I search data?</title>
+    <p>
+      You’ve probably seen one of these before:
+    </p>
+    <fig id="fig_1580796174_1"><title>Search bar</title><image href="https://docs.thoughtspot.com/6.0/images/search_bar_blank.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      Click in the box and start typing some letters. As soon as you
+      begin typing, ThoughtSpot suggests some search terms Type slowly
+      and use the suggestions to find what you're looking for.
+    </p>
+    <p>
+      You can see an answer in the form of a chart or a table. If you do
+      not see an answer, press <i>Enter</i>
+      on your keyboard.
+    </p>
+    <p>
+      You should know that search in ThoughtSpot is more like an Amazon
+      search than a conversation. For example. Instead of:
+    </p>
+    <programlisting>
+Find me all books by Lewis Carroll with the title Alice in Wonderland
+</programlisting>
+    <p>
+      You'd type:
+    </p>
+    <programlisting>
+carroll alice
+</programlisting>
+    <p>
+      Or consider Google. You wouldn’t type in:
+    </p>
+    <programlisting>
+Find me the largest city by population
+</programlisting>
+    <p>
+      You’d type:
+    </p>
+    <programlisting>
+largest city by population
+</programlisting>
+    <p>
+      or simply:
+    </p>
+    <programlisting>
+largest city population
+</programlisting>
+    <p>
+      That’s how search works in ThoughtSpot. You can use some helping
+      words like “by” and “for” but they can also be left out, and the
+      search will return the same answer.
+    </p>
+  </section>
+  <section id="what-kinds-of-things-can-i-type">
+    <title>What kinds of things can I type?</title>
+    <p>
+      Search is based on the tables that exist in your data. Tables are
+      made of rows and columns, like spreadsheets. So you can search by
+      typing in any of these words:
+    </p>
+    <ul>
+      <li>
+        <p>
+          The column name: like revenue, product name, or store
+        </p>
+      </li>
+      <li>
+        <p>
+          Any of the values in the columns: like 20000, kitten chow, or
+          richmond
+        </p>
+      </li>
+      <li>
+        <p>
+          One of the special [keywords]({{ site.baseurl
+          }}/reference/keywords.html#) ThoughtSpot understands: like
+          yesterday, &gt;, or contains
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section id="save-an-answer">
+    <title>Save an answer</title>
+    <p>
+      An answer is the result of a single search. You can save an answer
+      you want to work more on later, or just keep it for your personal
+      use. You can also share an answer with other users. The
+      <i>Answers</i> tab is where you can
+      view and then the your saved search results.
+    </p>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <ul>
+      <li>
+        <p>
+          [Choose a data source]({{ site.baseurl
+          }}/end-user/search/about-choosing-sources.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Search bar features]({{ site.baseurl
+          }}/end-user/search/about-the-search-bar.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Search suggestions]({{ site.baseurl
+          }}/end-user/search/recent-searches.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Search results and column types]({{ site.baseurl
+          }}/end-user/search/about-attributes-and-measures.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          [Share an answer]({{ site.baseurl
+          }}/end-user/pinboards/share-answers.html)
+        </p>
+      </li>
+      <li>
+        <p>
+          <i>Beta</i> [About SearchIQ]({{
+          site.baseurl }}/end-user/search/about-searchiq.html)
+        </p>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</topic>

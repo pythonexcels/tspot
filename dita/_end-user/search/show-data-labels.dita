@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="show-data-labels_xml"><title>Additional chart options</title><body>
+  <section id="last_updated-tbd-summary-on-charts-you-can-configure-data-labels-grid-lines-regression-lines-legends-values-for-x-or-y-axis-and-lock-or-unlock-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Additional chart options</title>
+    <p>
+      Some charts have additional options under
+      <i>Chart Styles</i> and
+      <i>Configuration Options</i> that are
+      covered in each chart type topic.
+    </p>
+  </section>
+  <section id="show-detail-labels">
+    <title>Show detail labels</title>
+    <p>
+      To show detail labels:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your search or answer as a chart, click
+          <i>Edit chart styles</i> on the
+          right.
+        </p>
+        <fig id="fig_1580796174_1"><title>Edit chart configuration icon</title><image href="https://docs.thoughtspot.com/6.0/images/edit_chart_styles.png" id="image_1580796174_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select <i>Detail Labels</i>.
+        </p>
+        <fig id="fig_1580796174_2"><title>Toggle on Show Data Labels</title><image href="https://docs.thoughtspot.com/6.0/images/show_data_labels.png" id="image_1580796174_2" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="show-rounded-or-non-rounded-numbers">
+    <title>Show rounded or non-rounded numbers</title>
+    <p>
+      You can toggle this option off to show non-rounded numbers.
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your search or answer as a chart, click
+          <i>Edit chart styles</i> on the
+          right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Rounded Numbers</i> to
+          toggle on or off.
+        </p>
+        <p>
+          By default, charts with data labels enabled show rounded
+          numbers on chart labels.
+        </p>
+        <fig id="fig_1580796174_3"><title>Show Rounded Numbers</title><image href="https://docs.thoughtspot.com/6.0/images/show_rounded_numbers.png" id="image_1580796174_3" scope="external"/></fig>
+        <p>
+          When you uncheck <i>Rounded
+          Numbers</i>, data labels, X and Y axes, and tooltips
+          show precise, non-rounded numbers out to the furthest decimal
+          or integer, based on the underlying worksheet format.
+        </p>
+        <fig id="fig_1580796174_4"><title>Show non-rounded numbers</title><image href="https://docs.thoughtspot.com/6.0/images/show_non_rounded_numbers.png" id="image_1580796174_4" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="show-data-markers">
+    <title>Show data markers</title>
+    <p>
+      To show data markers:
+    </p>
+    <ol>
+      <li>
+        <p>
+          While viewing your search or answer as a chart, click
+          <i>Edit chart styles</i> on the
+          right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>Data Markers</i>.
+        </p>
+        <fig id="fig_1580796174_5"><title>Toggle on Show Data Markers</title><image href="https://docs.thoughtspot.com/6.0/images/show_data_markers.png" id="image_1580796174_5" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="add-regression-line">
+    <title>Add regression line</title>
+    <p>
+      {% include note.html content="To add a regression line, you
+      need a search with only one attribute and one measure. Otherwise,
+      this option will show as disabled; i.e., greyed out on the styles
+      panel. As soon as you modify the search to contain a single
+      measure and attribute, the regression line option will be
+      clickable."%}
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          While viewing your answer as a chart, click
+          <i>Edit chart styles</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <i>Regression line</i>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      You can show regression lines on most types of charts (bar,
+      stacked bar, line, bubble, and so on). In the following examples,
+      <codeph>sales</codeph> is the measure and
+      <codeph>department</codeph> is the attribute.
+    </p>
+    <p>
+      ![]({{ site.baseurl }}/images/regression-line.png) ![]({{
+      site.baseurl }}/images/regression-line-with-bubble-chart.png)
+    </p>
+  </section>
+  <section id="display-gridlines">
+    <title>Display gridlines</title>
+    <p>
+      Charts with X and Y axis can display gridlines. To display them:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Choose <i>Edit chart styles</i>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select one or both of the gridline options.
+        </p>
+        <p>
+          ![]({{ site.baseurl }}/images/chart-gridline.png)
+        </p>
+      </li>
+    </ol>
+  </section>
+  <section id="configure-columns-for-x-and-y-axis">
+    <title>Configure columns for X and Y axis</title>
+    <p>
+      You can specify which fields to show on the X axis and Y axis of a
+      chart.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Edit chart
+          configuration</i> on the right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click into the X or Y axis field and select the column used in
+          the search that you want on a particular axis.
+        </p>
+        <fig id="fig_1580796174_6"><title>Configure x and y axis</title><image href="https://docs.thoughtspot.com/6.0/images/chart_x-y-axis.png" id="image_1580796174_6" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="stack-multiple-measures-on-the-y-axis">
+    <title>Stack multiple measures on the y-axis</title>
+    <p>
+      You can have multiple measures on the y-axis of most (but not all)
+      chart types, as follows:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Create a chart.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click <i>Edit chart
+          configuration</i> on the right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click into the <i>Y-Axis</i> field
+          and start typing the name of a measure used in the search.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select the measure you want.
+        </p>
+        <p>
+          The chart updates to show multiple measures on the Y-Axis.
+        </p>
+        <fig id="fig_1580796174_7"><title>Stacked column chart example: "Show multiple measures on Y-Axis</title><image href="https://docs.thoughtspot.com/6.0/images/stacked_column_chart_multi_y_axis-annotated.png" id="image_1580796174_7" scope="external"/></fig>
+        <ul>
+          <li>
+            <p>
+              If your original chart had a legend, you will get a
+              message stating <i>"When there are multiple
+              columns on the y-axis, you cannot add a legend.
+              <codeph>&lt;Measure&gt;</codeph> is already in
+              use."</i> If so, remove the legend and the
+              chart will update to show multiple measures on the y-axis.
+            </p>
+          </li>
+          <li>
+            <p>
+              In some cases, the y-axis measures will show one on either
+              side of the chart (left and right) instead of stacked on
+              the same side, depending on the parameters of the
+              analysis.
+            </p>
+          </li>
+          <li>
+            <p>
+              For a list of chart types to which this applies, see
+              [Charts with multiple measures on the y-axis]({{
+              site.baseurl
+              }}/end-user/search/about-charts.html#charts-with-multiple-measures-on-the-y-axis).
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <section id="add-columns-to-a-chart-legend">
+    <title>Add columns to a chart legend</title>
+    <p>
+      You can add to or edit the legend from the chart configuration
+      panel.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Edit chart
+          configuration</i> on the right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click into the legend field to add one or more columns used in
+          the search.
+        </p>
+        <fig id="fig_1580796174_8"><title>Add fields to a legend</title><image href="https://docs.thoughtspot.com/6.0/images/legend_add_fields.png" id="image_1580796174_8" scope="external"/></fig>
+        <p>
+          Your changes are saved automatically.
+        </p>
+      </li>
+      <li>
+        <p>
+          View the updated chart.
+        </p>
+        <fig id="fig_1580796174_9"><title>Legend on chart</title><image href="https://docs.thoughtspot.com/6.0/images/legend_on_chart.png" id="image_1580796174_9" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="lock-the-chart">
+    <title>Lock the chart</title>
+    <p>
+      You can use the lock icon to prevent ThoughtSpot from recommending
+      other chart options or configurations. For example, you want a
+      line chart, you can lock that display and stop TS from
+      recommending an alternative visualization such as a
+      funnel/pie/column and so forth. A lock applies for all subsequent
+      answers that have the same column set.
+    </p>
+    <fig id="fig_1580796174_10"><title>Lock chart</title><image href="https://docs.thoughtspot.com/6.0/images/chart_lock.png" id="image_1580796174_10" scope="external"/></fig>
+  </section>
+  <section id="related-information">
+    <title>Related information</title>
+    <p>
+      [Change chart colors]({{ site.baseurl
+      }}/end-user/search/change-chart-colors.html)
+    </p>
+  </section>
+</body>
+
+</topic>

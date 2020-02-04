@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="delete-a-filter_xml"><title>Delete a filter</title><body>
+  <section id="last_updated-tbd-summary-you-can-delete-a-filter-from-an-answer-to-return-to-the-original-unfiltered-search-result--sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Delete a filter</title>
+    <p>
+      There are multiple ways to delete a filter. To delete a filter you
+      can click the <i>x</i> on the filter
+      term in the search bar.
+    </p>
+    <fig id="fig_1580796174_1"><title>Delete the filter term from the search bar</title><image href="https://docs.thoughtspot.com/6.0/images/delete_filter_from%20search_bar.png" id="image_1580796174_1" scope="external"/></fig>
+    <p>
+      You can also click the <i>x</i> on the
+      filter bar above the answer.
+    </p>
+    <fig id="fig_1580796174_2"><title>Delete the filter term from the filter bar</title><image href="https://docs.thoughtspot.com/6.0/images/delete_filter_from_filter_bar.png" id="image_1580796174_2" scope="external"/></fig>
+  </section>
+</body>
+
+</topic>

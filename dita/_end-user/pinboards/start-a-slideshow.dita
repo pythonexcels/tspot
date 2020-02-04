@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="start-a-slideshow_xml"><title>Present a pinboard as a slideshow</title><body>
+  <section id="title-present-a-pinboard-as-a-slideshow-last_updated-63019-summary-displaying-your-pinboard-as-a-slideshow-is-a-good-way-to-present-its-contents-to-others-sidebar-mydoc_sidebar-permalink-collectionpathhtml">
+    <title>Present a pinboard as a slideshow</title>
+    <p>
+      With ThoughtSpot's interactive presentations, you can easily
+      explore and answer questions from the audience during the
+      presentation session. When you present your pinboard, ThoughtSpot
+      displays the component visualizations and tables in order from
+      left to right, and top to bottom.
+    </p>
+  </section>
+  <section id="starting-a-presentation">
+    <title>Starting a presentation</title>
+    <p>
+      To start a presentation, follow these steps:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Click <i>Pinboards</i> on the top
+          navigation bar.
+        </p>
+        <fig id="fig_1580796177_1"><title>Pinboards</title><image href="https://docs.thoughtspot.com/6.0/images/click-pinboards.png" id="image_1580796177_1" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          Select a pinboard from the list of pinboards by clicking on
+          its title.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the open pinboard, click the <i>More
+          Options</i> menu ![more options menu icon]({{
+          site.baseurl }}/images/icon-ellipses.png){: .inline} (ellipses
+          icon), and select <i>![present icon]({{
+          site.baseurl }}/images/icon-present.png){: .inline}
+          Present</i>.
+        </p>
+        <fig id="fig_1580796177_2"><title>Present a pinboard</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-present.png" id="image_1580796177_2" scope="external"/></fig>
+      </li>
+      <li>
+        <p>
+          ThoughtSpot displays the pinboard in full screen.
+        </p>
+        <p>
+          To navigate through the slides of the presentation, use the
+          left and right arrow navigation keys on your keyboard.
+        </p>
+        <fig id="fig_1580796177_3"><title>Pinboard presentation, full screen</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-present-fullscreen.png" id="image_1580796177_3" scope="external"/></fig>
+      </li>
+    </ol>
+  </section>
+  <section id="presentation-navigation-controls">
+    <title>Presentation navigation controls</title>
+    <p>
+      The presentation navigation controls enable you to effectively run
+      the presentation.
+    </p>
+    <p>
+      Hover over the top right corner of the presentation to see the
+      navigation control options:
+    </p>
+    <ol spacing="compact">
+      <li>
+        <p>
+          Click the downward arrow to expand the list of visualizations,
+          and select it to navigate directly to this slide.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the up arrow to go to the previous slide.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the down arrow to go to the next slide.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the pencil symbol to edit the answer represented by the
+          current slide.
+        </p>
+      </li>
+      <li>
+        <p>
+          Click the <i>x</i> to end the
+          presentation.
+        </p>
+      </li>
+    </ol>
+    <fig id="fig_1580796177_4"><title>Presentation navigation controls, full screen</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-present-controls.png" id="image_1580796177_4" scope="external"/></fig>
+  </section>
+  <section id="presenting-pinboards">
+    <title>Presenting pinboards</title>
+    <p>
+      While in presentation mode, you can easily explore each
+      visualization.
+    </p>
+    <fig id="fig_1580796177_5"><title>Available actions in pinboard presentations</title><image href="https://docs.thoughtspot.com/6.0/images/pinboard-present-actions.png" id="image_1580796177_5" scope="external"/></fig>
+    <p>
+      Consider the following actions on pinboards:
+    </p>
+    <informaltable>
+      <tgroup cols="2">
+        <colspec align="left"/>
+        <colspec align="left"/>
+        <thead>
+          <row>
+            <entry>
+              Legend
+            </entry>
+            <entry>
+              Action
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1.
+            </entry>
+            <entry>
+              You can see the tooltip information about each element of
+              the visualization as you hover the cursor over that area
+              of the presentation.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2.
+            </entry>
+            <entry>
+              To quickly edit a visualization, click the pencil icon,
+              and proceed to make the necessary changes. This takes you
+              out of presentation mode.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3.
+            </entry>
+            <entry>
+              By left-clicking, you can open a drop menu where you can
+              change filtering to <i>Exclude
+              selected values</i>.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4.
+            </entry>
+            <entry>
+              Similarly, you can apply a filter to
+              <i>Only include selected
+              values</i> or <i>Only include
+              selected point</i>.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              5.
+            </entry>
+            <entry>
+              You can drill down to see more information about the
+              columns used in search. Left-click and select
+              <i>Drill down</i> from the
+              menu.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              6.
+            </entry>
+            <entry>
+              To show underlying data in more detail, left-click and
+              select <i>Show underlying
+              data</i> from the menu.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              7.
+            </entry>
+            <entry>
+              To run SpotIQ, left-click and select
+              <i>SpotIQ analyze</i> from the
+              menu.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              8.
+            </entry>
+            <entry>
+              Depending on the chart type in presentation, you can
+              perform the chart-specific actions. In case of geographic
+              maps, you can zoom and pan the map.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+</body>
+
+</topic>
